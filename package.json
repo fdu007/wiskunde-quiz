@@ -1,0 +1,22 @@
+{
+  "name": "wiskunde-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Revisie- en oefenapp Wiskunde 2 (examen juni 2026) - Getallenleer & Meetkunde",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "katex": "^0.16.11",
+    "marked": "^14.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
+  }
+}
