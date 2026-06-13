@@ -65,6 +65,13 @@ export const STR = {
     mix_sub: '10 questions au hasard',
     exam_title: '🎯 Défi examen',
     exam_sub: 'Focus sur tes points faibles',
+    section_extra: '🔥 Encore plus de défis',
+    mode_mock: '🏁 Examen blanc',
+    mode_mock_sub: '20 questions, comme le vrai examen',
+    mode_hard: '💪 Mode difficile',
+    mode_hard_sub: 'Uniquement les questions dures',
+    mode_marathon: '♾️ Marathon',
+    mode_marathon_sub: 'Toutes les questions d’affilée',
   },
   nl: {
     tab_home: '🏠 Start',
@@ -131,6 +138,13 @@ export const STR = {
     mix_sub: '10 willekeurige vragen',
     exam_title: '🎯 Examenuitdaging',
     exam_sub: 'Focus op je zwakke punten',
+    section_extra: '🔥 Nog meer uitdagingen',
+    mode_mock: '🏁 Proefexamen',
+    mode_mock_sub: '20 vragen, zoals het echte examen',
+    mode_hard: '💪 Moeilijke modus',
+    mode_hard_sub: 'Alleen de moeilijke vragen',
+    mode_marathon: '♾️ Marathon',
+    mode_marathon_sub: 'Alle vragen na elkaar',
   },
 }
 

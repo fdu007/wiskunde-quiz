@@ -184,6 +184,16 @@ button { font-family: inherit; cursor: pointer; }
 .ts-num { text-align: right; font-weight: 700; color: var(--muted); font-size: .8rem; }
 .reset-btn { margin-top: 24px; border: 1px solid var(--no); color: var(--no); background: #fff; padding: 9px 16px; border-radius: 10px; font-weight: 600; }
 
+/* Extra modes */
+.extra-modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.mode-card { border: 0; border-radius: 16px; padding: 18px; color: #fff; text-align: left; display: flex; flex-direction: column; gap: 4px; box-shadow: var(--shadow); transition: transform .12s; }
+.mode-card:hover { transform: translateY(-3px); }
+.mode-card.mock { background: linear-gradient(135deg, #0f766e, #0891b2); }
+.mode-card.hard { background: linear-gradient(135deg, #b91c1c, #db2777); }
+.mode-card.marathon { background: linear-gradient(135deg, #7c3aed, #4338ca); }
+.mode-title { font-size: 1.1rem; font-weight: 800; }
+.mode-sub { font-size: .82rem; opacity: .9; }
+
 /* Language toggle */
 .langtoggle { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--card); }
 .langtoggle button { border: 0; background: none; padding: 6px 10px; font-weight: 700; font-size: .8rem; color: var(--muted); }

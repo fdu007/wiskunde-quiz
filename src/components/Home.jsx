@@ -2,7 +2,7 @@ import { THEMES } from '../data/themes.js'
 import { STR } from '../lib/i18n.js'
 import { countByTheme, masteredCount, playstationMinutes } from '../lib/stats.js'
 
-export default function Home({ progress, lang, totalCount, onTheme, onMix, onExam }) {
+export default function Home({ progress, lang, totalCount, onTheme, onMix, onExam, onMock, onHard, onMarathon }) {
   const t = STR[lang]
   const mastered = masteredCount(progress)
   const psMin = playstationMinutes(progress)
@@ -53,6 +53,22 @@ export default function Home({ progress, lang, totalCount, onTheme, onMix, onExa
             </button>
           )
         })}
+      </div>
+
+      <h2 className="section-title">{t.section_extra}</h2>
+      <div className="extra-modes">
+        <button className="mode-card mock" onClick={onMock}>
+          <span className="mode-title">{t.mode_mock}</span>
+          <span className="mode-sub">{t.mode_mock_sub}</span>
+        </button>
+        <button className="mode-card hard" onClick={onHard}>
+          <span className="mode-title">{t.mode_hard}</span>
+          <span className="mode-sub">{t.mode_hard_sub}</span>
+        </button>
+        <button className="mode-card marathon" onClick={onMarathon}>
+          <span className="mode-title">{t.mode_marathon}</span>
+          <span className="mode-sub">{t.mode_marathon_sub}</span>
+        </button>
       </div>
     </div>
   )

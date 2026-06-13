@@ -65,6 +65,23 @@ export default function App() {
     setSession({ title: t.exam_title, list })
     setView('quiz')
   }
+  function startMock() {
+    // Examen blanc : 20 questions, un peu plus sur les thèmes faibles
+    const weak = questions.filter((q) => THEMES.find((x) => x.key === q.theme)?.weak)
+    const rest = questions.filter((q) => !THEMES.find((x) => x.key === q.theme)?.weak)
+    const list = shuffle([...shuffle(weak).slice(0, 12), ...shuffle(rest).slice(0, 8)])
+    setSession({ title: t.mode_mock, list })
+    setView('quiz')
+  }
+  function startHard() {
+    const list = shuffle(questions.filter((q) => q.difficulty >= 3))
+    setSession({ title: t.mode_hard, list })
+    setView('quiz')
+  }
+  function startMarathon() {
+    setSession({ title: t.mode_marathon, list: shuffle(questions) })
+    setView('quiz')
+  }
 
   function finishQuiz(result) {
     const before = masteredCount(progress)
@@ -151,7 +168,7 @@ export default function App() {
 
       <main className="main">
         {view === 'home' && (
-          <Home progress={progress} lang={lang} totalCount={totalCount} onTheme={startTheme} onMix={startMix} onExam={startExam} />
+          <Home progress={progress} lang={lang} totalCount={totalCount} onTheme={startTheme} onMix={startMix} onExam={startExam} onMock={startMock} onHard={startHard} onMarathon={startMarathon} />
         )}
         {view === 'quiz' && session && (
           <Quiz session={session} lang={lang} progress={progress} onFinish={finishQuiz} onHome={() => setView('home')} />
