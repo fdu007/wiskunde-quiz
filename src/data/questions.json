@@ -3191,6 +3191,83 @@
   "course_ref": "p.204-219"
  },
  {
+  "id": "ev-31",
+  "theme": "evenredigheden",
+  "chapter": "G13",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Bij het bewijs van de hoofdeigenschap vertrek je van a/b = c/d. Met welke bewerking begin je?",
+  "question_fr": "Dans la démonstration de la hoofdeigenschap, on part de a/b = c/d. Par quelle opération commence-t-on ?",
+  "hint_nl": "Je wil de noemers wegwerken.",
+  "hint_fr": "On veut faire disparaître les dénominateurs.",
+  "options": [
+   "Beide leden vermenigvuldigen met b·d",
+   "Beide leden optellen met b·d",
+   "Beide leden delen door a·c",
+   "De breuken omkeren"
+  ],
+  "options_fr": [
+   "Multiplier les deux membres par b·d",
+   "Additionner b·d aux deux membres",
+   "Diviser les deux membres par a·c",
+   "Inverser les fractions"
+  ],
+  "answer": 0,
+  "explanation_nl": "Je vermenigvuldigt beide leden met b·d (eigenschap van gelijkheden). Zo werk je de noemers weg en krijg je na vereenvoudigen a·d = c·b.",
+  "explanation_fr": "On multiplie les deux membres par b·d (propriété des égalités). Cela élimine les dénominateurs et, après simplification, on obtient a·d = c·b.",
+  "course_ref": "p.170-175"
+ },
+ {
+  "id": "ev-32",
+  "theme": "evenredigheden",
+  "chapter": "G13",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "In de laatste stap van het bewijs ga je van a·d = c·b naar a·d = b·c. Welke eigenschap gebruik je?",
+  "question_fr": "À la dernière étape de la démonstration, on passe de a·d = c·b à a·d = b·c. Quelle propriété utilise-t-on ?",
+  "hint_nl": "De volgorde van de factoren bij een product.",
+  "hint_fr": "L'ordre des facteurs dans un produit.",
+  "options": [
+   "De commutativiteit van de vermenigvuldiging",
+   "De distributiviteit",
+   "De associativiteit van de optelling",
+   "De hoofdeigenschap zelf"
+  ],
+  "options_fr": [
+   "La commutativité de la multiplication",
+   "La distributivité",
+   "L'associativité de l'addition",
+   "La hoofdeigenschap elle-même"
+  ],
+  "answer": 0,
+  "explanation_nl": "c·b = b·c omdat de vermenigvuldiging commutatief is (de volgorde van de factoren mag wisselen). Daarom is a·d = c·b hetzelfde als a·d = b·c.",
+  "explanation_fr": "c·b = b·c car la multiplication est commutative (on peut échanger l'ordre des facteurs). Donc a·d = c·b équivaut à a·d = b·c.",
+  "course_ref": "p.170-175"
+ },
+ {
+  "id": "ev-33",
+  "theme": "evenredigheden",
+  "chapter": "G13",
+  "type": "truefalse",
+  "difficulty": 1,
+  "question_nl": "In de evenredigheid a/b = c/d moeten de noemers b en d verschillend van 0 zijn.",
+  "question_fr": "Dans l'évenredigheid a/b = c/d, les dénominateurs b et d doivent être différents de 0.",
+  "hint_nl": "Denk aan delen door 0.",
+  "hint_fr": "Pense à la division par 0.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. Een noemer mag nooit 0 zijn, anders bestaat de breuk niet. Daarom geldt b ≠ 0 en d ≠ 0 (a, b, c, d ∈ ℚ₀ in het bewijs).",
+  "explanation_fr": "Vrai. Un dénominateur ne peut jamais être 0, sinon la fraction n'existe pas. C'est pourquoi b ≠ 0 et d ≠ 0 (a, b, c, d ∈ ℚ₀ dans la démonstration).",
+  "course_ref": "p.170-175"
+ },
+ {
   "id": "ma-19",
   "theme": "machten",
   "chapter": "G17",
