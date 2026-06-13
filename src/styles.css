@@ -139,7 +139,9 @@ button { font-family: inherit; cursor: pointer; }
 .feedback-title { font-weight: 800; margin-bottom: 6px; }
 .feedback-exp { display: block; font-size: .95rem; }
 .feedback-ref { margin-top: 8px; font-size: .78rem; color: var(--muted); font-weight: 600; }
-.qactions { display: flex; justify-content: flex-end; }
+.qactions { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.nav-prev { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 10px; padding: 10px 14px; font-weight: 700; font-size: .9rem; }
+.nav-prev:disabled { opacity: .4; cursor: default; }
 
 /* Result */
 .result { background: var(--card); border-radius: 22px; padding: 34px 24px; box-shadow: var(--shadow); text-align: center; }
