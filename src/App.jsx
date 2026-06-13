@@ -33,7 +33,7 @@ export default function App() {
   const [view, setView] = useState('home')
   const [progress, setProgress] = useState(load)
   const [session, setSession] = useState(null)
-  const [lang, setLang] = useState(() => localStorage.getItem('wq_lang') || 'fr')
+  const [lang, setLang] = useState(() => localStorage.getItem('wq_lang') || 'nl')
   const [psToast, setPsToast] = useState(null)
 
   const t = STR[lang]
