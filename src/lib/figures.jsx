@@ -120,6 +120,65 @@ const QuadDiagonals = () => (
   </Wrap>
 )
 
+const Schijf = () => (
+  <Wrap w={220} h={150}>
+    {/* camembert générique : 3 secteurs */}
+    <circle cx="90" cy="75" r="58" {...S} />
+    <path d="M90 75 L90 17 A58 58 0 0 1 142 99 Z" fill="#bfdbfe" stroke="#1e293b" strokeWidth="1.5" />
+    <path d="M90 75 L142 99 A58 58 0 0 1 52 121 Z" fill="#fde68a" stroke="#1e293b" strokeWidth="1.5" />
+    <path d="M90 75 L52 121 A58 58 0 0 1 90 17 Z" fill="#fbcfe8" stroke="#1e293b" strokeWidth="1.5" />
+    <text x="160" y="60" {...L} fontSize="11" fill="#64748b">hoek = </text>
+    <text x="160" y="76" {...L} fontSize="11" fill="#64748b">deel/totaal</text>
+    <text x="160" y="92" {...L} fontSize="11" fill="#64748b">× 360°</text>
+  </Wrap>
+)
+
+const RectArea = () => (
+  <Wrap w={240} h={140}>
+    <rect x="40" y="35" width="150" height="80" {...S} fill="#eff6ff" />
+    <text x="100" y="30" {...L} fontSize="12" fill="#2563eb">lengte</text>
+    <text x="195" y="80" {...L} fontSize="12" fill="#db2777">breedte</text>
+  </Wrap>
+)
+
+const Balk = () => (
+  <Wrap w={230} h={150}>
+    <rect x="40" y="55" width="110" height="70" {...S} fill="#eff6ff" />
+    <polygon points="40,55 75,30 185,30 150,55" {...S} fill="#dbeafe" />
+    <polygon points="150,55 185,30 185,100 150,125" {...S} fill="#bfdbfe" />
+    <text x="85" y="142" {...L} fontSize="11" fill="#2563eb">lengte</text>
+    <text x="160" y="95" {...L} fontSize="11" fill="#db2777">hoogte</text>
+    <text x="100" y="48" {...L} fontSize="11" fill="#16a34a">breedte</text>
+    <text x="30" y="20" {...L} fontSize="12" fill="#64748b">V = l × b × h</text>
+  </Wrap>
+)
+
+const Middelloodlijn = () => (
+  <Wrap w={240} h={150}>
+    <line x1="40" y1="100" x2="200" y2="100" {...S} />
+    <circle cx="40" cy="100" r="3" fill="#1e293b" />
+    <circle cx="200" cy="100" r="3" fill="#1e293b" />
+    <line x1="120" y1="30" x2="120" y2="135" {...A} strokeDasharray="5 4" />
+    <rect x="120" y="92" width="9" height="8" {...S} strokeWidth="1.2" />
+    <text x="32" y="118" {...L}>A</text>
+    <text x="196" y="118" {...L}>B</text>
+    <text x="128" y="26" {...L} fontSize="11" fill="#2563eb">middelloodlijn</text>
+    <text x="40" y="145" {...L} fontSize="10" fill="#64748b">elk punt even ver van A en B</text>
+  </Wrap>
+)
+
+const Bissectrice = () => (
+  <Wrap w={240} h={150}>
+    <line x1="40" y1="120" x2="210" y2="120" {...S} />
+    <line x1="40" y1="120" x2="190" y2="35" {...S} />
+    <line x1="40" y1="120" x2="200" y2="80" {...A} strokeDasharray="5 4" />
+    <path d="M 75 120 A 35 35 0 0 0 70 100" {...A} stroke="#db2777" />
+    <path d="M 70 100 A 35 35 0 0 0 62 84" {...A} stroke="#16a34a" />
+    <text x="150" y="92" {...L} fontSize="11" fill="#2563eb">bissectrice</text>
+    <text x="40" y="145" {...L} fontSize="10" fill="#64748b">deelt de hoek in 2 gelijke delen</text>
+  </Wrap>
+)
+
 const FIGURES = {
   complement: Complement,
   supplement: Supplement,
@@ -129,6 +188,11 @@ const FIGURES = {
   rightTriangle: RightTriangle,
   isosceles: Isosceles,
   quadDiagonals: QuadDiagonals,
+  schijf: Schijf,
+  rectArea: RectArea,
+  balk: Balk,
+  middelloodlijn: Middelloodlijn,
+  bissectrice: Bissectrice,
 }
 
 // Quelle figure pour quelle question.
@@ -166,6 +230,46 @@ export const FIGURE_FOR_ID = {
   'vi-10': 'quadDiagonals',
   'vi-16': 'quadDiagonals',
   'vi-17': 'quadDiagonals',
+  // nouvelles questions de géométrie
+  'ho-21': 'complement',
+  'ho-22': 'overstaande',
+  'ho-23': 'supplement',
+  'ho-24': 'parallel',
+  'ho-25': 'parallel',
+  'ho-26': 'parallel',
+  'ho-27': 'isosceles',
+  'ho-28': 'triangle',
+  'dr-19': 'middelloodlijn',
+  'dr-20': 'middelloodlijn',
+  'dr-21': 'bissectrice',
+  'dr-22': 'bissectrice',
+  'dr-23': 'isosceles',
+  'dr-24': 'triangle',
+  'dr-25': 'triangle',
+  'dr-26': 'triangle',
+  'vi-18': 'quadDiagonals',
+  'vi-21': 'quadDiagonals',
+  'vi-23': 'quadDiagonals',
+  'vi-25': 'quadDiagonals',
+  // schijfdiagram (point faible)
+  'ev-13': 'schijf',
+  'ev-14': 'schijf',
+  'ev-15': 'schijf',
+  'ev-17': 'schijf',
+  'ev-19': 'schijf',
+  'ev-21': 'schijf',
+  'ev-22': 'schijf',
+  'ev-23': 'schijf',
+  'ev-24': 'schijf',
+  'ev-30': 'schijf',
+  // veeltermen appliqués à la géométrie (point faible)
+  've-20': 'rectArea',
+  've-21': 'balk',
+  've-22': 'rectArea',
+  've-31': 'rectArea',
+  've-32': 'rectArea',
+  've-33': 'rectArea',
+  've-36': 'balk',
 }
 
 export function Figure({ id }) {

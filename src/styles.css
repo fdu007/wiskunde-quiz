@@ -88,6 +88,7 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 999px; background: var(--line); color: var(--ink);
 }
 .chip.diff { background: transparent; border: 1.5px solid; }
+.chip.repeat { background: #fef3c7; color: #b45309; }
 .tag-weak { font-size: .68rem; font-weight: 800; color: #b45309; background: #fef3c7; padding: 3px 8px; border-radius: 999px; }
 .tag-read { font-size: .7rem; font-weight: 800; color: var(--ok); }
 
