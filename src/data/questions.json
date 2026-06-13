@@ -6,15 +6,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is een evenredigheid?",
+  "question_fr": "Qu'est-ce qu'une proportion ?",
   "hint_fr": "Pense à ce qu'on met de chaque côté du signe =.",
+  "hint_nl": "Denk na over wat je aan elke kant van het =-teken zet.",
   "options": [
    "Een gelijkheid van twee verhoudingen",
    "Een som van twee getallen",
    "Het product van twee breuken",
    "Een verschil van twee verhoudingen"
   ],
+  "options_fr": [
+   "Une égalité de deux rapports",
+   "Une somme de deux nombres",
+   "Le produit de deux fractions",
+   "Une différence de deux rapports"
+  ],
   "answer": 0,
   "explanation_fr": "Une evenredigheid est une égalité de deux rapports (verhoudingen), par exemple a/b = c/d. Ce n'est ni une somme, ni un produit, ni une différence.",
+  "explanation_nl": "Een evenredigheid is een gelijkheid van twee verhoudingen, bijvoorbeeld a/b = c/d. Het is geen som, geen product en geen verschil.",
   "course_ref": "p.152-153"
  },
  {
@@ -24,8 +33,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "In de evenredigheid 3/7 = 12/28, welke zijn de uiterste termen?",
+  "question_fr": "Dans la proportion 3/7 = 12/28, quels sont les termes extrêmes ?",
   "hint_fr": "Les uiterste termen sont aux deux bouts (extérieur).",
+  "hint_nl": "De uiterste termen staan aan de twee uiteinden (buitenkant).",
   "options": [
+   "3 en 28",
+   "7 en 12",
+   "3 en 12",
+   "7 en 28"
+  ],
+  "options_fr": [
    "3 en 28",
    "7 en 12",
    "3 en 12",
@@ -33,6 +50,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Les uiterste termen (termes extrêmes) sont le premier et le dernier : 3 et 28. Les middelste termen (du milieu) sont 7 et 12.",
+  "explanation_nl": "De uiterste termen zijn de eerste en de laatste: 3 en 28. De middelste termen zijn 7 en 12.",
   "course_ref": "p.153"
  },
  {
@@ -42,13 +60,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "De hoofdeigenschap zegt: het product van de uiterste termen is gelijk aan het product van de middelste termen.",
+  "question_fr": "La propriété fondamentale dit : le produit des termes extrêmes est égal au produit des termes du milieu.",
   "hint_fr": "",
+  "hint_nl": "",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "C'est exactement la hoofdeigenschap : pour a/b = c/d, on a a·d = b·c. Le produit des extrêmes égale le produit du milieu.",
+  "explanation_nl": "Dat is precies de hoofdeigenschap: voor a/b = c/d geldt a·d = b·c. Het product van de uiterste termen is gelijk aan het product van de middelste termen.",
   "course_ref": "p.156-169"
  },
  {
@@ -58,9 +83,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Bereken x in de evenredigheid 3/x = 12/20.",
+  "question_fr": "Calcule x dans la proportion 3/x = 12/20.",
   "hint_fr": "Gebruik de hoofdeigenschap: product in kruis.",
+  "hint_nl": "Gebruik de hoofdeigenschap: product in kruis.",
   "answer": 5,
   "explanation_fr": "Avec la hoofdeigenschap : 3·20 = 12·x, donc 60 = 12x, donc x = 60/12 = 5.",
+  "explanation_nl": "Met de hoofdeigenschap: 3·20 = 12·x, dus 60 = 12x, dus x = 60/12 = 5.",
   "course_ref": "p.156-169"
  },
  {
@@ -70,9 +98,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Bereken x in de evenredigheid x/6 = 10/15.",
+  "question_fr": "Calcule x dans la proportion x/6 = 10/15.",
   "hint_fr": "x·15 = 6·10.",
+  "hint_nl": "x·15 = 6·10.",
   "answer": 4,
   "explanation_fr": "Produit en croix : x·15 = 6·10, donc 15x = 60, donc x = 60/15 = 4.",
+  "explanation_nl": "Kruisproduct: x·15 = 6·10, dus 15x = 60, dus x = 60/15 = 4.",
   "course_ref": "p.156-169"
  },
  {
@@ -82,13 +113,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "De getallen 4 en 6 vormen samen met 10 en 15 een evenredigheid: 4/6 = 10/15.",
+  "question_fr": "Les nombres 4 et 6 forment avec 10 et 15 une proportion : 4/6 = 10/15.",
   "hint_fr": "Controleer met de hoofdeigenschap.",
+  "hint_nl": "Controleer met de hoofdeigenschap.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "On vérifie avec la hoofdeigenschap : 4·15 = 60 et 6·10 = 60. Les deux produits sont égaux, donc c'est bien une evenredigheid.",
+  "explanation_nl": "We controleren met de hoofdeigenschap: 4·15 = 60 en 6·10 = 60. De twee producten zijn gelijk, dus het is wel degelijk een evenredigheid.",
   "course_ref": "p.156-169"
  },
  {
@@ -98,15 +136,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Twee grootheden zijn recht evenredig. Wat is altijd constant?",
+  "question_fr": "Deux grandeurs sont directement proportionnelles. Qu'est-ce qui est toujours constant ?",
   "hint_fr": "Recht = même sens.",
+  "hint_nl": "Recht = zelfde richting.",
   "options": [
    "Het quotiënt van de overeenkomstige maatgetallen",
    "Het product van de overeenkomstige maatgetallen",
    "De som van de maatgetallen",
    "Het verschil van de maatgetallen"
   ],
+  "options_fr": [
+   "Le quotient des mesures correspondantes",
+   "Le produit des mesures correspondantes",
+   "La somme des mesures",
+   "La différence des mesures"
+  ],
   "answer": 0,
   "explanation_fr": "Pour des grandeurs recht evenredig, le quotient y/x est constant (= evenredigheidsfactor). Quand l'une augmente, l'autre augmente dans le même sens. Le produit constant, c'est pour omgekeerd evenredig.",
+  "explanation_nl": "Voor recht evenredige grootheden is het quotiënt y/x constant (= evenredigheidsfactor). Als de ene toeneemt, neemt de andere in dezelfde richting toe. Het constante product hoort bij omgekeerd evenredig.",
   "course_ref": "p.176-189"
  },
  {
@@ -116,15 +163,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Twee grootheden zijn omgekeerd evenredig. Hoe ziet de grafiek eruit?",
+  "question_fr": "Deux grandeurs sont inversement proportionnelles. À quoi ressemble le graphique ?",
   "hint_fr": "Sens inverse, produit constant.",
+  "hint_nl": "Tegengestelde richting, constant product.",
   "options": [
    "Een hyperbool (dalende kromme)",
    "Een rechte door de oorsprong",
    "Een horizontale rechte",
    "Een parabool"
   ],
+  "options_fr": [
+   "Une hyperbole (courbe descendante)",
+   "Une droite passant par l'origine",
+   "Une droite horizontale",
+   "Une parabole"
+  ],
   "answer": 0,
   "explanation_fr": "Des grandeurs omgekeerd evenredig (produit constant x·y = k) donnent une hyperbole, une courbe descendante. La droite par l'origine, c'est le graphe du recht evenredig.",
+  "explanation_nl": "Omgekeerd evenredige grootheden (constant product x·y = k) geven een hyperbool, een dalende kromme. De rechte door de oorsprong hoort bij recht evenredig.",
   "course_ref": "p.176-189"
  },
  {
@@ -134,13 +190,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Bij recht evenredige grootheden gaat de grafiek door de oorsprong.",
+  "question_fr": "Pour des grandeurs directement proportionnelles, le graphique passe par l'origine.",
   "hint_fr": "",
+  "hint_nl": "",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Le graphe de deux grandeurs recht evenredig est une rechte (droite) qui passe par de oorsprong (l'origine, le point (0,0)).",
+  "explanation_nl": "Juist. De grafiek van twee recht evenredige grootheden is een rechte die door de oorsprong gaat (het punt (0,0)).",
   "course_ref": "p.176-189"
  },
  {
@@ -150,15 +213,24 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "De snelheid en de reistijd voor eenzelfde afstand: zijn die recht of omgekeerd evenredig?",
+  "question_fr": "La vitesse et le temps de trajet pour une même distance : sont-ils directement ou inversement proportionnels ?",
   "hint_fr": "Si tu roules plus vite, le trajet dure-t-il plus ou moins longtemps ?",
+  "hint_nl": "Als je sneller rijdt, duurt de rit dan langer of korter?",
   "options": [
    "Omgekeerd evenredig (snelheid x tijd = afstand, constant)",
    "Recht evenredig (quotiënt constant)",
    "Niet evenredig",
    "Recht evenredig (product constant)"
   ],
+  "options_fr": [
+   "Inversement proportionnels (vitesse x temps = distance, constant)",
+   "Directement proportionnels (quotient constant)",
+   "Pas proportionnels",
+   "Directement proportionnels (produit constant)"
+  ],
   "answer": 0,
   "explanation_fr": "Plus la vitesse augmente, plus le temps diminue : sens inverse. Le produit snelheid·tijd = afstand reste constant. C'est donc omgekeerd evenredig.",
+  "explanation_nl": "Hoe hoger de snelheid, hoe lager de tijd: tegengestelde richting. Het product snelheid·tijd = afstand blijft constant. Het is dus omgekeerd evenredig.",
   "course_ref": "p.176-189"
  },
  {
@@ -168,9 +240,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Een vrachtwagen vervoert 150 m³ zand in 12 ritten. Hoeveel ritten zijn nodig om 100 m³ zand te vervoeren? (zelfde wagen, recht evenredig)",
+  "question_fr": "Un camion transporte 150 m³ de sable en 12 trajets. Combien de trajets faut-il pour transporter 100 m³ de sable ? (même camion, directement proportionnel)",
   "hint_fr": "Recht evenredig: 150/12 = 100/x.",
+  "hint_nl": "Recht evenredig: 150/12 = 100/x.",
   "answer": 8,
   "explanation_fr": "Recht evenredig (moins de zand = moins de ritten, même sens). On pose 150/12 = 100/x, donc 150·x = 12·100 = 1200, donc x = 1200/150 = 8 ritten.",
+  "explanation_nl": "Recht evenredig (minder zand = minder ritten, zelfde richting). We stellen 150/12 = 100/x, dus 150·x = 12·100 = 1200, dus x = 1200/150 = 8 ritten.",
   "course_ref": "p.190-203"
  },
  {
@@ -180,9 +255,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Een ploeg van 4 arbeiders bouwt een muur in 15 dagen. Hoeveel dagen doen 6 arbeiders erover? (omgekeerd evenredig)",
+  "question_fr": "Une équipe de 4 ouvriers construit un mur en 15 jours. Combien de jours mettent 6 ouvriers ? (inversement proportionnel)",
   "hint_fr": "Plus d'ouvriers = moins de jours. Product constant: 4 x 15 = 6 x ?",
+  "hint_nl": "Meer arbeiders = minder dagen. Constant product: 4 x 15 = 6 x ?",
   "answer": 10,
   "explanation_fr": "Omgekeerd evenredig (plus d'ouvriers, moins de jours : sens inverse). Le produit reste constant : 4·15 = 60, donc 6·x = 60, donc x = 60/6 = 10 dagen.",
+  "explanation_nl": "Omgekeerd evenredig (meer arbeiders, minder dagen: tegengestelde richting). Het product blijft constant: 4·15 = 60, dus 6·x = 60, dus x = 60/6 = 10 dagen.",
   "course_ref": "p.190-203"
  },
  {
@@ -192,8 +270,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Welke formule gebruik je voor de middelpuntshoek van een sector in een schijfdiagram?",
+  "question_fr": "Quelle formule utilises-tu pour l'angle au centre d'un secteur dans un diagramme circulaire ?",
   "hint_fr": "Un cercle complet fait 360 degrés.",
+  "hint_nl": "Een volledige cirkel is 360 graden.",
   "options": [
+   "hoek = deel/totaal x 360°",
+   "hoek = deel/totaal x 100",
+   "hoek = deel/totaal x 180°",
+   "hoek = totaal/deel x 360°"
+  ],
+  "options_fr": [
    "hoek = deel/totaal x 360°",
    "hoek = deel/totaal x 100",
    "hoek = deel/totaal x 180°",
@@ -201,6 +287,7 @@
   ],
   "answer": 0,
   "explanation_fr": "L'angle (hoek) se mesure en degrés et un cercle complet fait 360°. Donc hoek = deel/totaal × 360°. Attention : x 100 c'est pour le pourcentage, pas pour l'angle !",
+  "explanation_nl": "De hoek wordt in graden gemeten en een volledige cirkel is 360°. Dus hoek = deel/totaal × 360°. Let op: x 100 is voor het percentage, niet voor de hoek!",
   "course_ref": "p.204-219"
  },
  {
@@ -210,8 +297,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Welke formule gebruik je voor het percentage van een sector?",
+  "question_fr": "Quelle formule utilises-tu pour le pourcentage d'un secteur ?",
   "hint_fr": "Un tout fait 100 %.",
+  "hint_nl": "Een geheel is 100 %.",
   "options": [
+   "procent = deel/totaal x 100",
+   "procent = deel/totaal x 360°",
+   "procent = totaal/deel x 100",
+   "procent = deel/totaal x 180"
+  ],
+  "options_fr": [
    "procent = deel/totaal x 100",
    "procent = deel/totaal x 360°",
    "procent = totaal/deel x 100",
@@ -219,6 +314,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Le pourcentage est une part de 100, donc procent = deel/totaal × 100. Le × 360°, lui, sert à calculer l'angle (hoek), pas le pourcentage. Regarde toujours l'unité demandée : % → x 100, ° → x 360.",
+  "explanation_nl": "Het percentage is een deel van 100, dus procent = deel/totaal × 100. De × 360° dient om de hoek te berekenen, niet het percentage. Kijk altijd naar de gevraagde eenheid: % → x 100, ° → x 360.",
   "course_ref": "p.204-219"
  },
  {
@@ -228,9 +324,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "In een klas van 30 leerlingen doen er 12 aan voetbal. Hoeveel graden (°) is de middelpuntshoek van de sector 'voetbal' in het schijfdiagram?",
+  "question_fr": "Dans une classe de 30 élèves, 12 font du football. Combien de degrés (°) mesure l'angle au centre du secteur 'football' dans le diagramme circulaire ?",
   "hint_fr": "hoek = deel/totaal x 360.",
+  "hint_nl": "hoek = deel/totaal x 360.",
   "answer": 144,
   "explanation_fr": "hoek = deel/totaal × 360° = 12/30 × 360° = 0,4 × 360° = 144°. (Le piège serait de faire ×100, ce qui donnerait le pourcentage 40 %, pas l'angle.)",
+  "explanation_nl": "hoek = deel/totaal × 360° = 12/30 × 360° = 0,4 × 360° = 144°. (De valkuil zou zijn ×100 te doen, wat het percentage 40 % geeft, niet de hoek.)",
   "course_ref": "p.204-219"
  },
  {
@@ -240,9 +339,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Van 180 leerlingen kiezen er 72 voor zwemmen. Hoeveel procent (%) is dat?",
+  "question_fr": "Sur 180 élèves, 72 choisissent la natation. Quel pourcentage (%) cela représente-t-il ?",
   "hint_fr": "procent = deel/totaal x 100.",
+  "hint_nl": "procent = deel/totaal x 100.",
   "answer": 40,
   "explanation_fr": "procent = deel/totaal × 100 = 72/180 × 100 = 0,4 × 100 = 40 %. (Ne fais pas ×360 ici : ça donnerait l'angle de 144°, pas le pourcentage.)",
+  "explanation_nl": "procent = deel/totaal × 100 = 72/180 × 100 = 0,4 × 100 = 40 %. (Doe hier geen ×360: dat zou de hoek van 144° geven, niet het percentage.)",
   "course_ref": "p.204-219"
  },
  {
@@ -252,13 +354,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "De som van alle middelpuntshoeken in een schijfdiagram moet 360° zijn.",
+  "question_fr": "La somme de tous les angles au centre dans un diagramme circulaire doit être de 360°.",
   "hint_fr": "",
+  "hint_nl": "",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Toutes les sectoren ensemble forment le cercle complet, donc la somme des hoeken vaut 360° (et la somme des pourcentages vaut 100 %). C'est une bonne façon de contrôler ton diagramme.",
+  "explanation_nl": "Juist. Alle sectoren samen vormen de volledige cirkel, dus de som van de hoeken is 360° (en de som van de percentages is 100 %). Dat is een goede manier om je diagram te controleren.",
   "course_ref": "p.204-219"
  },
  {
@@ -268,15 +377,24 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Hoe weet je of een vraagstuk recht of omgekeerd evenredig is?",
+  "question_fr": "Comment sais-tu si un problème est directement ou inversement proportionnel ?",
   "hint_fr": "Pense au sens de variation et au quotient/produit.",
+  "hint_nl": "Denk aan de richting van de verandering en aan het quotiënt/product.",
   "options": [
    "Recht: zelfde richting / quotiënt constant; omgekeerd: tegengestelde richting / product constant",
    "Recht: product constant; omgekeerd: quotiënt constant",
    "Recht: tegengestelde richting; omgekeerd: zelfde richting",
    "Het maakt niet uit, de berekening is altijd dezelfde"
   ],
+  "options_fr": [
+   "Direct: même sens / quotient constant; inverse: sens opposé / produit constant",
+   "Direct: produit constant; inverse: quotient constant",
+   "Direct: sens opposé; inverse: même sens",
+   "Cela n'a pas d'importance, le calcul est toujours le même"
+  ],
   "answer": 0,
   "explanation_fr": "Recht evenredig : les deux grandeurs varient dans le même sens et leur quotient est constant. Omgekeerd evenredig : elles varient en sens inverse et leur produit est constant. C'est la distinction clé pour choisir le bon calcul.",
+  "explanation_nl": "Recht evenredig: de twee grootheden veranderen in dezelfde richting en hun quotiënt is constant. Omgekeerd evenredig: ze veranderen in tegengestelde richting en hun product is constant. Dat is het sleutelonderscheid om de juiste berekening te kiezen.",
   "course_ref": "p.176-203"
  },
  {
@@ -286,8 +404,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is het grondtal van de macht -8^2 ?",
+  "question_fr": "Quelle est la base de la puissance -8^2 ?",
   "hint_fr": "Sans parenthèses, le signe moins n'appartient pas au grondtal.",
+  "hint_nl": "Zonder haakjes hoort het minteken niet bij het grondtal.",
   "options": [
+   "-8",
+   "8",
+   "2",
+   "-64"
+  ],
+  "options_fr": [
    "-8",
    "8",
    "2",
@@ -295,6 +421,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Dans -8^2 il n'y a pas de parenthèses, donc le grondtal est 8 et l'exponent est 2. Le résultat est -(8^2) = -64. Si on voulait -8 comme grondtal, il faudrait écrire (-8)^2.",
+  "explanation_nl": "In -8^2 staan er geen haakjes, dus het grondtal is 8 en de exponent is 2. Het resultaat is -(8^2) = -64. Als men -8 als grondtal wou, moest men (-8)^2 schrijven.",
   "course_ref": "p.224-228"
  },
  {
@@ -304,9 +431,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Reken uit: 7^0",
+  "question_fr": "Calcule: 7^0",
   "hint_fr": "Tout nombre (sauf 0) à la puissance 0.",
+  "hint_nl": "Elk getal (behalve 0) tot de macht 0.",
   "answer": 1,
   "explanation_fr": "Regel a^0 = 1 pour a different de 0. Donc 7^0 = 1.",
+  "explanation_nl": "Regel a^0 = 1 voor a verschillend van 0. Dus 7^0 = 1.",
   "course_ref": "p.224-225"
  },
  {
@@ -316,8 +446,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Reken uit: 2^(-3)",
+  "question_fr": "Calcule: 2^(-3)",
   "hint_fr": "Exposant négatif = omgekeerde (inverse).",
+  "hint_nl": "Negatieve exponent = omgekeerde (inverse).",
   "options": [
+   "-8",
+   "-6",
+   "1/8",
+   "1/6"
+  ],
+  "options_fr": [
    "-8",
    "-6",
    "1/8",
@@ -325,6 +463,7 @@
   ],
   "answer": 2,
   "explanation_fr": "Regel a^(-n) = 1/a^n. Donc 2^(-3) = 1/(2^3) = 1/8. Le grondtal ne devient pas négatif, c'est l'exposant qui change de signe.",
+  "explanation_nl": "Regel a^(-n) = 1/a^n. Dus 2^(-3) = 1/(2^3) = 1/8. Het grondtal wordt niet negatief, het is de exponent die van teken verandert.",
   "course_ref": "p.225-228"
  },
  {
@@ -334,8 +473,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Bepaal de omgekeerde: (2/3)^(-1)",
+  "question_fr": "Détermine l'inverse: (2/3)^(-1)",
   "hint_fr": "Pour l'inverse d'une fraction, on la retourne.",
+  "hint_nl": "Voor de omgekeerde van een breuk keer je hem om.",
   "options": [
+   "2/3",
+   "3/2",
+   "-2/3",
+   "4/9"
+  ],
+  "options_fr": [
    "2/3",
    "3/2",
    "-2/3",
@@ -343,6 +490,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Regel (a/b)^(-1) = b/a. On retourne la fraction: (2/3)^(-1) = 3/2.",
+  "explanation_nl": "Regel (a/b)^(-1) = b/a. Je keert de breuk om: (2/3)^(-1) = 3/2.",
   "course_ref": "p.225-227"
  },
  {
@@ -352,13 +500,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Juist of fout: (-2)^4 = -16",
+  "question_fr": "Vrai ou faux: (-2)^4 = -16",
   "hint_fr": "Avec parenthèses, le signe fait partie du grondtal. Exposant pair ou impair ?",
+  "hint_nl": "Met haakjes maakt het teken deel uit van het grondtal. Even of oneven exponent?",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Fout. (-2)^4 = (-2)(-2)(-2)(-2) = +16. Un exposant pair sur un grondtal négatif donne un résultat positif. C'est -2^4 qui vaudrait -16.",
+  "explanation_nl": "Fout. (-2)^4 = (-2)(-2)(-2)(-2) = +16. Een even exponent op een negatief grondtal geeft een positief resultaat. Het is -2^4 dat -16 zou zijn.",
   "course_ref": "p.228"
  },
  {
@@ -368,9 +523,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Reken uit: de vierkantswortel van 81 (√81)",
+  "question_fr": "Calcule: la racine carrée de 81 (√81)",
   "hint_fr": "Quel nombre au carré donne 81 ?",
+  "hint_nl": "Welk getal in het kwadraat geeft 81?",
   "answer": 9,
   "explanation_fr": "La vierkantswortel √81 est le nombre positif dont le carré vaut 81. Comme 9^2 = 81, on a √81 = 9.",
+  "explanation_nl": "De vierkantswortel √81 is het positieve getal waarvan het kwadraat 81 is. Omdat 9^2 = 81, geldt √81 = 9.",
   "course_ref": "p.231-232"
  },
  {
@@ -380,8 +538,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Reken uit als één macht: 5^3 · 5^2",
+  "question_fr": "Calcule sous forme d'une seule puissance: 5^3 · 5^2",
   "hint_fr": "Même grondtal, on multiplie: que fait-on des exposants ?",
+  "hint_nl": "Zelfde grondtal, je vermenigvuldigt: wat doe je met de exponenten?",
   "options": [
+   "5^6",
+   "5^5",
+   "25^5",
+   "25^6"
+  ],
+  "options_fr": [
    "5^6",
    "5^5",
    "25^5",
@@ -389,6 +555,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Regel a^m · a^n = a^(m+n). Même grondtal 5, on ADDITIONNE les exposants: 5^3 · 5^2 = 5^(3+2) = 5^5. Le grondtal reste 5, il ne devient pas 25.",
+  "explanation_nl": "Regel a^m · a^n = a^(m+n). Zelfde grondtal 5, je TELT de exponenten OP: 5^3 · 5^2 = 5^(3+2) = 5^5. Het grondtal blijft 5, het wordt geen 25.",
   "course_ref": "p.234-245"
  },
  {
@@ -398,9 +565,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Reken uit: 9^8 : 9^6",
+  "question_fr": "Calcule: 9^8 : 9^6",
   "hint_fr": "Même grondtal, on divise: on soustrait les exposants.",
+  "hint_nl": "Zelfde grondtal, je deelt: je trekt de exponenten af.",
   "answer": 81,
   "explanation_fr": "Regel a^m : a^n = a^(m-n). Donc 9^8 : 9^6 = 9^(8-6) = 9^2 = 81.",
+  "explanation_nl": "Regel a^m : a^n = a^(m-n). Dus 9^8 : 9^6 = 9^(8-6) = 9^2 = 81.",
   "course_ref": "p.235-236"
  },
  {
@@ -410,13 +580,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Juist of fout: 2^3 · 3^2 = 6^5",
+  "question_fr": "Vrai ou faux: 2^3 · 3^2 = 6^5",
   "hint_fr": "La règle a^m·a^n marche-t-elle si les grondtallen sont différents ?",
+  "hint_nl": "Werkt de regel a^m·a^n als de grondtallen verschillend zijn?",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Fout. La règle a^m · a^n = a^(m+n) ne s'applique QUE si le grondtal est identique. Ici les grondtallen (2 et 3) sont différents, donc on ne peut pas additionner les exposants. En réalité 2^3 · 3^2 = 8 · 9 = 72.",
+  "explanation_nl": "Fout. De regel a^m · a^n = a^(m+n) geldt ENKEL als het grondtal hetzelfde is. Hier zijn de grondtallen (2 en 3) verschillend, dus je mag de exponenten niet optellen. In werkelijkheid is 2^3 · 3^2 = 8 · 9 = 72.",
   "course_ref": "p.234-235"
  },
  {
@@ -426,8 +603,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Reken uit als één macht: (2^3)^4",
+  "question_fr": "Calcule sous forme d'une seule puissance: (2^3)^4",
   "hint_fr": "Une macht élevée à une macht: on multiplie les exposants.",
+  "hint_nl": "Een macht verheven tot een macht: je vermenigvuldigt de exponenten.",
   "options": [
+   "2^7",
+   "2^12",
+   "2^(3/4)",
+   "8^4"
+  ],
+  "options_fr": [
    "2^7",
    "2^12",
    "2^(3/4)",
@@ -435,6 +620,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Regel (a^m)^n = a^(m·n). On MULTIPLIE les exposants: (2^3)^4 = 2^(3·4) = 2^12. Attention: ne pas confondre avec a^m·a^n où on additionne.",
+  "explanation_nl": "Regel (a^m)^n = a^(m·n). Je VERMENIGVULDIGT de exponenten: (2^3)^4 = 2^(3·4) = 2^12. Let op: niet verwarren met a^m·a^n waar je optelt.",
   "course_ref": "p.246-251"
  },
  {
@@ -444,9 +630,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Reken uit: (5^(-1))^(-2)",
+  "question_fr": "Calcule: (5^(-1))^(-2)",
   "hint_fr": "On multiplie les exposants, attention aux signes (moins fois moins).",
+  "hint_nl": "Je vermenigvuldigt de exponenten, let op de tekens (min maal min).",
   "answer": 25,
   "explanation_fr": "Regel (a^m)^n = a^(m·n). On multiplie: (-1)·(-2) = +2, donc (5^(-1))^(-2) = 5^2 = 25.",
+  "explanation_nl": "Regel (a^m)^n = a^(m·n). Je vermenigvuldigt: (-1)·(-2) = +2, dus (5^(-1))^(-2) = 5^2 = 25.",
   "course_ref": "p.246-247"
  },
  {
@@ -456,8 +645,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Reken uit: (3a)^2",
+  "question_fr": "Calcule: (3a)^2",
   "hint_fr": "L'exposant se distribue sur chaque facteur du produit.",
+  "hint_nl": "De exponent verdeelt zich over elke factor van het product.",
   "options": [
+   "3a^2",
+   "9a^2",
+   "6a^2",
+   "9a"
+  ],
+  "options_fr": [
    "3a^2",
    "9a^2",
    "6a^2",
@@ -465,6 +662,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Regel (a·b)^n = a^n · b^n. L'exposant se distribue sur chaque facteur: (3a)^2 = 3^2 · a^2 = 9a^2. Erreur fréquente: oublier de mettre le 3 au carré.",
+  "explanation_nl": "Regel (a·b)^n = a^n · b^n. De exponent verdeelt zich over elke factor: (3a)^2 = 3^2 · a^2 = 9a^2. Veelgemaakte fout: vergeten de 3 in het kwadraat te zetten.",
   "course_ref": "p.252-267"
  },
  {
@@ -474,8 +672,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Reken uit: (2/5)^3",
+  "question_fr": "Calcule: (2/5)^3",
   "hint_fr": "L'exposant se distribue sur le numérateur et le dénominateur.",
+  "hint_nl": "De exponent verdeelt zich over de teller en de noemer.",
   "options": [
+   "8/125",
+   "6/15",
+   "2/125",
+   "8/15"
+  ],
+  "options_fr": [
    "8/125",
    "6/15",
    "2/125",
@@ -483,6 +689,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Regel (a/b)^n = a^n / b^n. Donc (2/5)^3 = 2^3 / 5^3 = 8/125.",
+  "explanation_nl": "Regel (a/b)^n = a^n / b^n. Dus (2/5)^3 = 2^3 / 5^3 = 8/125.",
   "course_ref": "p.252-253"
  },
  {
@@ -492,9 +699,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Reken uit: (-3/4)^2",
+  "question_fr": "Calcule: (-3/4)^2",
   "hint_fr": "Distribue l'exposant; un grondtal négatif avec exposant pair donne un résultat positif. Réponds par le numérateur si le dénominateur est 16.",
+  "hint_nl": "Verdeel de exponent; een negatief grondtal met even exponent geeft een positief resultaat. Antwoord met de teller als de noemer 16 is.",
   "answer": 9,
   "explanation_fr": "Regel (a/b)^n = a^n/b^n. Donc (-3/4)^2 = (-3)^2 / 4^2 = 9/16. Le numérateur est 9 (car (-3)^2 = +9) et le dénominateur 16.",
+  "explanation_nl": "Regel (a/b)^n = a^n/b^n. Dus (-3/4)^2 = (-3)^2 / 4^2 = 9/16. De teller is 9 (want (-3)^2 = +9) en de noemer 16.",
   "course_ref": "p.252-253"
  },
  {
@@ -504,9 +714,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Volgorde van bewerkingen: 2 · (3 - 7)^2",
+  "question_fr": "Ordre des opérations: 2 · (3 - 7)^2",
   "hint_fr": "Ordre: haakjes, puis macht, puis maal.",
+  "hint_nl": "Volgorde: haakjes, dan macht, dan maal.",
   "answer": 32,
   "explanation_fr": "1) Haakjes: 3-7 = -4. 2) Macht: (-4)^2 = 16. 3) Maal: 2·16 = 32. On respecte l'ordre haakjes - machten - maal.",
+  "explanation_nl": "1) Haakjes: 3-7 = -4. 2) Macht: (-4)^2 = 16. 3) Maal: 2·16 = 32. Je respecteert de volgorde haakjes - machten - maal.",
   "course_ref": "p.232"
  },
  {
@@ -516,8 +729,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Volgorde van bewerkingen: 1/2^2 + √16 - √81/3 (waarbij √81/3 betekent: wortel van 81, gedeeld door 3)",
+  "question_fr": "Ordre des opérations: 1/2^2 + √16 - √81/3 (où √81/3 signifie: racine de 81, divisée par 3)",
   "hint_fr": "D'abord machten en wortels, ensuite delen, ensuite plus/min.",
+  "hint_nl": "Eerst machten en wortels, dan delen, dan plus/min.",
   "options": [
+   "5/4",
+   "1/4",
+   "21/4",
+   "4"
+  ],
+  "options_fr": [
    "5/4",
    "1/4",
    "21/4",
@@ -525,6 +746,7 @@
   ],
   "answer": 0,
   "explanation_fr": "1) Machten/wortels: 2^2=4 donc 1/4, √16=4, √81=9. On a 1/4 + 4 - 9/3. 2) Delen: 9/3=3, donc 1/4 + 4 - 3. 3) Plus/min: 4-3=1, puis 1/4+1 = 5/4.",
+  "explanation_nl": "1) Machten/wortels: 2^2=4 dus 1/4, √16=4, √81=9. We hebben 1/4 + 4 - 9/3. 2) Delen: 9/3=3, dus 1/4 + 4 - 3. 3) Plus/min: 4-3=1, dan 1/4+1 = 5/4.",
   "course_ref": "p.232"
  },
  {
@@ -534,13 +756,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "Juist of fout: (2^3)^2 = 2^3 · 2^2",
+  "question_fr": "Vrai ou faux: (2^3)^2 = 2^3 · 2^2",
   "hint_fr": "Compare l'opération sur les exposants à gauche et à droite.",
+  "hint_nl": "Vergelijk de bewerking op de exponenten links en rechts.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Fout. À gauche (2^3)^2 = 2^(3·2) = 2^6 (on multiplie). À droite 2^3 · 2^2 = 2^(3+2) = 2^5 (on additionne). 2^6 n'est pas égal à 2^5. C'est le piège classique entre les deux règles.",
+  "explanation_nl": "Fout. Links (2^3)^2 = 2^(3·2) = 2^6 (je vermenigvuldigt). Rechts 2^3 · 2^2 = 2^(3+2) = 2^5 (je telt op). 2^6 is niet gelijk aan 2^5. Dat is de klassieke valstrik tussen de twee regels.",
   "course_ref": "p.234-251"
  },
  {
@@ -550,9 +779,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Volgorde van bewerkingen: 2^0 - (2/3 - 1)^2 · 1/4 . Geef de noemer van het eindresultaat (het resultaat is een breuk met teller 35).",
+  "question_fr": "Ordre des opérations: 2^0 - (2/3 - 1)^2 · 1/4 . Donne le dénominateur du résultat final (le résultat est une fraction de numérateur 35).",
   "hint_fr": "Haakjes d'abord, puis machten (n'oublie pas 2^0=1), puis maal, puis min.",
+  "hint_nl": "Eerst haakjes, dan machten (vergeet 2^0=1 niet), dan maal, dan min.",
   "answer": 36,
   "explanation_fr": "1) Haakjes: 2/3-1 = -1/3. 2) Machten: 2^0=1 et (-1/3)^2 = 1/9. 3) Maal: 1/9 · 1/4 = 1/36. 4) Min: 1 - 1/36 = 35/36. Le dénominateur est 36.",
+  "explanation_nl": "1) Haakjes: 2/3-1 = -1/3. 2) Machten: 2^0=1 en (-1/3)^2 = 1/9. 3) Maal: 1/9 · 1/4 = 1/36. 4) Min: 1 - 1/36 = 35/36. De noemer is 36.",
   "course_ref": "p.226, p.232"
  },
  {
@@ -562,8 +794,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is de graad van de eenterm -1,5x^2?",
+  "question_fr": "Quel est le degré du monôme -1,5x^2 ?",
   "hint_fr": "De graad = la somme des exposants des lettres.",
+  "hint_nl": "De graad = de som van de exponenten van de letters.",
   "options": [
+   "0",
+   "1",
+   "2",
+   "-1,5"
+  ],
+  "options_fr": [
    "0",
    "1",
    "2",
@@ -571,6 +811,7 @@
   ],
   "answer": 2,
   "explanation_fr": "La graad d'une eenterm est la somme des exposants des lettres. Ici la seule lettre est x avec l'exposant 2, donc graad = 2. Le -1,5 est le coëfficiënt, pas la graad.",
+  "explanation_nl": "De graad van een eenterm is de som van de exponenten van de letters. Hier is de enige letter x met exponent 2, dus graad = 2. De -1,5 is de coëfficiënt, niet de graad.",
   "course_ref": "p.274-275"
  },
  {
@@ -580,8 +821,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is de coëfficiënt van de eenterm 7xy?",
+  "question_fr": "Quel est le coefficient du monôme 7xy ?",
   "hint_fr": "Le coëfficiënt est le nombre placé devant les lettres.",
+  "hint_nl": "De coëfficiënt is het getal dat voor de letters staat.",
   "options": [
+   "7",
+   "xy",
+   "1",
+   "7xy"
+  ],
+  "options_fr": [
    "7",
    "xy",
    "1",
@@ -589,6 +838,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Le coëfficiënt est le nombre devant le lettergedeelte. Dans 7xy le coëfficiënt est 7 et le lettergedeelte est xy.",
+  "explanation_nl": "De coëfficiënt is het getal voor het lettergedeelte. In 7xy is de coëfficiënt 7 en het lettergedeelte xy.",
   "course_ref": "p.274"
  },
  {
@@ -598,9 +848,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Bereken de getalwaarde van 2x^2 - 5x + 2 voor x = 2.",
+  "question_fr": "Calcule la valeur numérique de 2x^2 - 5x + 2 pour x = 2.",
   "hint_fr": "Remplace x par 2 et respecte l'ordre des opérations (puissances d'abord).",
+  "hint_nl": "Vervang x door 2 en respecteer de volgorde van de bewerkingen (machten eerst).",
   "answer": 0,
   "explanation_fr": "On remplace x par 2 : 2·(2)^2 - 5·2 + 2 = 2·4 - 10 + 2 = 8 - 10 + 2 = 0. On calcule la puissance avant la multiplication, puis l'addition/soustraction.",
+  "explanation_nl": "We vervangen x door 2 : 2·(2)^2 - 5·2 + 2 = 2·4 - 10 + 2 = 8 - 10 + 2 = 0. We berekenen de macht voor de vermenigvuldiging, daarna de optelling/aftrekking.",
   "course_ref": "p.275"
  },
  {
@@ -610,13 +863,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "3a en 5a zijn gelijksoortige termen.",
+  "question_fr": "3a et 5a sont des termes semblables.",
   "hint_fr": "Gelijksoortig = même lettergedeelte exactement.",
+  "hint_nl": "Gelijksoortig = exact hetzelfde lettergedeelte.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Les deux ont le même lettergedeelte (a avec exposant 1), donc ce sont des gelijksoortige termen. On peut les additionner : 3a + 5a = 8a.",
+  "explanation_nl": "Juist. Beide hebben hetzelfde lettergedeelte (a met exponent 1), dus het zijn gelijksoortige termen. We kunnen ze optellen : 3a + 5a = 8a.",
   "course_ref": "p.286-287"
  },
  {
@@ -626,13 +886,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "3a^2 en 5a zijn gelijksoortige termen.",
+  "question_fr": "3a^2 et 5a sont des termes semblables.",
   "hint_fr": "Compare les exposants des lettres.",
+  "hint_nl": "Vergelijk de exponenten van de letters.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Faux. Le premier a le lettergedeelte a^2 et le second a (exposant 1). Les exposants diffèrent, donc ils ne sont PAS gelijksoortig et on ne peut pas les additionner ensemble.",
+  "explanation_nl": "Fout. De eerste heeft het lettergedeelte a^2 en de tweede a (exponent 1). De exponenten verschillen, dus ze zijn NIET gelijksoortig en we kunnen ze niet samen optellen.",
   "course_ref": "p.286-287"
  },
  {
@@ -642,8 +909,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: 5a + 3b - 7a.",
+  "question_fr": "Développe : 5a + 3b - 7a.",
   "hint_fr": "Regroupe seulement les termes en a ; b reste seul.",
+  "hint_nl": "Groepeer enkel de termen in a ; b blijft alleen.",
   "options": [
+   "-2a + 3b",
+   "2a + 3b",
+   "-2a - 3b",
+   "1ab"
+  ],
+  "options_fr": [
    "-2a + 3b",
    "2a + 3b",
    "-2a - 3b",
@@ -651,6 +926,7 @@
   ],
   "answer": 0,
   "explanation_fr": "On additionne uniquement les coëfficiënten des gelijksoortige termen : 5a - 7a = -2a. Le terme 3b reste seul. Résultat : -2a + 3b. Le lettergedeelte ne change jamais.",
+  "explanation_nl": "We tellen enkel de coëfficiënten van de gelijksoortige termen op : 5a - 7a = -2a. De term 3b blijft alleen. Resultaat : -2a + 3b. Het lettergedeelte verandert nooit.",
   "course_ref": "p.288-289"
  },
  {
@@ -660,8 +936,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: 5a - (3b + 7a - 5).",
+  "question_fr": "Développe : 5a - (3b + 7a - 5).",
   "hint_fr": "Le moins devant la parenthèse change TOUS les signes à l'intérieur.",
+  "hint_nl": "Het minteken voor het haakje verandert ALLE tekens binnenin.",
   "options": [
+   "-2a - 3b + 5",
+   "-2a - 3b - 5",
+   "12a + 3b - 5",
+   "-2a + 3b + 5"
+  ],
+  "options_fr": [
    "-2a - 3b + 5",
    "-2a - 3b - 5",
    "12a + 3b - 5",
@@ -669,6 +953,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Le signe - devant les haakjes inverse chaque signe : -(3b + 7a - 5) = -3b - 7a + 5. On obtient 5a - 3b - 7a + 5 = (5a - 7a) - 3b + 5 = -2a - 3b + 5. Piège évité : ne pas oublier de changer aussi le signe du -5 qui devient +5.",
+  "explanation_nl": "Het teken - voor de haakjes keert elk teken om : -(3b + 7a - 5) = -3b - 7a + 5. We bekomen 5a - 3b - 7a + 5 = (5a - 7a) - 3b + 5 = -2a - 3b + 5. Vermeden valkuil : vergeet niet ook het teken van de -5 te veranderen, die +5 wordt.",
   "course_ref": "p.308-311"
  },
  {
@@ -678,8 +963,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Werk uit: 3a · 7a.",
+  "question_fr": "Développe : 3a · 7a.",
   "hint_fr": "Multiplie les coëfficiënten et additionne les exposants des a.",
+  "hint_nl": "Vermenigvuldig de coëfficiënten en tel de exponenten van de a's op.",
   "options": [
+   "21a^2",
+   "21a",
+   "10a^2",
+   "21a^3"
+  ],
+  "options_fr": [
    "21a^2",
    "21a",
    "10a^2",
@@ -687,6 +980,7 @@
   ],
   "answer": 0,
   "explanation_fr": "On multiplie les coëfficiënten (3·7 = 21) et les lettergedeelten (a·a = a^2). Résultat : 21a^2. Attention : ici on additionne les exposants car c'est une multiplication, pas une addition.",
+  "explanation_nl": "We vermenigvuldigen de coëfficiënten (3·7 = 21) en de lettergedeelten (a·a = a^2). Resultaat : 21a^2. Let op : hier tellen we de exponenten op want het is een vermenigvuldiging, geen optelling.",
   "course_ref": "p.296-297"
  },
  {
@@ -696,8 +990,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: -5b^2 · (-2b).",
+  "question_fr": "Développe : -5b^2 · (-2b).",
   "hint_fr": "Règle des signes : moins fois moins = plus.",
+  "hint_nl": "Tekenregel : min maal min = plus.",
   "options": [
+   "10b^3",
+   "-10b^3",
+   "10b^2",
+   "-7b^3"
+  ],
+  "options_fr": [
    "10b^3",
    "-10b^3",
    "10b^2",
@@ -705,6 +1007,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Coëfficiënten : (-5)·(-2) = +10 (moins par moins donne plus). Lettergedeelten : b^2·b = b^3. Résultat : 10b^3.",
+  "explanation_nl": "Coëfficiënten : (-5)·(-2) = +10 (min maal min geeft plus). Lettergedeelten : b^2·b = b^3. Resultaat : 10b^3.",
   "course_ref": "p.296-297"
  },
  {
@@ -714,8 +1017,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: (5a^2)^3.",
+  "question_fr": "Développe : (5a^2)^3.",
   "hint_fr": "On élève le coëfficiënt à la puissance ET on multiplie les exposants.",
+  "hint_nl": "We verheffen de coëfficiënt tot de macht EN we vermenigvuldigen de exponenten.",
   "options": [
+   "125a^6",
+   "15a^6",
+   "125a^5",
+   "5a^6"
+  ],
+  "options_fr": [
    "125a^6",
    "15a^6",
    "125a^5",
@@ -723,6 +1034,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Macht van een eenterm : on met le coëfficiënt à la puissance (5^3 = 125) et on multiplie l'exposant de la lettre (a^(2·3) = a^6). Résultat : 125a^6.",
+  "explanation_nl": "Macht van een eenterm : we verheffen de coëfficiënt tot de macht (5^3 = 125) en we vermenigvuldigen de exponent van de letter (a^(2·3) = a^6). Resultaat : 125a^6.",
   "course_ref": "p.300-303"
  },
  {
@@ -732,8 +1044,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Werk uit: (-2x^3)^4.",
+  "question_fr": "Développe : (-2x^3)^4.",
   "hint_fr": "Exposant pair : le signe du résultat devient positif.",
+  "hint_nl": "Even exponent : het teken van het resultaat wordt positief.",
   "options": [
+   "16x^12",
+   "-16x^12",
+   "16x^7",
+   "-8x^12"
+  ],
+  "options_fr": [
    "16x^12",
    "-16x^12",
    "16x^7",
@@ -741,6 +1061,7 @@
   ],
   "answer": 0,
   "explanation_fr": "(-2)^4 = +16 car l'exposant est pair (moins fois moins fois moins fois moins = plus). L'exposant de x : 3·4 = 12. Résultat : 16x^12.",
+  "explanation_nl": "(-2)^4 = +16 want de exponent is even (min maal min maal min maal min = plus). De exponent van x : 3·4 = 12. Resultaat : 16x^12.",
   "course_ref": "p.300-303"
  },
  {
@@ -750,8 +1071,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: 3a · (4a + b - 5).",
+  "question_fr": "Développe : 3a · (4a + b - 5).",
   "hint_fr": "Distribue 3a sur chaque terme de la parenthèse.",
+  "hint_nl": "Verdeel 3a over elke term van het haakje.",
   "options": [
+   "12a^2 + 3ab - 15a",
+   "12a^2 + 3b - 15",
+   "7a + 3ab - 15a",
+   "12a + 3ab - 15a"
+  ],
+  "options_fr": [
    "12a^2 + 3ab - 15a",
    "12a^2 + 3b - 15",
    "7a + 3ab - 15a",
@@ -759,6 +1088,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Distributiviteit : 3a·4a = 12a^2, 3a·b = 3ab, 3a·(-5) = -15a. Résultat : 12a^2 + 3ab - 15a. Chaque terme de la parenthèse est multiplié par 3a.",
+  "explanation_nl": "Distributiviteit : 3a·4a = 12a^2, 3a·b = 3ab, 3a·(-5) = -15a. Resultaat : 12a^2 + 3ab - 15a. Elke term van het haakje wordt met 3a vermenigvuldigd.",
   "course_ref": "p.314-317"
  },
  {
@@ -768,8 +1098,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Werk uit: (2a + 3)(a - 5).",
+  "question_fr": "Développe : (2a + 3)(a - 5).",
   "hint_fr": "Chaque terme de la 1re parenthèse multiplie chaque terme de la 2e.",
+  "hint_nl": "Elke term van het 1e haakje vermenigvuldigt elke term van het 2e.",
   "options": [
+   "2a^2 - 7a - 15",
+   "2a^2 + 7a - 15",
+   "2a^2 - 15",
+   "2a^2 - 7a + 15"
+  ],
+  "options_fr": [
    "2a^2 - 7a - 15",
    "2a^2 + 7a - 15",
    "2a^2 - 15",
@@ -777,6 +1115,7 @@
   ],
   "answer": 0,
   "explanation_fr": "On développe : 2a·a = 2a^2, 2a·(-5) = -10a, 3·a = 3a, 3·(-5) = -15. On regroupe les gelijksoortige termen : -10a + 3a = -7a. Résultat : 2a^2 - 7a - 15.",
+  "explanation_nl": "We werken uit : 2a·a = 2a^2, 2a·(-5) = -10a, 3·a = 3a, 3·(-5) = -15. We groeperen de gelijksoortige termen : -10a + 3a = -7a. Resultaat : 2a^2 - 7a - 15.",
   "course_ref": "p.314-317"
  },
  {
@@ -786,8 +1125,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Werk uit: (a - 3)(a + 1) - (a + 2)·a.",
+  "question_fr": "Développe : (a - 3)(a + 1) - (a + 2)·a.",
   "hint_fr": "Fais les DEUX produits d'abord, puis soustrais en gardant les haakjes.",
+  "hint_nl": "Maak EERST de TWEE producten, trek daarna af met behoud van de haakjes.",
   "options": [
+   "-4a - 3",
+   "2a^2 - 4a - 3",
+   "-3",
+   "-3a^2 - 3"
+  ],
+  "options_fr": [
    "-4a - 3",
    "2a^2 - 4a - 3",
    "-3",
@@ -795,6 +1142,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Volgorde van bewerkingen : on calcule d'abord les produits. (a-3)(a+1) = a^2 - 2a - 3 et (a+2)·a = a^2 + 2a. Ensuite on soustrait : (a^2 - 2a - 3) - (a^2 + 2a) = a^2 - 2a - 3 - a^2 - 2a = -4a - 3. Piège : le - devant le 2e produit change les signes de a^2 ET de 2a.",
+  "explanation_nl": "Volgorde van bewerkingen : we berekenen eerst de producten. (a-3)(a+1) = a^2 - 2a - 3 en (a+2)·a = a^2 + 2a. Daarna trekken we af : (a^2 - 2a - 3) - (a^2 + 2a) = a^2 - 2a - 3 - a^2 - 2a = -4a - 3. Valkuil : de - voor het 2e product verandert de tekens van a^2 EN van 2a.",
   "course_ref": "p.314-321"
  },
  {
@@ -804,8 +1152,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: (x + 3)^2.",
+  "question_fr": "Développe : (x + 3)^2.",
   "hint_fr": "(a+b)^2 = a^2 + 2ab + b^2. N'oublie pas le dubbelproduct.",
+  "hint_nl": "(a+b)^2 = a^2 + 2ab + b^2. Vergeet het dubbelproduct niet.",
   "options": [
+   "x^2 + 6x + 9",
+   "x^2 + 9",
+   "x^2 + 3x + 9",
+   "x^2 + 6x + 6"
+  ],
+  "options_fr": [
    "x^2 + 6x + 9",
    "x^2 + 9",
    "x^2 + 3x + 9",
@@ -813,6 +1169,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Merkwaardig product (a+b)^2 = a^2 + 2ab + b^2. Ici a = x, b = 3 : kwadraat de x = x^2, dubbelproduct = 2·x·3 = 6x, kwadraat de 3 = 9. Résultat : x^2 + 6x + 9. Piège : ce n'est PAS x^2 + 9, il faut le terme du milieu 6x.",
+  "explanation_nl": "Merkwaardig product (a+b)^2 = a^2 + 2ab + b^2. Hier a = x, b = 3 : kwadraat van x = x^2, dubbelproduct = 2·x·3 = 6x, kwadraat van 3 = 9. Resultaat : x^2 + 6x + 9. Valkuil : het is NIET x^2 + 9, de middelste term 6x is nodig.",
   "course_ref": "p.326-333"
  },
  {
@@ -822,8 +1179,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: (x - 4)^2.",
+  "question_fr": "Développe : (x - 4)^2.",
   "hint_fr": "(a-b)^2 = a^2 - 2ab + b^2. Le dernier terme reste positif.",
+  "hint_nl": "(a-b)^2 = a^2 - 2ab + b^2. De laatste term blijft positief.",
   "options": [
+   "x^2 - 8x + 16",
+   "x^2 - 8x - 16",
+   "x^2 + 8x + 16",
+   "x^2 - 16"
+  ],
+  "options_fr": [
    "x^2 - 8x + 16",
    "x^2 - 8x - 16",
    "x^2 + 8x + 16",
@@ -831,6 +1196,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Merkwaardig product (a-b)^2 = a^2 - 2ab + b^2. Ici : x^2 - 2·x·4 + 4^2 = x^2 - 8x + 16. Seul le dubbelproduct est négatif ; le kwadraat de 4 reste POSITIF (16). Piège classique : ne pas écrire -16.",
+  "explanation_nl": "Merkwaardig product (a-b)^2 = a^2 - 2ab + b^2. Hier : x^2 - 2·x·4 + 4^2 = x^2 - 8x + 16. Enkel het dubbelproduct is negatief ; het kwadraat van 4 blijft POSITIEF (16). Klassieke valkuil : geen -16 schrijven.",
   "course_ref": "p.326-333"
  },
  {
@@ -840,13 +1206,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "(a + b)^2 = a^2 + b^2.",
+  "question_fr": "(a + b)^2 = a^2 + b^2.",
   "hint_fr": "Souviens-toi du dubbelproduct.",
+  "hint_nl": "Denk aan het dubbelproduct.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Faux. (a+b)^2 = a^2 + 2ab + b^2. Il manque toujours le dubbelproduct 2ab. C'est l'erreur la plus fréquente : oublier le terme du milieu.",
+  "explanation_nl": "Fout. (a+b)^2 = a^2 + 2ab + b^2. Het dubbelproduct 2ab ontbreekt altijd. Dit is de meest voorkomende fout : de middelste term vergeten.",
   "course_ref": "p.326-333"
  },
  {
@@ -856,8 +1229,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Werk uit: (x + 5)(x - 5).",
+  "question_fr": "Développe : (x + 5)(x - 5).",
   "hint_fr": "Product van toegevoegde tweetermen : (a+b)(a-b) = a^2 - b^2.",
+  "hint_nl": "Product van toegevoegde tweetermen : (a+b)(a-b) = a^2 - b^2.",
   "options": [
+   "x^2 - 25",
+   "x^2 + 25",
+   "x^2 - 10x - 25",
+   "x^2 - 10x + 25"
+  ],
+  "options_fr": [
    "x^2 - 25",
    "x^2 + 25",
    "x^2 - 10x - 25",
@@ -865,6 +1246,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Ce sont des toegevoegde tweetermen (mêmes termes, signe du milieu opposé). Formule (a+b)(a-b) = a^2 - b^2 = x^2 - 25. Pas de dubbelproduct : le terme du milieu s'annule (+5x - 5x = 0).",
+  "explanation_nl": "Het zijn toegevoegde tweetermen (dezelfde termen, tegengesteld middenteken). Formule (a+b)(a-b) = a^2 - b^2 = x^2 - 25. Geen dubbelproduct : de middelste term valt weg (+5x - 5x = 0).",
   "course_ref": "p.334-344"
  },
  {
@@ -874,8 +1256,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Welke uitwerking is correct: (3a + 2)(3a - 2)?",
+  "question_fr": "Quel développement est correct : (3a + 2)(3a - 2) ?",
   "hint_fr": "Toegevoegde tweetermen : kwadraat de la 1re moins kwadraat de la 2e.",
+  "hint_nl": "Toegevoegde tweetermen : kwadraat van de 1e min kwadraat van de 2e.",
   "options": [
+   "9a^2 - 4",
+   "9a^2 + 4",
+   "6a^2 - 4",
+   "9a^2 - 12a - 4"
+  ],
+  "options_fr": [
    "9a^2 - 4",
    "9a^2 + 4",
    "6a^2 - 4",
@@ -883,6 +1273,7 @@
   ],
   "answer": 0,
   "explanation_fr": "(a+b)(a-b) = a^2 - b^2 avec a = 3a et b = 2 : (3a)^2 - 2^2 = 9a^2 - 4. Attention : (3a)^2 = 9a^2, on met aussi le 3 au carré, pas seulement le a.",
+  "explanation_nl": "(a+b)(a-b) = a^2 - b^2 met a = 3a en b = 2 : (3a)^2 - 2^2 = 9a^2 - 4. Let op : (3a)^2 = 9a^2, we kwadrateren ook de 3, niet enkel de a.",
   "course_ref": "p.334-344"
  },
  {
@@ -892,8 +1283,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Een rechthoek heeft lengte (x + 3) en breedte 4. Wat is de oppervlakte als veelterm?",
+  "question_fr": "Un rectangle a une longueur (x + 3) et une largeur 4. Quelle est l'aire sous forme de polynôme ?",
   "hint_fr": "Oppervlakte = lengte · breedte, puis développe.",
+  "hint_nl": "Oppervlakte = lengte · breedte, daarna uitwerken.",
   "options": [
+   "4x + 12",
+   "x + 7",
+   "2x + 14",
+   "4x + 3"
+  ],
+  "options_fr": [
    "4x + 12",
    "x + 7",
    "2x + 14",
@@ -901,6 +1300,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Oppervlakte van een rechthoek = lengte · breedte = 4·(x + 3) = 4x + 12. On distribue le 4 sur chaque terme de la parenthèse.",
+  "explanation_nl": "Oppervlakte van een rechthoek = lengte · breedte = 4·(x + 3) = 4x + 12. We verdelen de 4 over elke term van het haakje.",
   "course_ref": "p.314-317"
  },
  {
@@ -910,8 +1310,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Een balk heeft lengte (x + 2), breedte x en hoogte 3. Wat is het volume als veelterm?",
+  "question_fr": "Un pavé droit a une longueur (x + 2), une largeur x et une hauteur 3. Quel est le volume sous forme de polynôme ?",
   "hint_fr": "Volume van een balk = lengte · breedte · hoogte.",
+  "hint_nl": "Volume van een balk = lengte · breedte · hoogte.",
   "options": [
+   "3x^2 + 6x",
+   "3x^2 + 2x",
+   "x^2 + 5x",
+   "3x + 6"
+  ],
+  "options_fr": [
    "3x^2 + 6x",
    "3x^2 + 2x",
    "x^2 + 5x",
@@ -919,6 +1327,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Volume = lengte · breedte · hoogte = (x + 2)·x·3. D'abord (x + 2)·x = x^2 + 2x, puis ·3 = 3x^2 + 6x. On respecte la volgorde van bewerkingen et on regroupe en veelterm.",
+  "explanation_nl": "Volume = lengte · breedte · hoogte = (x + 2)·x·3. Eerst (x + 2)·x = x^2 + 2x, daarna ·3 = 3x^2 + 6x. We respecteren de volgorde van bewerkingen en groeperen tot een veelterm.",
   "course_ref": "p.314-317"
  },
  {
@@ -928,8 +1337,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Een vierkant heeft zijde (a + b). Wat is de oppervlakte als veelterm?",
+  "question_fr": "Un carré a un côté (a + b). Quelle est l'aire sous forme de polynôme ?",
   "hint_fr": "Oppervlakte van een vierkant = zijde^2, c'est un merkwaardig product.",
+  "hint_nl": "Oppervlakte van een vierkant = zijde^2, dat is een merkwaardig product.",
   "options": [
+   "a^2 + 2ab + b^2",
+   "a^2 + b^2",
+   "2a + 2b",
+   "a^2 + ab + b^2"
+  ],
+  "options_fr": [
    "a^2 + 2ab + b^2",
    "a^2 + b^2",
    "2a + 2b",
@@ -937,6 +1354,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Oppervlakte van een vierkant = zijde^2 = (a + b)^2 = a^2 + 2ab + b^2 (kwadraat van een tweeterm). C'est exactement la démonstration par l'aire vue dans le cours : le grand carré se découpe en a^2 + ab + ab + b^2.",
+  "explanation_nl": "Oppervlakte van een vierkant = zijde^2 = (a + b)^2 = a^2 + 2ab + b^2 (kwadraat van een tweeterm). Dit is precies het oppervlaktebewijs uit de cursus : het grote vierkant wordt verdeeld in a^2 + ab + ab + b^2.",
   "course_ref": "p.326-333"
  },
  {
@@ -946,9 +1364,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Â en B̂ zijn complementaire hoeken. Â = 35°. Hoe groot is B̂?",
+  "question_fr": "Â et B̂ sont des angles complémentaires. Â = 35°. Quelle est la mesure de B̂ ?",
   "hint_fr": "Complementair = samen 90°.",
+  "hint_nl": "Complementair = samen 90°.",
   "answer": 55,
   "explanation_fr": "Des angles complémentaires ont une somme de 90°. Donc B̂ = 90° - 35° = 55°.",
+  "explanation_nl": "Complementaire hoeken hebben een som van 90°. Dus B̂ = 90° - 35° = 55°.",
   "course_ref": "p.110-113"
  },
  {
@@ -958,9 +1379,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Ĉ en D̂ zijn supplementaire hoeken. Ĉ = 109°. Hoe groot is D̂?",
+  "question_fr": "Ĉ et D̂ sont des angles supplémentaires. Ĉ = 109°. Quelle est la mesure de D̂ ?",
   "hint_fr": "Supplementair = samen 180°.",
+  "hint_nl": "Supplementair = samen 180°.",
   "answer": 71,
   "explanation_fr": "Des angles supplémentaires ont une somme de 180°. Donc D̂ = 180° - 109° = 71°.",
+  "explanation_nl": "Supplementaire hoeken hebben een som van 180°. Dus D̂ = 180° - 109° = 71°.",
   "course_ref": "p.110-113"
  },
  {
@@ -970,8 +1394,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is de som van twee complementaire hoeken?",
+  "question_fr": "Quelle est la somme de deux angles complémentaires ?",
   "hint_fr": "Pense au mot complement.",
+  "hint_nl": "Denk aan het woord complement.",
   "options": [
+   "45°",
+   "90°",
+   "180°",
+   "360°"
+  ],
+  "options_fr": [
    "45°",
    "90°",
    "180°",
@@ -979,6 +1411,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Par définition, des angles complémentaires (complementaire hoeken) ont une somme de 90°.",
+  "explanation_nl": "Per definitie hebben complementaire hoeken een som van 90°.",
   "course_ref": "p.110-113"
  },
  {
@@ -988,13 +1421,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Nevenhoeken zijn altijd supplementair (samen 180°).",
+  "question_fr": "Les angles adjacents supplémentaires (nevenhoeken) sont toujours supplémentaires (somme 180°).",
   "hint_fr": "Les côtés non communs forment une droite.",
+  "hint_nl": "De niet-gemeenschappelijke benen vormen een rechte.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Les nevenhoeken sont des angles adjacents dont les côtés non communs sont alignés (forment une droite), donc leur somme vaut toujours 180° : ils sont supplémentaires.",
+  "explanation_nl": "Juist. Nevenhoeken zijn aanliggende hoeken waarvan de niet-gemeenschappelijke benen in elkaars verlengde liggen (een rechte vormen), dus hun som is altijd 180°: ze zijn supplementair.",
   "course_ref": "p.110-113"
  },
  {
@@ -1004,8 +1444,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Hoe noem je twee hoeken waarvan de benen in elkaars verlengde liggen?",
+  "question_fr": "Comment appelle-t-on deux angles dont les côtés sont les prolongements l'un de l'autre ?",
   "hint_fr": "Les côtés sont les prolongements l'un de l'autre.",
+  "hint_nl": "De benen liggen in elkaars verlengde.",
   "options": [
+   "complementaire hoeken",
+   "nevenhoeken",
+   "overstaande hoeken",
+   "aanliggende hoeken"
+  ],
+  "options_fr": [
    "complementaire hoeken",
    "nevenhoeken",
    "overstaande hoeken",
@@ -1013,6 +1461,7 @@
   ],
   "answer": 2,
   "explanation_fr": "Ce sont des overstaande hoeken (angles opposés par le sommet) : les côtés de l'un sont dans le prolongement des côtés de l'autre.",
+  "explanation_nl": "Het zijn overstaande hoeken: de benen van de ene liggen in het verlengde van de benen van de andere.",
   "course_ref": "p.110-113"
  },
  {
@@ -1022,9 +1471,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Â1 en Â2 zijn overstaande hoeken. Â1 = 64°. Hoe groot is Â2?",
+  "question_fr": "Â1 et Â2 sont des angles opposés par le sommet. Â1 = 64°. Quelle est la mesure de Â2 ?",
   "hint_fr": "Overstaande hoeken zijn even groot.",
+  "hint_nl": "Overstaande hoeken zijn even groot.",
   "answer": 64,
   "explanation_fr": "Les angles opposés par le sommet (overstaande hoeken) sont égaux : Â2 = Â1 = 64°.",
+  "explanation_nl": "Overstaande hoeken zijn even groot: Â2 = Â1 = 64°.",
   "course_ref": "p.110-113"
  },
  {
@@ -1034,8 +1486,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Twee evenwijdige rechten worden gesneden door een snijlijn. Twee hoeken liggen tussen de rechten, aan dezelfde kant van de snijlijn maar de ene is binnenhoek en de andere buitenhoek aan dezelfde kant. Welke hoeken vormen samen een F-figuur?",
+  "question_fr": "Deux droites parallèles sont coupées par une sécante. Deux angles sont situés du même côté de la sécante, l'un étant un angle interne et l'autre un angle externe du même côté. Quels angles forment ensemble une figure en F ?",
   "hint_fr": "F-hoeken : un interne et un externe, du même côté.",
+  "hint_nl": "F-hoeken: één binnenhoek en één buitenhoek, aan dezelfde kant.",
   "options": [
+   "verwisselende binnenhoeken",
+   "overeenkomstige hoeken",
+   "binnenhoeken aan dezelfde kant",
+   "nevenhoeken"
+  ],
+  "options_fr": [
    "verwisselende binnenhoeken",
    "overeenkomstige hoeken",
    "binnenhoeken aan dezelfde kant",
@@ -1043,6 +1503,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Les overeenkomstige hoeken (angles correspondants) forment un F : l'un interne, l'autre externe, du même côté de la sécante.",
+  "explanation_nl": "De overeenkomstige hoeken vormen een F: de ene binnenhoek, de andere buitenhoek, aan dezelfde kant van de snijlijn.",
   "course_ref": "p.124-131"
  },
  {
@@ -1052,8 +1513,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Welke hoeken vormen de Z-figuur (liggen tussen de rechten, aan verschillende kanten van de snijlijn)?",
+  "question_fr": "Quels angles forment la figure en Z (situés entre les droites, de part et d'autre de la sécante) ?",
   "hint_fr": "Z-hoeken = entre les droites, côtés opposés.",
+  "hint_nl": "Z-hoeken = tussen de rechten, aan verschillende kanten.",
   "options": [
+   "overeenkomstige hoeken",
+   "buitenhoeken aan dezelfde kant",
+   "verwisselende binnenhoeken",
+   "overstaande hoeken"
+  ],
+  "options_fr": [
    "overeenkomstige hoeken",
    "buitenhoeken aan dezelfde kant",
    "verwisselende binnenhoeken",
@@ -1061,6 +1530,7 @@
   ],
   "answer": 2,
   "explanation_fr": "Les verwisselende binnenhoeken (angles alternes-internes) sont entre les deux droites et de part et d'autre de la sécante : ils forment un Z.",
+  "explanation_nl": "De verwisselende binnenhoeken liggen tussen de twee rechten en aan verschillende kanten van de snijlijn: ze vormen een Z.",
   "course_ref": "p.124-131"
  },
  {
@@ -1070,13 +1540,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "Binnenhoeken liggen tussen de twee rechten a en b.",
+  "question_fr": "Les angles internes (binnenhoeken) sont situés entre les deux droites a et b.",
   "hint_fr": "Binnen = à l'intérieur, entre les deux droites.",
+  "hint_nl": "Binnen = aan de binnenkant, tussen de twee rechten.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Les binnenhoeken (angles internes) se situent entre les deux droites a et b. Les buitenhoeken se situent à l'extérieur.",
+  "explanation_nl": "Juist. De binnenhoeken liggen tussen de twee rechten a en b. De buitenhoeken liggen aan de buitenkant.",
   "course_ref": "p.124-131"
  },
  {
@@ -1086,9 +1563,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "a // b met snijlijn c. Â1 en B̂1 zijn overeenkomstige hoeken. Â1 = 80°. Hoe groot is B̂1?",
+  "question_fr": "a // b avec sécante c. Â1 et B̂1 sont des angles correspondants. Â1 = 80°. Quelle est la mesure de B̂1 ?",
   "hint_fr": "F-hoeken bij evenwijdige rechten zijn even groot.",
+  "hint_nl": "F-hoeken bij evenwijdige rechten zijn even groot.",
   "answer": 80,
   "explanation_fr": "Comme a // b, les overeenkomstige hoeken (F-hoeken) sont égaux : B̂1 = Â1 = 80°.",
+  "explanation_nl": "Omdat a // b, zijn de overeenkomstige hoeken (F-hoeken) even groot: B̂1 = Â1 = 80°.",
   "course_ref": "p.132-147"
  },
  {
@@ -1098,9 +1578,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "a // b met snijlijn c. Twee verwisselende binnenhoeken: de ene is 115°. Hoe groot is de andere?",
+  "question_fr": "a // b avec sécante c. Deux angles alternes-internes : l'un vaut 115°. Quelle est la mesure de l'autre ?",
   "hint_fr": "Z-hoeken bij evenwijdige rechten zijn even groot.",
+  "hint_nl": "Z-hoeken bij evenwijdige rechten zijn even groot.",
   "answer": 115,
   "explanation_fr": "Comme a // b, les verwisselende binnenhoeken (Z-hoeken) sont égaux : l'autre vaut aussi 115°.",
+  "explanation_nl": "Omdat a // b, zijn de verwisselende binnenhoeken (Z-hoeken) even groot: de andere is ook 115°.",
   "course_ref": "p.132-147"
  },
  {
@@ -1110,9 +1593,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "a // b met snijlijn c. Â3 en B̂2 zijn binnenhoeken aan dezelfde kant. Â3 = 110°. Hoe groot is B̂2?",
+  "question_fr": "a // b avec sécante c. Â3 et B̂2 sont des angles internes du même côté. Â3 = 110°. Quelle est la mesure de B̂2 ?",
   "hint_fr": "Binnenhoeken aan dezelfde kant zijn supplementair.",
+  "hint_nl": "Binnenhoeken aan dezelfde kant zijn supplementair.",
   "answer": 70,
   "explanation_fr": "Comme a // b, les binnenhoeken aan dezelfde kant sont supplémentaires (somme = 180°). Donc B̂2 = 180° - 110° = 70°.",
+  "explanation_nl": "Omdat a // b, zijn de binnenhoeken aan dezelfde kant supplementair (som = 180°). Dus B̂2 = 180° - 110° = 70°.",
   "course_ref": "p.132-147"
  },
  {
@@ -1122,8 +1608,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "a // b met snijlijn c. Welke hoeken zijn supplementair (samen 180°)?",
+  "question_fr": "a // b avec sécante c. Quels angles sont supplémentaires (somme 180°) ?",
   "hint_fr": "Pas les Z-hoeken ni les F-hoeken.",
+  "hint_nl": "Niet de Z-hoeken en niet de F-hoeken.",
   "options": [
+   "overeenkomstige hoeken",
+   "verwisselende binnenhoeken",
+   "binnenhoeken aan dezelfde kant",
+   "verwisselende buitenhoeken"
+  ],
+  "options_fr": [
    "overeenkomstige hoeken",
    "verwisselende binnenhoeken",
    "binnenhoeken aan dezelfde kant",
@@ -1131,6 +1625,7 @@
   ],
   "answer": 2,
   "explanation_fr": "Avec deux droites parallèles, les binnenhoeken aan dezelfde kant (et les buitenhoeken aan dezelfde kant) sont supplémentaires. Les F-hoeken et Z-hoeken, eux, sont égaux.",
+  "explanation_nl": "Bij twee evenwijdige rechten zijn de binnenhoeken aan dezelfde kant (en de buitenhoeken aan dezelfde kant) supplementair. De F-hoeken en Z-hoeken zijn daarentegen even groot.",
   "course_ref": "p.132-147"
  },
  {
@@ -1140,13 +1635,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "Als twee rechten gesneden worden door een snijlijn en de overeenkomstige hoeken even groot zijn, dan zijn die twee rechten evenwijdig.",
+  "question_fr": "Si deux droites sont coupées par une sécante et que les angles correspondants sont égaux, alors ces deux droites sont parallèles.",
   "hint_fr": "C'est la propriété réciproque (omgekeerde eigenschap).",
+  "hint_nl": "Dit is de omgekeerde eigenschap.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. C'est la propriété réciproque : si les overeenkomstige hoeken sont égaux, alors les droites sont parallèles (a // b). Cela sert à prouver le parallélisme.",
+  "explanation_nl": "Juist. Dit is de omgekeerde eigenschap: als de overeenkomstige hoeken even groot zijn, dan zijn de rechten evenwijdig (a // b). Dit dient om de evenwijdigheid te bewijzen.",
   "course_ref": "p.132-147"
  },
  {
@@ -1156,9 +1658,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "a // b met snijlijn c. Een binnenhoek aan dezelfde kant is gelijk aan 3 keer zijn supplementaire binnenhoek aan dezelfde kant. Hoe groot is de grootste van de twee hoeken (in graden)?",
+  "question_fr": "a // b avec sécante c. Un angle interne du même côté est égal à 3 fois son angle interne supplémentaire du même côté. Quelle est la mesure du plus grand des deux angles (en degrés) ?",
   "hint_fr": "Binnenhoeken aan dezelfde kant zijn supplementair: samen 180°. Noem de kleinste x, de grootste 3x.",
+  "hint_nl": "Binnenhoeken aan dezelfde kant zijn supplementair: samen 180°. Noem de kleinste x, de grootste 3x.",
   "answer": 135,
   "explanation_fr": "Comme a // b, les binnenhoeken aan dezelfde kant sont supplémentaires : x + 3x = 180°, donc 4x = 180°, x = 45°. Le plus grand vaut 3 × 45° = 135°.",
+  "explanation_nl": "Omdat a // b, zijn de binnenhoeken aan dezelfde kant supplementair: x + 3x = 180°, dus 4x = 180°, x = 45°. De grootste is 3 × 45° = 135°.",
   "course_ref": "p.132-147"
  },
  {
@@ -1168,9 +1673,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "In driehoek ABC is Â = 73° en B̂ = 65°. Hoe groot is Ĉ?",
+  "question_fr": "Dans le triangle ABC, Â = 73° et B̂ = 65°. Quelle est la mesure de Ĉ ?",
   "hint_fr": "De som van de hoeken van een driehoek = 180°.",
+  "hint_nl": "De som van de hoeken van een driehoek = 180°.",
   "answer": 42,
   "explanation_fr": "La somme des angles d'un triangle vaut 180°. Donc Ĉ = 180° - 73° - 65° = 42°.",
+  "explanation_nl": "De som van de hoeken van een driehoek is 180°. Dus Ĉ = 180° - 73° - 65° = 42°.",
   "course_ref": "p.148-160"
  },
  {
@@ -1180,9 +1688,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "In driehoek ABC is Â = 76° en Ĉ = 80°. Hoe groot is B̂?",
+  "question_fr": "Dans le triangle ABC, Â = 76° et Ĉ = 80°. Quelle est la mesure de B̂ ?",
   "hint_fr": "Â + B̂ + Ĉ = 180°.",
+  "hint_nl": "Â + B̂ + Ĉ = 180°.",
   "answer": 24,
   "explanation_fr": "Â + B̂ + Ĉ = 180°, donc B̂ = 180° - 76° - 80° = 24°.",
+  "explanation_nl": "Â + B̂ + Ĉ = 180°, dus B̂ = 180° - 76° - 80° = 24°.",
   "course_ref": "p.148-160"
  },
  {
@@ -1192,9 +1703,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "Een rechthoekige driehoek heeft een rechte hoek (90°) en een hoek van 57°. Hoe groot is de derde hoek?",
+  "question_fr": "Un triangle rectangle a un angle droit (90°) et un angle de 57°. Quelle est la mesure du troisième angle ?",
   "hint_fr": "De som is 180°. Een rechte hoek = 90°.",
+  "hint_nl": "De som is 180°. Een rechte hoek = 90°.",
   "answer": 33,
   "explanation_fr": "La somme des angles vaut 180°. La troisième vaut 180° - 90° - 57° = 33°.",
+  "explanation_nl": "De som van de hoeken is 180°. De derde is 180° - 90° - 57° = 33°.",
   "course_ref": "p.148-160"
  },
  {
@@ -1204,9 +1718,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "In driehoek ABC geldt Â = 2·B̂ en Ĉ = 3·B̂. Hoe groot is B̂ (in graden)?",
+  "question_fr": "Dans le triangle ABC, on a Â = 2·B̂ et Ĉ = 3·B̂. Quelle est la mesure de B̂ (en degrés) ?",
   "hint_fr": "Vervang alles door B̂ en gebruik de som = 180°.",
+  "hint_nl": "Vervang alles door B̂ en gebruik de som = 180°.",
   "answer": 30,
   "explanation_fr": "Â + B̂ + Ĉ = 180°, soit 2·B̂ + B̂ + 3·B̂ = 180°, donc 6·B̂ = 180°, donc B̂ = 30°. (Et Â = 60°, Ĉ = 90°.)",
+  "explanation_nl": "Â + B̂ + Ĉ = 180°, dus 2·B̂ + B̂ + 3·B̂ = 180°, dus 6·B̂ = 180°, dus B̂ = 30°. (En Â = 60°, Ĉ = 90°.)",
   "course_ref": "p.148-160"
  },
  {
@@ -1216,9 +1733,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "Ĉ1 is een buitenhoek van driehoek ABC (nevenhoek van Ĉ). Â = 50° en B̂ = 70°. Hoe groot is de buitenhoek Ĉ1?",
+  "question_fr": "Ĉ1 est un angle extérieur du triangle ABC (angle adjacent supplémentaire de Ĉ). Â = 50° et B̂ = 70°. Quelle est la mesure de l'angle extérieur Ĉ1 ?",
   "hint_fr": "Een buitenhoek = som van de twee niet-aanliggende binnenhoeken.",
+  "hint_nl": "Een buitenhoek = som van de twee niet-aanliggende binnenhoeken.",
   "answer": 120,
   "explanation_fr": "Un angle extérieur d'un triangle est égal à la somme des deux angles intérieurs non adjacents : Ĉ1 = Â + B̂ = 50° + 70° = 120°.",
+  "explanation_nl": "Een buitenhoek van een driehoek is gelijk aan de som van de twee niet-aanliggende binnenhoeken: Ĉ1 = Â + B̂ = 50° + 70° = 120°.",
   "course_ref": "p.161"
  },
  {
@@ -1228,13 +1748,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "Twee congruente figuren hebben dezelfde vorm en dezelfde grootte.",
+  "question_fr": "Deux figures congruentes ont la même forme et la même grandeur.",
   "hint_fr": "Pense a la definition : op elkaar passen.",
+  "hint_nl": "Denk aan de definitie: op elkaar passen.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "C'est exactement la definition. Des figures congruentes ont la meme forme et la meme grandeur, donc on peut les faire coincider parfaitement (op elkaar passen) par une spiegeling, verschuiving of rotatie.",
+  "explanation_nl": "Dat is precies de definitie. Congruente figuren hebben dezelfde vorm en dezelfde grootte, dus je kunt ze perfect op elkaar laten passen door een spiegeling, verschuiving of rotatie.",
   "course_ref": "p.168-169"
  },
  {
@@ -1244,8 +1771,16 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Welk symbool gebruik je om aan te duiden dat twee figuren congruent zijn?",
+  "question_fr": "Quel symbole utilises-tu pour indiquer que deux figures sont congruentes ?",
   "hint_fr": "Ce n'est pas le simple signe =.",
+  "hint_nl": "Het is niet het gewone teken =.",
   "options": [
+   "=",
+   "≅",
+   "//",
+   "⊥"
+  ],
+  "options_fr": [
    "=",
    "≅",
    "//",
@@ -1253,6 +1788,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Le symbole de congruence est ≅ (is congruent met). Le signe = sert aux egalites de nombres ou de longueurs, // indique le parallelisme et ⊥ la perpendicularite.",
+  "explanation_nl": "Het congruentiesymbool is ≅ (is congruent met). Het teken = wordt gebruikt voor gelijkheden van getallen of lengtes, // duidt evenwijdigheid aan en ⊥ loodrechtheid.",
   "course_ref": "p.168-169"
  },
  {
@@ -1262,13 +1798,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "In twee congruente veelhoeken zijn de overeenkomstige zijden even lang en de overeenkomstige hoeken even groot.",
+  "question_fr": "Dans deux polygones congruents, les côtés correspondants sont de même longueur et les angles correspondants de même grandeur.",
   "hint_fr": "",
+  "hint_nl": "",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. C'est l'eigenschap des polygones congruents : les cotes correspondants (overeenkomstige zijden) sont egaux et les angles correspondants (overeenkomstige hoeken) aussi.",
+  "explanation_nl": "Juist. Dat is de eigenschap van congruente veelhoeken: de overeenkomstige zijden zijn even lang en de overeenkomstige hoeken even groot.",
   "course_ref": "p.169"
  },
  {
@@ -1278,8 +1821,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Twee driehoeken hebben hun drie zijden paarsgewijs even lang. Welk congruentiekenmerk pas je toe?",
+  "question_fr": "Deux triangles ont leurs trois côtés deux à deux de même longueur. Quel critère de congruence appliques-tu ?",
   "hint_fr": "Z = zijde (cote).",
+  "hint_nl": "Z = zijde (côté).",
   "options": [
+   "ZZZ",
+   "HZH",
+   "ZHZ",
+   "HHH"
+  ],
+  "options_fr": [
    "ZZZ",
    "HZH",
    "ZHZ",
@@ -1287,6 +1838,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Trois cotes egaux deux a deux, c'est le kenmerk ZZZ (de drie zijden). HHH n'est pas un congruentiekenmerk.",
+  "explanation_nl": "Drie zijden paarsgewijs even lang, dat is het kenmerk ZZZ (de drie zijden). HHH is geen congruentiekenmerk.",
   "course_ref": "p.181"
  },
  {
@@ -1296,8 +1848,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Je kent van twee driehoeken een zijde en de twee hoeken die aan die zijde liggen. Welk kenmerk gebruik je?",
+  "question_fr": "Tu connais d'un triangle un côté et les deux angles adjacents à ce côté. Quel critère utilises-tu ?",
   "hint_fr": "Une zijde encadree par deux hoeken.",
+  "hint_nl": "Een zijde tussen twee hoeken in.",
   "options": [
+   "ZHZ",
+   "HZH",
+   "ZZ90°",
+   "ZZZ"
+  ],
+  "options_fr": [
    "ZHZ",
    "HZH",
    "ZZ90°",
@@ -1305,6 +1865,7 @@
   ],
   "answer": 1,
   "explanation_fr": "Un cote et ses deux angles adjacents, c'est HZH (hoek-zijde-hoek). L'angle, le cote, l'angle se suivent autour du cote connu.",
+  "explanation_nl": "Een zijde en de twee aanliggende hoeken, dat is HZH (hoek-zijde-hoek). Hoek, zijde, hoek volgen elkaar op rond de gekende zijde.",
   "course_ref": "p.181"
  },
  {
@@ -1314,8 +1875,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Je kent van twee driehoeken twee zijden en de hoek die tussen die twee zijden ligt (de ingesloten hoek). Welk kenmerk gebruik je?",
+  "question_fr": "Tu connais de deux triangles deux côtés et l'angle situé entre ces deux côtés (l'angle compris). Quel critère utilises-tu ?",
   "hint_fr": "L'angle est compris ENTRE les deux cotes.",
+  "hint_nl": "De hoek ligt TUSSEN de twee zijden.",
   "options": [
+   "HZH",
+   "ZZZ",
+   "ZHZ",
+   "HHZ"
+  ],
+  "options_fr": [
    "HZH",
    "ZZZ",
    "ZHZ",
@@ -1323,6 +1892,7 @@
   ],
   "answer": 2,
   "explanation_fr": "Deux cotes et l'angle compris entre eux (ingesloten hoek), c'est ZHZ (zijde-hoek-zijde).",
+  "explanation_nl": "Twee zijden en de hoek ertussen (ingesloten hoek), dat is ZHZ (zijde-hoek-zijde).",
   "course_ref": "p.181"
  },
  {
@@ -1332,13 +1902,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "HHH (drie paar even grote hoeken) is een geldig congruentiekenmerk voor driehoeken.",
+  "question_fr": "HHH (trois paires d'angles de même grandeur) est un critère de congruence valable pour les triangles.",
   "hint_fr": "Pense a un petit et un grand triangle de meme forme.",
+  "hint_nl": "Denk aan een kleine en een grote driehoek met dezelfde vorm.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Faux. HHH n'est PAS un congruentiekenmerk (weetje p.181). Trois angles egaux donnent des triangles de meme forme mais pas forcement de meme grandeur : ils sont gelijkvormig (semblables), pas congruents.",
+  "explanation_nl": "Fout. HHH is GEEN congruentiekenmerk (weetje p.181). Drie even grote hoeken geven driehoeken met dezelfde vorm maar niet noodzakelijk dezelfde grootte: ze zijn gelijkvormig, niet congruent.",
   "course_ref": "p.181"
  },
  {
@@ -1348,15 +1925,24 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Van twee driehoeken zijn twee zijden even lang en een NIET-ingesloten hoek even groot (ligging ZZH). Wat kun je besluiten?",
+  "question_fr": "De deux triangles, deux côtés sont de même longueur et un angle NON compris est de même grandeur (position ZZH). Que peux-tu conclure ?",
   "hint_fr": "Relis le weetje sur HZZ/ZZH.",
+  "hint_nl": "Herlees het weetje over HZZ/ZZH.",
   "options": [
    "De driehoeken zijn altijd congruent (ZZZ).",
    "ZZH is geen congruentiekenmerk, tenzij die hoek 90° is.",
    "De driehoeken zijn altijd congruent volgens ZHZ.",
    "HHH geldt hier."
   ],
+  "options_fr": [
+   "Les triangles sont toujours congruents (ZZZ).",
+   "ZZH n'est pas un critère de congruence, sauf si cet angle vaut 90°.",
+   "Les triangles sont toujours congruents selon ZHZ.",
+   "HHH s'applique ici."
+  ],
   "answer": 1,
   "explanation_fr": "HZZ ou ZZH ne sont pas des congruentiekenmerken, sauf si l'angle vaut 90° (on tombe alors sur le cas ZZ90°). Avec un angle non compris quelconque, on ne peut rien conclure.",
+  "explanation_nl": "HZZ of ZZH zijn geen congruentiekenmerken, tenzij de hoek 90° is (dan kom je op het geval ZZ90° uit). Met een willekeurige niet-ingesloten hoek kun je niets besluiten.",
   "course_ref": "p.181"
  },
  {
@@ -1366,8 +1952,16 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Twee rechthoekige driehoeken hebben een even lange schuine zijde (hypotenusa) en een even lange rechthoekszijde. Welk kenmerk pas je toe?",
+  "question_fr": "Deux triangles rectangles ont une hypoténuse de même longueur et un côté de l'angle droit de même longueur. Quel critère appliques-tu ?",
   "hint_fr": "Triangle rectangle : pense au cas special.",
+  "hint_nl": "Rechthoekige driehoek: denk aan het bijzondere geval.",
   "options": [
+   "ZZ90°",
+   "ZHZ",
+   "HHZ",
+   "HHH"
+  ],
+  "options_fr": [
    "ZZ90°",
    "ZHZ",
    "HHZ",
@@ -1375,6 +1969,7 @@
   ],
   "answer": 0,
   "explanation_fr": "C'est le kenmerk ZZ90° : de rechte hoek, de schuine zijde (hypotenusa) en een rechthoekszijde. Reserve aux triangles rectangles.",
+  "explanation_nl": "Dat is het kenmerk ZZ90°: de rechte hoek, de schuine zijde (hypotenusa) en een rechthoekszijde. Voorbehouden voor rechthoekige driehoeken.",
   "course_ref": "p.181"
  },
  {
@@ -1384,8 +1979,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Welke notatie hoort bij het kenmerk 'een zijde, een aanliggende hoek en de overstaande hoek'?",
+  "question_fr": "Quelle notation correspond au critère « un côté, un angle adjacent et l'angle opposé » ?",
   "hint_fr": "Deux angles et un cote, mais pas dans l'ordre HZH.",
+  "hint_nl": "Twee hoeken en een zijde, maar niet in de volgorde HZH.",
   "options": [
+   "ZHZ",
+   "ZHH = HHZ",
+   "ZZ90°",
+   "ZZZ"
+  ],
+  "options_fr": [
    "ZHZ",
    "ZHH = HHZ",
    "ZZ90°",
@@ -1393,6 +1996,7 @@
   ],
   "answer": 1,
   "explanation_fr": "C'est ZHH (= HHZ). Comme deux angles egaux entrainent que le troisieme l'est aussi (somme = 180°), ce cas revient en pratique a HZH.",
+  "explanation_nl": "Dat is ZHH (= HHZ). Omdat twee even grote hoeken meebrengen dat de derde ook even groot is (som = 180°), komt dit geval in de praktijk neer op HZH.",
   "course_ref": "p.181"
  },
  {
@@ -1402,15 +2006,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "In een bewijs schrijf je: |AC| = |AC| (gemeenschappelijke zijde). Waarom mag dit als gegeven dienen?",
+  "question_fr": "Dans une preuve, tu écris : |AC| = |AC| (côté commun). Pourquoi cela peut-il servir de donnée ?",
   "hint_fr": "Le cote est partage par les deux triangles.",
+  "hint_nl": "De zijde wordt door beide driehoeken gedeeld.",
   "options": [
    "Omdat het de schuine zijde is.",
    "Omdat het een zijde is die beide driehoeken delen, dus gelijk aan zichzelf.",
    "Omdat de hoeken even groot zijn.",
    "Omdat het overstaande hoeken zijn."
   ],
+  "options_fr": [
+   "Parce que c'est l'hypoténuse.",
+   "Parce que c'est un côté que les deux triangles partagent, donc égal à lui-même.",
+   "Parce que les angles sont de même grandeur.",
+   "Parce que ce sont des angles opposés par le sommet."
+  ],
   "answer": 1,
   "explanation_fr": "Une gemeenschappelijke zijde (cote commun) appartient aux deux triangles, elle est donc forcement egale a elle-meme. C'est une justification valable dans un bewijs.",
+  "explanation_nl": "Een gemeenschappelijke zijde behoort tot beide driehoeken en is dus noodzakelijk gelijk aan zichzelf. Dat is een geldige verantwoording in een bewijs.",
   "course_ref": "p.196"
  },
  {
@@ -1420,15 +2033,24 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Twee lijnstukken [AB] en [DE] snijden elkaar in C. Welke verantwoording gebruik je om te zeggen dat hoek ACD = hoek BCE?",
+  "question_fr": "Deux segments [AB] et [DE] se coupent en C. Quelle justification utilises-tu pour dire que l'angle ACD = l'angle BCE ?",
   "hint_fr": "Deux droites qui se croisent forment quel type d'angles egaux ?",
+  "hint_nl": "Twee snijdende rechten vormen welk type even grote hoeken?",
   "options": [
    "gemeenschappelijke zijde",
    "verwisselende binnenhoeken",
    "overstaande hoeken",
    "som van de hoeken = 180°"
   ],
+  "options_fr": [
+   "côté commun",
+   "angles alternes-internes",
+   "angles opposés par le sommet",
+   "somme des angles = 180°"
+  ],
   "answer": 2,
   "explanation_fr": "Deux droites secantes forment des overstaande hoeken (angles opposes par le sommet), qui sont toujours egaux. C'est la justification a noter dans le bewijs.",
+  "explanation_nl": "Twee snijdende rechten vormen overstaande hoeken, die altijd even groot zijn. Dat is de verantwoording die je in het bewijs noteert.",
   "course_ref": "p.194-196"
  },
  {
@@ -1438,15 +2060,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "In het stappenplan van een bewijs: nadat je hebt aangetoond dat twee driehoeken congruent zijn, hoe besluit je dat twee overeenkomstige zijden even lang zijn?",
+  "question_fr": "Dans le plan par étapes d'une preuve : après avoir montré que deux triangles sont congruents, comment conclus-tu que deux côtés correspondants sont de même longueur ?",
   "hint_fr": "Quelle eigenschap relie congruence et cotes ?",
+  "hint_nl": "Welke eigenschap verbindt congruentie en zijden?",
   "options": [
    "Met de stelling van Pythagoras.",
    "Omdat overeenkomstige zijden in congruente driehoeken even lang zijn.",
    "Omdat HHH geldt.",
    "Omdat het overstaande hoeken zijn."
   ],
+  "options_fr": [
+   "Avec le théorème de Pythagore.",
+   "Parce que les côtés correspondants dans des triangles congruents sont de même longueur.",
+   "Parce que HHH s'applique.",
+   "Parce que ce sont des angles opposés par le sommet."
+  ],
   "answer": 1,
   "explanation_fr": "Une fois la congruence prouvee (ΔABC ≅ ΔDEF), on applique l'eigenschap : dans des triangles congruents, les overeenkomstige zijden sont even lang et les overeenkomstige hoeken even groot.",
+  "explanation_nl": "Zodra de congruentie bewezen is (ΔABC ≅ ΔDEF), pas je de eigenschap toe: in congruente driehoeken zijn de overeenkomstige zijden even lang en de overeenkomstige hoeken even groot.",
   "course_ref": "p.195-196"
  },
  {
@@ -1456,8 +2087,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Wat is de juiste volgorde van de stappen in een bewijs met congruente driehoeken?",
+  "question_fr": "Quel est l'ordre correct des étapes dans une preuve avec des triangles congruents ?",
   "hint_fr": "Que sait-on, que veut-on, comment.",
+  "hint_nl": "Wat weet je, wat wil je, hoe.",
   "options": [
+   "Bewijs - Gegeven - Te bewijzen",
+   "Gegeven - Te bewijzen - Bewijs",
+   "Te bewijzen - Bewijs - Gegeven",
+   "Gegeven - Bewijs - Te bewijzen"
+  ],
+  "options_fr": [
    "Bewijs - Gegeven - Te bewijzen",
    "Gegeven - Te bewijzen - Bewijs",
    "Te bewijzen - Bewijs - Gegeven",
@@ -1465,6 +2104,7 @@
   ],
   "answer": 1,
   "explanation_fr": "L'ordre du stappenplan est : Gegeven (les donnees), Te bewijzen (ce qu'on veut prouver), puis Bewijs (la preuve avec les justifications et le congruentiekenmerk).",
+  "explanation_nl": "De volgorde van het stappenplan is: Gegeven (de gegevens), Te bewijzen (wat je wilt aantonen), daarna Bewijs (de redenering met de verantwoordingen en het congruentiekenmerk).",
   "course_ref": "p.196"
  },
  {
@@ -1474,9 +2114,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Hoeveel paar elementen moet je minstens kennen om met een congruentiekenmerk (zoals ZHZ of HZH) twee driehoeken congruent te verklaren?",
+  "question_fr": "Combien de paires d'éléments dois-tu connaître au minimum pour déclarer deux triangles congruents à l'aide d'un critère de congruence (comme ZHZ ou HZH) ?",
   "hint_fr": "Compte les lettres dans ZHZ ou HZH.",
+  "hint_nl": "Tel de letters in ZHZ of HZH.",
   "answer": 3,
   "explanation_fr": "Chaque congruentiekenmerk (ZZZ, HZH, ZHZ, ZHH, ZZ90°) repose sur 3 paires d'elements egaux. On n'a donc pas besoin des 6 elements du triangle.",
+  "explanation_nl": "Elk congruentiekenmerk (ZZZ, HZH, ZHZ, ZHH, ZZ90°) steunt op 3 paar gelijke elementen. Je hebt dus niet alle 6 elementen van de driehoek nodig.",
   "course_ref": "p.181"
  },
  {
@@ -1486,13 +2129,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "Twee driehoeken met twee even lange zijden en de ingesloten hoek van 50° zijn zeker congruent.",
+  "question_fr": "Deux triangles ayant deux côtés de même longueur et l'angle compris de 50° sont certainement congruents.",
   "hint_fr": "L'angle est-il bien compris entre les deux cotes ?",
+  "hint_nl": "Ligt de hoek wel tussen de twee zijden?",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai. Deux cotes et l'angle compris entre eux (ici 50°) correspondent au kenmerk ZHZ : les triangles sont donc congruents. C'est bien un angle ingesloten, pas un cas ZZH.",
+  "explanation_nl": "Juist. Twee zijden en de hoek ertussen (hier 50°) komen overeen met het kenmerk ZHZ: de driehoeken zijn dus congruent. Het gaat wel degelijk om een ingesloten hoek, niet om een geval ZZH.",
   "course_ref": "p.181"
  },
  {
@@ -1502,15 +2152,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is de middelloodlijn van een lijnstuk [AB]?",
+  "question_fr": "Qu'est-ce que la médiatrice d'un segment [AB] ?",
   "hint_fr": "Deux conditions en même temps.",
+  "hint_nl": "Twee voorwaarden tegelijk.",
   "options": [
    "De rechte die loodrecht staat op [AB] door het midden van [AB]",
    "De rechte die door A en B gaat",
    "De rechte evenwijdig met [AB]",
    "De rechte die de hoek in twee deelt"
   ],
+  "options_fr": [
+   "La droite perpendiculaire à [AB] passant par le milieu de [AB]",
+   "La droite qui passe par A et B",
+   "La droite parallèle à [AB]",
+   "La droite qui partage l'angle en deux"
+  ],
   "answer": 0,
   "explanation_fr": "La médiatrice de [AB] est la droite perpendiculaire (loodrecht) à [AB] qui passe par le milieu (midden) de [AB]. Les deux conditions doivent être respectées.",
+  "explanation_nl": "De middelloodlijn van [AB] is de rechte die loodrecht (loodrecht) op [AB] staat en door het midden (midden) van [AB] gaat. Beide voorwaarden moeten vervuld zijn.",
   "course_ref": "p.210-211"
  },
  {
@@ -1520,13 +2179,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "Elk punt op de middelloodlijn van [AB] ligt even ver van A als van B.",
+  "question_fr": "Tout point sur la médiatrice de [AB] est aussi éloigné de A que de B.",
   "hint_fr": "C'est l'eigenschap de la médiatrice.",
+  "hint_nl": "Het is de eigenschap van de middelloodlijn.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. La propriété de la médiatrice : tout point P de la médiatrice est à égale distance des deux extrémités, donc d(P, A) = d(P, B).",
+  "explanation_nl": "Juist. De eigenschap van de middelloodlijn: elk punt P op de middelloodlijn ligt op gelijke afstand van de twee uiteinden, dus d(P, A) = d(P, B).",
   "course_ref": "p.217-218"
  },
  {
@@ -1536,15 +2202,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Bij de constructie van de middelloodlijn met de passer: hoe groot moet de passeropening zijn?",
+  "question_fr": "Lors de la construction de la médiatrice au compas : quelle doit être l'ouverture du compas ?",
   "hint_fr": "Sinon les arcs ne se croisent pas.",
+  "hint_nl": "Anders kruisen de bogen niet.",
   "options": [
    "Groter dan de helft van [AB]",
    "Precies de helft van [AB]",
    "Kleiner dan de helft van [AB]",
    "Gelijk aan de volledige lengte van [AB]"
   ],
+  "options_fr": [
+   "Plus grande que la moitié de [AB]",
+   "Exactement la moitié de [AB]",
+   "Plus petite que la moitié de [AB]",
+   "Égale à la longueur totale de [AB]"
+  ],
   "answer": 0,
   "explanation_fr": "L'ouverture du compas doit etre plus grande que la moitie de [AB], sinon les deux arcs de cercle (centres en A et en B) ne se croisent pas et on ne peut pas trouver les points P et Q.",
+  "explanation_nl": "De passeropening moet groter zijn dan de helft van [AB], anders kruisen de twee cirkelbogen (met middelpunt in A en in B) elkaar niet en kan men de punten P en Q niet vinden.",
   "course_ref": "p.211"
  },
  {
@@ -1554,13 +2229,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Als een punt P op gelijke afstand ligt van A en B, dan ligt P op de middelloodlijn van [AB].",
+  "question_fr": "Si un point P est à égale distance de A et de B, alors P se trouve sur la médiatrice de [AB].",
   "hint_fr": "La propriete marche dans les deux sens.",
+  "hint_nl": "De eigenschap werkt in beide richtingen.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. C'est le sens inverse de la propriete : si d(P, A) = d(P, B), alors P se trouve forcement sur la mediatrice de [AB].",
+  "explanation_nl": "Juist. Het is de omgekeerde richting van de eigenschap: als d(P, A) = d(P, B), dan ligt P noodzakelijk op de middelloodlijn van [AB].",
   "course_ref": "p.222-223"
  },
  {
@@ -1570,15 +2252,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat doet de bissectrice van een hoek?",
+  "question_fr": "Que fait la bissectrice d'un angle ?",
   "hint_fr": "Pense au mot 'bi' (deux).",
+  "hint_nl": "Denk aan het woord 'bi' (twee).",
   "options": [
    "Ze deelt de hoek in twee gelijke delen",
    "Ze staat loodrecht op een been",
    "Ze verbindt de twee benen",
    "Ze verdubbelt de hoek"
   ],
+  "options_fr": [
+   "Elle partage l'angle en deux parties égales",
+   "Elle est perpendiculaire à un côté",
+   "Elle relie les deux côtés",
+   "Elle double l'angle"
+  ],
   "answer": 0,
   "explanation_fr": "La bissectrice partage l'angle en deux angles egaux (twee gelijke delen).",
+  "explanation_nl": "De bissectrice deelt de hoek in twee gelijke hoeken (twee gelijke delen).",
   "course_ref": "p.226-227"
  },
  {
@@ -1588,13 +2279,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Elk punt op de bissectrice van een hoek ligt op gelijke afstand van de twee benen van de hoek.",
+  "question_fr": "Tout point sur la bissectrice d'un angle est à égale distance des deux côtés de l'angle.",
   "hint_fr": "C'est l'eigenschap de la bissectrice.",
+  "hint_nl": "Het is de eigenschap van de bissectrice.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. La propriete de la bissectrice : tout point de la bissectrice est a egale distance des deux cotes (benen) de l'angle. La distance se mesure perpendiculairement au cote.",
+  "explanation_nl": "Juist. De eigenschap van de bissectrice: elk punt op de bissectrice ligt op gelijke afstand van de twee benen (benen) van de hoek. De afstand wordt loodrecht op het been gemeten.",
   "course_ref": "p.227"
  },
  {
@@ -1604,15 +2302,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Bij de constructie van de bissectrice met de passer: waar plaats je het middelpunt van de eerste cirkelboog?",
+  "question_fr": "Lors de la construction de la bissectrice au compas : où places-tu le centre du premier arc de cercle ?",
   "hint_fr": "Au point ou les deux benen se rencontrent.",
+  "hint_nl": "Op het punt waar de twee benen samenkomen.",
   "options": [
    "In het hoekpunt",
    "Midden op een been",
    "Op het uiteinde van een been",
    "Buiten de hoek"
   ],
+  "options_fr": [
+   "Au sommet de l'angle",
+   "Au milieu d'un côté",
+   "À l'extrémité d'un côté",
+   "En dehors de l'angle"
+  ],
   "answer": 0,
   "explanation_fr": "On trace le premier arc en placant la pointe du compas au sommet de l'angle (het hoekpunt). Cet arc coupe les deux cotes en X et Y.",
+  "explanation_nl": "Men tekent de eerste boog door de punt van de passer in het hoekpunt (het hoekpunt) te plaatsen. Die boog snijdt de twee benen in X en Y.",
   "course_ref": "p.227"
  },
  {
@@ -1622,15 +2329,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Welke eigenschap hebben de basishoeken van een gelijkbenige driehoek?",
+  "question_fr": "Quelle propriété ont les angles à la base d'un triangle isocèle ?",
   "hint_fr": "Iso = egal.",
+  "hint_nl": "Iso = gelijk.",
   "options": [
    "Ze zijn even groot",
    "Ze zijn altijd 90 graden",
    "Hun som is 90 graden",
    "Ze zijn altijd verschillend"
   ],
+  "options_fr": [
+   "Ils sont égaux",
+   "Ils valent toujours 90 degrés",
+   "Leur somme vaut 90 degrés",
+   "Ils sont toujours différents"
+  ],
   "answer": 0,
   "explanation_fr": "Dans un triangle isocele (gelijkbenig), les deux angles a la base (basishoeken) sont egaux (even groot).",
+  "explanation_nl": "In een gelijkbenige driehoek (gelijkbenig) zijn de twee basishoeken (basishoeken) even groot (even groot).",
   "course_ref": "p.250-251"
  },
  {
@@ -1640,9 +2356,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "In een gelijkbenige driehoek ABC met |AB| = |AC| is de tophoek  = 40 graden. Hoe groot is elke basishoek (in graden)?",
+  "question_fr": "Dans un triangle isocèle ABC avec |AB| = |AC|, l'angle au sommet  = 40 degrés. Combien vaut chaque angle à la base (en degrés) ?",
   "hint_fr": "Somme des angles = 180, puis divise par 2.",
+  "hint_nl": "Som van de hoeken = 180, daarna delen door 2.",
   "answer": 70,
   "explanation_fr": "La somme des angles vaut 180. Les deux basishoeken valent ensemble 180 - 40 = 140 graden. Comme ils sont egaux : 140 / 2 = 70 graden chacun.",
+  "explanation_nl": "De som van de hoeken is 180. De twee basishoeken zijn samen 180 - 40 = 140 graden. Aangezien ze gelijk zijn: 140 / 2 = 70 graden elk.",
   "course_ref": "p.250-251"
  },
  {
@@ -1652,9 +2371,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "In een gelijkbenige driehoek is elke basishoek 65 graden. Hoe groot is de tophoek (in graden)?",
+  "question_fr": "Dans un triangle isocèle, chaque angle à la base vaut 65 degrés. Combien vaut l'angle au sommet (en degrés) ?",
   "hint_fr": "180 moins les deux basishoeken.",
+  "hint_nl": "180 min de twee basishoeken.",
   "answer": 50,
   "explanation_fr": "Les deux basishoeken egaux valent ensemble 65 + 65 = 130 graden. La tophoek vaut donc 180 - 130 = 50 graden.",
+  "explanation_nl": "De twee gelijke basishoeken zijn samen 65 + 65 = 130 graden. De tophoek is dus 180 - 130 = 50 graden.",
   "course_ref": "p.250-251"
  },
  {
@@ -1664,9 +2386,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Hoe groot is elke hoek van een gelijkzijdige driehoek (in graden)?",
+  "question_fr": "Combien vaut chaque angle d'un triangle équilatéral (en degrés) ?",
   "hint_fr": "180 divise par 3.",
+  "hint_nl": "180 gedeeld door 3.",
   "answer": 60,
   "explanation_fr": "Dans un triangle equilateral (gelijkzijdig) les trois angles sont egaux. Comme leur somme vaut 180 : 180 / 3 = 60 graden.",
+  "explanation_nl": "In een gelijkzijdige driehoek (gelijkzijdig) zijn de drie hoeken gelijk. Aangezien hun som 180 is: 180 / 3 = 60 graden.",
   "course_ref": "p.251"
  },
  {
@@ -1676,15 +2401,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Hoe noem je een driehoek met drie even lange zijden?",
+  "question_fr": "Comment appelle-t-on un triangle avec trois côtés de même longueur ?",
   "hint_fr": "gelijk = egal, zijde = cote.",
+  "hint_nl": "gelijk = gelijk, zijde = zijde.",
   "options": [
    "Gelijkzijdige driehoek",
    "Gelijkbenige driehoek",
    "Ongelijkbenige driehoek",
    "Rechthoekige driehoek"
   ],
+  "options_fr": [
+   "Triangle équilatéral",
+   "Triangle isocèle",
+   "Triangle scalène",
+   "Triangle rectangle"
+  ],
   "answer": 0,
   "explanation_fr": "Trois cotes egaux : triangle equilateral (gelijkzijdige driehoek). Deux cotes egaux : gelijkbenig. Aucun cote egal : ongelijkbenig.",
+  "explanation_nl": "Drie gelijke zijden: gelijkzijdige driehoek (gelijkzijdige driehoek). Twee gelijke zijden: gelijkbenig. Geen gelijke zijde: ongelijkbenig.",
   "course_ref": "p.270"
  },
  {
@@ -1694,15 +2428,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Hoe noem je een driehoek met een hoek van 90 graden?",
+  "question_fr": "Comment appelle-t-on un triangle avec un angle de 90 degrés ?",
   "hint_fr": "Un angle droit.",
+  "hint_nl": "Een rechte hoek.",
   "options": [
    "Rechthoekige driehoek",
    "Scherphoekige driehoek",
    "Stomphoekige driehoek",
    "Gelijkzijdige driehoek"
   ],
+  "options_fr": [
+   "Triangle rectangle",
+   "Triangle acutangle",
+   "Triangle obtusangle",
+   "Triangle équilatéral"
+  ],
   "answer": 0,
   "explanation_fr": "Un triangle avec un angle droit (90 graden) est un triangle rectangle (rechthoekige driehoek). Scherphoekig = tous les angles aigus ; stomphoekig = un angle obtus (> 90).",
+  "explanation_nl": "Een driehoek met een rechte hoek (90 graden) is een rechthoekige driehoek (rechthoekige driehoek). Scherphoekig = alle hoeken scherp; stomphoekig = een stompe hoek (> 90).",
   "course_ref": "p.270"
  },
  {
@@ -1712,13 +2455,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Een gelijkzijdige driehoek heeft drie symmetrieassen.",
+  "question_fr": "Un triangle équilatéral a trois axes de symétrie.",
   "hint_fr": "Un axe par sommet.",
+  "hint_nl": "Eén as per hoekpunt.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. Le triangle equilateral a 3 axes de symetrie. Le triangle isocele en a exactement 1, et le triangle scalene (ongelijkbenig) n'en a aucun.",
+  "explanation_nl": "Juist. De gelijkzijdige driehoek heeft 3 symmetrieassen. De gelijkbenige driehoek heeft er precies 1, en de ongelijkbenige driehoek (ongelijkbenig) heeft er geen.",
   "course_ref": "p.270"
  },
  {
@@ -1728,13 +2478,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "In een driehoek is de lengte van een zijde altijd kleiner dan de som van de andere twee zijden.",
+  "question_fr": "Dans un triangle, la longueur d'un côté est toujours plus petite que la somme des deux autres côtés.",
   "hint_fr": "C'est la driehoeksongelijkheid.",
+  "hint_nl": "Het is de driehoeksongelijkheid.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. C'est l'inegalite triangulaire : chaque cote est plus court que la somme des deux autres.",
+  "explanation_nl": "Juist. Het is de driehoeksongelijkheid: elke zijde is korter dan de som van de andere twee.",
   "course_ref": "p.280-281"
  },
  {
@@ -1744,15 +2501,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Vormen de lengtes 3 cm, 4 cm en 8 cm een driehoek?",
+  "question_fr": "Les longueurs 3 cm, 4 cm et 8 cm forment-elles un triangle ?",
   "hint_fr": "Compare la plus longue a la somme des deux autres.",
+  "hint_nl": "Vergelijk de langste met de som van de andere twee.",
   "options": [
    "Nee, want 3 + 4 = 7 en dat is kleiner dan 8",
    "Ja, want alle lengtes zijn verschillend",
    "Ja, want 8 is de langste zijde",
    "Nee, want 3 + 4 + 8 = 15"
   ],
+  "options_fr": [
+   "Non, car 3 + 4 = 7 et c'est plus petit que 8",
+   "Oui, car toutes les longueurs sont différentes",
+   "Oui, car 8 est le côté le plus long",
+   "Non, car 3 + 4 + 8 = 15"
+  ],
   "answer": 0,
   "explanation_fr": "Non. La plus longue (8) doit etre strictement plus petite que la somme des deux autres : 3 + 4 = 7, et 7 < 8. La condition n'est pas respectee, donc pas de triangle possible (geen driehoek).",
+  "explanation_nl": "Nee. De langste (8) moet strikt kleiner zijn dan de som van de andere twee: 3 + 4 = 7, en 7 < 8. De voorwaarde is niet vervuld, dus geen driehoek mogelijk (geen driehoek).",
   "course_ref": "p.280-281"
  },
  {
@@ -1762,15 +2528,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Vormen de lengtes 5 cm, 6 cm en 8 cm een driehoek?",
+  "question_fr": "Les longueurs 5 cm, 6 cm et 8 cm forment-elles un triangle ?",
   "hint_fr": "5 + 6 contre 8.",
+  "hint_nl": "5 + 6 tegen 8.",
   "options": [
    "Ja, want 5 + 6 = 11 en dat is groter dan 8",
    "Nee, want 8 is te lang",
    "Nee, want 5 + 6 = 11",
    "Ja, want 8 - 6 = 2"
   ],
+  "options_fr": [
+   "Oui, car 5 + 6 = 11 et c'est plus grand que 8",
+   "Non, car 8 est trop long",
+   "Non, car 5 + 6 = 11",
+   "Oui, car 8 - 6 = 2"
+  ],
   "answer": 0,
   "explanation_fr": "Oui. La plus longue est 8, et 5 + 6 = 11 > 8. La condition est respectee (et les autres aussi), donc le triangle existe (wel een driehoek).",
+  "explanation_nl": "Ja. De langste is 8, en 5 + 6 = 11 > 8. De voorwaarde is vervuld (en de andere ook), dus de driehoek bestaat (wel een driehoek).",
   "course_ref": "p.280-281"
  },
  {
@@ -1780,13 +2555,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "In een driehoek ligt tegenover de grootste hoek de langste zijde.",
+  "question_fr": "Dans un triangle, le côté le plus long se trouve en face du plus grand angle.",
   "hint_fr": "Lien entre angle et cote en face.",
+  "hint_nl": "Verband tussen hoek en de zijde ertegenover.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Juist. Dans un triangle, plus l'angle est grand, plus le cote qui lui fait face est long. Donc le plus long cote se trouve en face du plus grand angle.",
+  "explanation_nl": "Juist. In een driehoek geldt: hoe groter de hoek, hoe langer de zijde ertegenover. De langste zijde ligt dus tegenover de grootste hoek.",
   "course_ref": "p.280"
  },
  {
@@ -1796,9 +2578,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Hoe groot is de som van de hoeken in een vierhoek (in graden)?",
+  "question_fr": "Quelle est la somme des angles d'un quadrilatère (vierhoek) (en degrés) ?",
   "hint_fr": "Un vierhoek se découpe en deux triangles.",
+  "hint_nl": "Een vierhoek kun je in twee driehoeken verdelen.",
   "answer": 360,
   "explanation_fr": "La somme des angles d'un vierhoek est toujours égale à 360°, car on peut le découper en deux triangles de 180° chacun.",
+  "explanation_nl": "De som van de hoeken van een vierhoek is altijd gelijk aan 360°, want je kunt hem verdelen in twee driehoeken van elk 180°.",
   "course_ref": "p.294"
  },
  {
@@ -1808,9 +2593,12 @@
   "type": "numeric",
   "difficulty": 2,
   "question_nl": "In vierhoek ABCD geldt: Â = 80°, B̂ = 120° en D̂ = 60°. Hoe groot is Ĉ (in graden)?",
+  "question_fr": "Dans le quadrilatère (vierhoek) ABCD on a : Â = 80°, B̂ = 120° et D̂ = 60°. Quelle est la mesure de Ĉ (en degrés) ?",
   "hint_fr": "La somme fait 360°.",
+  "hint_nl": "De som is 360°.",
   "answer": 100,
   "explanation_fr": "Â + B̂ + Ĉ + D̂ = 360°. Donc Ĉ = 360° - 80° - 120° - 60° = 100°.",
+  "explanation_nl": "Â + B̂ + Ĉ + D̂ = 360°. Dus Ĉ = 360° - 80° - 120° - 60° = 100°.",
   "course_ref": "p.297"
  },
  {
@@ -1820,15 +2608,24 @@
   "type": "mc",
   "difficulty": 1,
   "question_nl": "Wat is een trapezium?",
+  "question_fr": "Qu'est-ce qu'un trapèze (trapezium) ?",
   "hint_fr": "Pense aux côtés parallèles.",
+  "hint_nl": "Denk aan de evenwijdige zijden.",
   "options": [
    "Een vierhoek met minstens één paar evenwijdige zijden",
    "Een vierhoek met vier even lange zijden",
    "Een vierhoek met vier rechte hoeken",
    "Een vierhoek waarvan de diagonalen even lang zijn"
   ],
+  "options_fr": [
+   "Un quadrilatère avec au moins une paire de côtés parallèles",
+   "Un quadrilatère avec quatre côtés de même longueur",
+   "Un quadrilatère avec quatre angles droits",
+   "Un quadrilatère dont les diagonales sont de même longueur"
+  ],
   "answer": 0,
   "explanation_fr": "Un trapezium est un vierhoek qui a au moins une paire de côtés parallèles (minstens één paar evenwijdige zijden).",
+  "explanation_nl": "Een trapezium is een vierhoek die minstens één paar evenwijdige zijden heeft.",
   "course_ref": "p.295"
  },
  {
@@ -1838,15 +2635,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Welke vierhoek heeft vier even lange zijden maar niet noodzakelijk rechte hoeken?",
+  "question_fr": "Quel quadrilatère a quatre côtés de même longueur mais pas nécessairement des angles droits ?",
   "hint_fr": "Quatre côtés égaux, mais penche.",
+  "hint_nl": "Vier gelijke zijden, maar scheef.",
   "options": [
    "Ruit",
    "Rechthoek",
    "Trapezium",
    "Parallellogram"
   ],
+  "options_fr": [
+   "Losange (ruit)",
+   "Rectangle (rechthoek)",
+   "Trapèze (trapezium)",
+   "Parallélogramme (parallellogram)"
+  ],
   "answer": 0,
   "explanation_fr": "La ruit (losange) a quatre côtés de même longueur. Ses angles ne sont pas forcément droits ; si c'était le cas, ce serait un vierkant (carré).",
+  "explanation_nl": "De ruit heeft vier even lange zijden. Haar hoeken zijn niet noodzakelijk recht; als dat wel zo was, zou het een vierkant zijn.",
   "course_ref": "p.295-296"
  },
  {
@@ -1856,15 +2662,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "In welke vierhoek zijn de diagonalen even lang, snijden ze elkaar middendoor en zijn alle hoeken 90°?",
+  "question_fr": "Dans quel quadrilatère les diagonales sont-elles de même longueur, se coupent-elles en leur milieu et tous les angles valent-ils 90° ?",
   "hint_fr": "Quatre angles droits.",
+  "hint_nl": "Vier rechte hoeken.",
   "options": [
    "Rechthoek",
    "Ruit",
    "Trapezium",
    "Vlieger"
   ],
+  "options_fr": [
+   "Rectangle (rechthoek)",
+   "Losange (ruit)",
+   "Trapèze (trapezium)",
+   "Cerf-volant (vlieger)"
+  ],
   "answer": 0,
   "explanation_fr": "Dans le rechthoek (rectangle), les diagonales se coupent en leur milieu et sont de même longueur (|AC| = |BD|). Tous les angles valent 90°.",
+  "explanation_nl": "In de rechthoek snijden de diagonalen elkaar middendoor en zijn ze even lang (|AC| = |BD|). Alle hoeken zijn 90°.",
   "course_ref": "p.296"
  },
  {
@@ -1874,15 +2689,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "In welke vierhoek staan de diagonalen loodrecht op elkaar?",
+  "question_fr": "Dans quel quadrilatère les diagonales sont-elles perpendiculaires entre elles ?",
   "hint_fr": "Famille du losange.",
+  "hint_nl": "Familie van de ruit.",
   "options": [
    "Ruit",
    "Rechthoek",
    "Algemeen trapezium",
    "Algemeen parallellogram"
   ],
+  "options_fr": [
+   "Losange (ruit)",
+   "Rectangle (rechthoek)",
+   "Trapèze quelconque (algemeen trapezium)",
+   "Parallélogramme quelconque (algemeen parallellogram)"
+  ],
   "answer": 0,
   "explanation_fr": "Dans une ruit (losange), les diagonales sont perpendiculaires : [AC] ⊥ [BD]. C'est aussi vrai pour le vierkant, qui est une ruit particulière.",
+  "explanation_nl": "In een ruit staan de diagonalen loodrecht op elkaar: [AC] ⊥ [BD]. Dat geldt ook voor het vierkant, dat een bijzondere ruit is.",
   "course_ref": "p.295"
  },
  {
@@ -1892,13 +2716,20 @@
   "type": "truefalse",
   "difficulty": 1,
   "question_nl": "In een parallellogram snijden de diagonalen elkaar middendoor.",
+  "question_fr": "Dans un parallélogramme (parallellogram), les diagonales se coupent en leur milieu.",
   "hint_fr": "",
+  "hint_nl": "",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai (Juist). Dans tout parallellogram, les diagonales se coupent en leur milieu : |AM| = |MC| et |BM| = |MD|.",
+  "explanation_nl": "Juist. In elk parallellogram snijden de diagonalen elkaar middendoor: |AM| = |MC| en |BM| = |MD|.",
   "course_ref": "p.295"
  },
  {
@@ -1908,13 +2739,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "In een algemeen parallellogram zijn de diagonalen even lang.",
+  "question_fr": "Dans un parallélogramme quelconque (algemeen parallellogram), les diagonales sont de même longueur.",
   "hint_fr": "Cela vaut surtout pour le rectangle.",
+  "hint_nl": "Dat geldt vooral voor de rechthoek.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Faux (Fout). Les diagonales égales sont une propriété du rechthoek (et du vierkant), pas du parallélogramme quelconque.",
+  "explanation_nl": "Fout. Even lange diagonalen zijn een eigenschap van de rechthoek (en het vierkant), niet van een algemeen parallellogram.",
   "course_ref": "p.296"
  },
  {
@@ -1924,13 +2762,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "In een parallellogram zijn de overstaande hoeken gelijk.",
+  "question_fr": "Dans un parallélogramme (parallellogram), les angles opposés sont égaux.",
   "hint_fr": "Angles opposés.",
+  "hint_nl": "Overstaande hoeken.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai (Juist). Dans un parallellogram, les angles opposés sont égaux : Â = Ĉ et B̂ = D̂.",
+  "explanation_nl": "Juist. In een parallellogram zijn de overstaande hoeken gelijk: Â = Ĉ en B̂ = D̂.",
   "course_ref": "p.295"
  },
  {
@@ -1940,15 +2785,24 @@
   "type": "mc",
   "difficulty": 3,
   "question_nl": "Een vierhoek heeft diagonalen die even lang zijn, loodrecht op elkaar staan en elkaar middendoor snijden. Welke vierhoek is dit zeker?",
+  "question_fr": "Un quadrilatère a des diagonales de même longueur, perpendiculaires entre elles et qui se coupent en leur milieu. Quel quadrilatère est-ce avec certitude ?",
   "hint_fr": "Le champion qui cumule tout.",
+  "hint_nl": "De kampioen die alles combineert.",
   "options": [
    "Vierkant",
    "Ruit",
    "Rechthoek",
    "Trapezium"
   ],
+  "options_fr": [
+   "Carré (vierkant)",
+   "Losange (ruit)",
+   "Rectangle (rechthoek)",
+   "Trapèze (trapezium)"
+  ],
   "answer": 0,
   "explanation_fr": "Diagonales égales (comme le rectangle) + perpendiculaires (comme le losange) + qui se coupent en leur milieu : c'est un vierkant (carré).",
+  "explanation_nl": "Even lange diagonalen (zoals de rechthoek) + loodrecht op elkaar (zoals de ruit) + die elkaar middendoor snijden: dit is een vierkant.",
   "course_ref": "p.322"
  },
  {
@@ -1958,13 +2812,20 @@
   "type": "truefalse",
   "difficulty": 2,
   "question_nl": "Elk vierkant is ook een rechthoek.",
+  "question_fr": "Tout carré (vierkant) est aussi un rectangle (rechthoek).",
   "hint_fr": "Pense à la hiérarchie.",
+  "hint_nl": "Denk aan de hiërarchie.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai (Juist). Le vierkant a quatre angles droits, donc c'est un rechthoek particulier (et aussi une ruit).",
+  "explanation_nl": "Juist. Het vierkant heeft vier rechte hoeken, dus is het een bijzondere rechthoek (en ook een ruit).",
   "course_ref": "p.319"
  },
  {
@@ -1974,13 +2835,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "Elk parallellogram is een rechthoek.",
+  "question_fr": "Tout parallélogramme (parallellogram) est un rectangle (rechthoek).",
   "hint_fr": "Attention au sens de l'implication.",
+  "hint_nl": "Let op de richting van de implicatie.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 1,
   "explanation_fr": "Faux (Fout). L'implication va dans l'autre sens : tout rechthoek est un parallellogram, mais un parallélogramme quelconque n'a pas forcément d'angles droits.",
+  "explanation_nl": "Fout. De implicatie gaat de andere kant op: elke rechthoek is een parallellogram, maar een algemeen parallellogram heeft niet noodzakelijk rechte hoeken.",
   "course_ref": "p.319"
  },
  {
@@ -1990,9 +2858,12 @@
   "type": "numeric",
   "difficulty": 1,
   "question_nl": "Hoeveel symmetrieassen heeft een vierkant?",
+  "question_fr": "Combien d'axes de symétrie a un carré (vierkant) ?",
   "hint_fr": "Plus que le rectangle ou le losange.",
+  "hint_nl": "Meer dan de rechthoek of de ruit.",
   "answer": 4,
   "explanation_fr": "Un vierkant a 4 axes de symétrie : les deux médianes des côtés et les deux diagonales.",
+  "explanation_nl": "Een vierkant heeft 4 symmetrieassen: de twee middelloodlijnen van de zijden en de twee diagonalen.",
   "course_ref": "p.318"
  },
  {
@@ -2002,8 +2873,16 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Hoeveel symmetrieassen heeft een algemeen parallellogram (geen rechthoek of ruit)?",
+  "question_fr": "Combien d'axes de symétrie a un parallélogramme quelconque (algemeen parallellogram) (ni rectangle ni losange) ?",
   "hint_fr": "Il a un centre de symétrie, mais des axes ?",
+  "hint_nl": "Het heeft een symmetriemiddelpunt, maar assen?",
   "options": [
+   "0",
+   "1",
+   "2",
+   "4"
+  ],
+  "options_fr": [
    "0",
    "1",
    "2",
@@ -2011,6 +2890,7 @@
   ],
   "answer": 0,
   "explanation_fr": "Un parallélogramme quelconque n'a aucun axe de symétrie (0). Le rechthoek et la ruit en ont au moins 2, le vierkant en a 4.",
+  "explanation_nl": "Een algemeen parallellogram heeft geen enkele symmetrieas (0). De rechthoek en de ruit hebben er minstens 2, het vierkant heeft er 4.",
   "course_ref": "p.318"
  },
  {
@@ -2020,13 +2900,20 @@
   "type": "truefalse",
   "difficulty": 3,
   "question_nl": "Een vierhoek waarvan de overstaande zijden even lang zijn, is een parallellogram.",
+  "question_fr": "Un quadrilatère dont les côtés opposés sont de même longueur est un parallélogramme (parallellogram).",
   "hint_fr": "C'est un critère de reconnaissance vu en M27.",
+  "hint_nl": "Dit is een herkenningscriterium uit M27.",
   "options": [
    "Juist",
    "Fout"
   ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
   "answer": 0,
   "explanation_fr": "Vrai (Juist). C'est un critère de M27 : un vierhoek est un parallellogram si et seulement si ses côtés opposés sont de même longueur.",
+  "explanation_nl": "Juist. Dit is een criterium uit M27: een vierhoek is een parallellogram als en slechts als zijn overstaande zijden even lang zijn.",
   "course_ref": "p.326"
  },
  {
@@ -2036,9 +2923,12 @@
   "type": "numeric",
   "difficulty": 3,
   "question_nl": "In parallellogram ABCD is Â = 70°. Hoe groot is B̂ (in graden)?",
+  "question_fr": "Dans le parallélogramme (parallellogram) ABCD on a Â = 70°. Quelle est la mesure de B̂ (en degrés) ?",
   "hint_fr": "Les angles consécutifs d'un parallélogramme sont supplémentaires (somme 180°).",
+  "hint_nl": "De opeenvolgende hoeken van een parallellogram zijn supplementair (som 180°).",
   "answer": 110,
   "explanation_fr": "Dans un parallellogram, deux angles consécutifs sont supplémentaires (leur somme vaut 180°, car les côtés sont parallèles). Donc B̂ = 180° - 70° = 110°.",
+  "explanation_nl": "In een parallellogram zijn twee opeenvolgende hoeken supplementair (hun som is 180°, want de zijden zijn evenwijdig). Dus B̂ = 180° - 70° = 110°.",
   "course_ref": "p.295-322"
  },
  {
@@ -2048,15 +2938,24 @@
   "type": "mc",
   "difficulty": 2,
   "question_nl": "Welke eigenschap geldt NIET voor een algemene ruit?",
+  "question_fr": "Quelle propriété n'est PAS valable pour un losange quelconque (algemene ruit) ?",
   "hint_fr": "Pense à la longueur des diagonales.",
+  "hint_nl": "Denk aan de lengte van de diagonalen.",
   "options": [
    "De diagonalen zijn even lang",
    "Alle zijden zijn even lang",
    "De diagonalen staan loodrecht op elkaar",
    "De diagonalen snijden elkaar middendoor"
   ],
+  "options_fr": [
+   "Les diagonales sont de même longueur",
+   "Tous les côtés sont de même longueur",
+   "Les diagonales sont perpendiculaires entre elles",
+   "Les diagonales se coupent en leur milieu"
+  ],
   "answer": 0,
   "explanation_fr": "Dans une ruit, les diagonales ne sont pas égales (sauf si c'est un carré). Elles sont par contre perpendiculaires, se coupent en leur milieu, et tous les côtés sont égaux.",
+  "explanation_nl": "In een ruit zijn de diagonalen niet even lang (behalve als het een vierkant is). Ze staan wel loodrecht op elkaar, snijden elkaar middendoor, en alle zijden zijn even lang.",
   "course_ref": "p.295"
  }
 ]

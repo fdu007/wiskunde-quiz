@@ -3,6 +3,7 @@ import { marked } from 'marked'
 import katex from 'katex'
 import renderMathInElement from 'katex/contrib/auto-render'
 import { THEMES } from '../data/themes.js'
+import { STR } from '../lib/i18n.js'
 
 // Import du contenu markdown des fiches (Vite ?raw).
 import f1 from '../data/fiches/1-evenredigheden.md?raw'
@@ -23,7 +24,8 @@ const SRC = {
   '7-vierhoeken': f7,
 }
 
-export default function Fiches({ progress, onRead }) {
+export default function Fiches({ progress, lang, onRead }) {
+  const t = STR[lang]
   const [active, setActive] = useState(null) // theme.fiche
   const ref = useRef(null)
 
@@ -46,27 +48,27 @@ export default function Fiches({ progress, onRead }) {
   if (active) {
     return (
       <div className="fiche-view">
-        <button className="link" onClick={() => setActive(null)}>← Toutes les fiches</button>
+        <button className="link" onClick={() => setActive(null)}>{t.all_fiches}</button>
         <article className="fiche-content" ref={ref} dangerouslySetInnerHTML={{ __html: html }} />
-        <button className="link" onClick={() => setActive(null)}>← Toutes les fiches</button>
+        <button className="link" onClick={() => setActive(null)}>{t.all_fiches}</button>
       </div>
     )
   }
 
   return (
     <div className="fiches">
-      <h2 className="section-title">📚 Fiches de révision</h2>
-      <p className="muted">Tout ce qu'il faut connaître, par thème. Termes en néerlandais, explications en français.</p>
+      <h2 className="section-title">{t.fiches_title}</h2>
+      <p className="muted">{t.fiches_sub}</p>
       <div className="grid">
-        {THEMES.map((t) => (
-          <button key={t.key} className="card" style={{ '--c': t.color }} onClick={() => setActive(t.fiche)}>
+        {THEMES.map((th) => (
+          <button key={th.key} className="card" style={{ '--c': th.color }} onClick={() => setActive(th.fiche)}>
             <div className="card-top">
-              <span className="card-icon">{t.icon}</span>
-              {progress.fichesRead[t.fiche] && <span className="tag-read">✓ lue</span>}
+              <span className="card-icon">{th.icon}</span>
+              {progress.fichesRead[th.fiche] && <span className="tag-read">{t.read}</span>}
             </div>
-            <h3>{t.title}</h3>
-            <p className="card-fr">{t.fr}</p>
-            <span className="chip">{t.chapters}</span>
+            <h3>{th.title}</h3>
+            {lang === 'fr' && <p className="card-fr">{th.fr}</p>}
+            <span className="chip">{th.chapters}</span>
           </button>
         ))}
       </div>
