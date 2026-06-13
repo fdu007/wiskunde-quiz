@@ -1,6 +1,9 @@
 // Textes d'interface en deux langues. La langue est choisie via le bouton FR/NL.
 export const STR = {
   fr: {
+    pick_course_title: 'Quel cours veux-tu réviser ?',
+    pick_course_sub: 'Choisis une matière. Tu peux changer à tout moment.',
+    change_course: '⇄ Cours',
     tab_home: '🏠 Accueil',
     tab_fiches: '📚 Fiches',
     tab_stats: '📊 Stats',
@@ -60,7 +63,7 @@ export const STR = {
     reset: 'Réinitialiser ma progression',
     reset_confirm: 'Effacer toute la progression (XP, badges, PlayStation) ?',
     mastered_100: '100 % maîtrisé 🎮',
-    footer_note: 'Examen juin 2026 · Getallenleer & Meetkunde · contenu basé sur le cours Matrix Wiskunde 2.',
+    footer_note: 'Examen juin 2026 · contenu basé sur le cours de Corentin.',
     diff: { 1: 'Facile', 2: 'Moyen', 3: 'Difficile' },
     mix_title: '🎲 Quiz mixte',
     mix_sub: '10 questions au hasard',
@@ -75,6 +78,9 @@ export const STR = {
     mode_marathon_sub: 'Toutes les questions d’affilée',
   },
   nl: {
+    pick_course_title: 'Welk vak wil je oefenen?',
+    pick_course_sub: 'Kies een vak. Je kan altijd wisselen.',
+    change_course: '⇄ Vak',
     tab_home: '🏠 Start',
     tab_fiches: '📚 Fiches',
     tab_stats: '📊 Stats',
@@ -134,7 +140,7 @@ export const STR = {
     reset: 'Mijn vooruitgang wissen',
     reset_confirm: 'Alle vooruitgang wissen (XP, badges, PlayStation)?',
     mastered_100: '100 % beheerst 🎮',
-    footer_note: 'Examen juni 2026 · Getallenleer & Meetkunde · inhoud op basis van de cursus Matrix Wiskunde 2.',
+    footer_note: 'Examen juni 2026 · inhoud op basis van de cursus van Corentin.',
     diff: { 1: 'Makkelijk', 2: 'Gemiddeld', 3: 'Moeilijk' },
     mix_title: '🎲 Gemengde quiz',
     mix_sub: '10 willekeurige vragen',

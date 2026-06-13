@@ -1,12 +1,16 @@
 import questions from '../data/questions.json'
-import { THEMES } from '../data/themes.js'
+import { THEMES, themesForCourse, themeByKey } from '../data/themes.js'
+import { courseByKey } from '../data/courses.js'
 
 export const countByTheme = {}
 for (const q of questions) countByTheme[q.theme] = (countByTheme[q.theme] || 0) + 1
 
-// Résultats par thème : { key, title, total, correct, pct, mastered(100%) }
-export function themeResults(progress) {
-  return THEMES.map((t) => {
+export const questionsForCourse = (course) => questions.filter((q) => themeByKey[q.theme]?.course === course)
+
+// Résultats par thème pour un cours : { key, title, total, correct, pct, mastered(100%) }
+export function themeResults(progress, course) {
+  const themes = course ? themesForCourse(course) : THEMES
+  return themes.map((t) => {
     const total = countByTheme[t.key] || 0
     const correct = Math.min(progress.byTheme?.[t.key]?.correct || 0, total)
     const pct = total ? Math.round((correct / total) * 100) : 0
@@ -14,39 +18,37 @@ export function themeResults(progress) {
   })
 }
 
-export function masteredCount(progress) {
-  return themeResults(progress).filter((r) => r.mastered).length
+export function masteredCount(progress, course) {
+  return themeResults(progress, course).filter((r) => r.mastered).length
 }
 
 export const PS_MIN_PER_THEME = 10
+// PlayStation : 10 min par thème maîtrisé à 100 %, toutes matières confondues.
 export function playstationMinutes(progress) {
   return masteredCount(progress) * PS_MIN_PER_THEME
 }
 
-// Corps d'email (texte simple) avec les résultats par thème.
-export function buildEmailBody(progress, lang = 'fr') {
-  const res = themeResults(progress)
+export function buildEmailBody(progress, lang, course) {
+  const res = themeResults(progress, course)
   const totalCorrect = res.reduce((s, r) => s + r.correct, 0)
   const totalQ = res.reduce((s, r) => s + r.total, 0)
-  const ps = playstationMinutes(progress)
   const L = lang === 'nl'
+  const c = courseByKey[course]
   const lines = []
-  lines.push(L ? 'Resultaten Wiskunde Trainer - Corentin' : 'Résultats Wiskunde Trainer - Corentin')
+  lines.push(`${L ? 'Resultaten' : 'Résultats'} ${c ? c.label : ''} - Corentin`)
   lines.push('')
-  lines.push(`${L ? 'Niveau' : 'Niveau'}: ${progress.level || ''}  XP: ${progress.xp}`)
   lines.push(`${L ? 'Totaal juist' : 'Total correct'}: ${totalCorrect}/${totalQ}`)
   lines.push('')
   lines.push(L ? 'Per thema:' : 'Par thème :')
-  for (const r of res) {
-    lines.push(`- ${r.title}: ${r.correct}/${r.total} (${r.pct}%)${r.mastered ? ' ✅ 100%' : ''}`)
-  }
+  for (const r of res) lines.push(`- ${r.title}: ${r.correct}/${r.total} (${r.pct}%)${r.mastered ? ' ✅ 100%' : ''}`)
   lines.push('')
-  lines.push(`🎮 PlayStation: ${ps} min ${L ? 'verdiend' : 'gagnées'} (${masteredCount(progress)} ${L ? "thema's 100%" : 'thèmes à 100%'})`)
+  lines.push(`XP: ${progress.xp} · 🎮 PlayStation: ${playstationMinutes(progress)} min`)
   return lines.join('\n')
 }
 
-export function mailtoResults(progress, lang = 'fr') {
-  const subject = lang === 'nl' ? 'Resultaten Wiskunde - Corentin' : 'Résultats Wiskunde - Corentin'
-  const body = buildEmailBody(progress, lang)
+export function mailtoResults(progress, lang, course) {
+  const c = courseByKey[course]
+  const subject = `${lang === 'nl' ? 'Resultaten' : 'Résultats'} ${c ? c.label : ''} - Corentin`
+  const body = buildEmailBody(progress, lang, course)
   return `mailto:duboisf@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }

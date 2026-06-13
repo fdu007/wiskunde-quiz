@@ -4536,5 +4536,3899 @@
   "explanation_nl": "Een ruit is een bijzonder parallellogram, dus de overstaande hoeken zijn gelijk: Ĉ = Â = 64°.",
   "explanation_fr": "Une ruit est un parallélogramme particulier, donc les angles opposés sont égaux : Ĉ = Â = 64°.",
   "course_ref": "p.295"
+ },
+ {
+  "id": "hgr-01",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat betekent het begrip 'polytheïsme'?",
+  "question_fr": "Que signifie la notion de 'polythéisme' (polytheïsme) ?",
+  "hint_nl": "poly = veel",
+  "hint_fr": "poly = beaucoup",
+  "options": [
+   "Geloven in meerdere goden",
+   "Geloven in één god",
+   "Niet in goden geloven",
+   "Geloven in de natuur"
+  ],
+  "options_fr": [
+   "Croire en plusieurs dieux",
+   "Croire en un seul dieu",
+   "Ne croire en aucun dieu",
+   "Croire en la nature"
+  ],
+  "answer": 0,
+  "explanation_nl": "Polytheïsme betekent geloven in het bestaan van meerdere goden. De Oud-Grieken waren polytheïsten.",
+  "explanation_fr": "Le polythéisme, c'est croire en l'existence de plusieurs dieux. Les Anciens Grecs étaient polythéistes.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-02",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat is een 'mythe'?",
+  "question_fr": "Qu'est-ce qu'un 'mythe' (mythe) ?",
+  "hint_nl": "Het gaat om een verhaal.",
+  "hint_fr": "Il s'agit d'un récit.",
+  "options": [
+   "Een godenverhaal dat iets verklaart",
+   "Een wetenschappelijke wet",
+   "Een lijst met koningen",
+   "Een soort tempel"
+  ],
+  "options_fr": [
+   "Un récit de dieux qui explique quelque chose",
+   "Une loi scientifique",
+   "Une liste de rois",
+   "Une sorte de temple"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een mythe is een godenverhaal. De Grieken verklaarden er natuurverschijnselen mee, zoals de seizoenen of het ontstaan van de wereld.",
+  "explanation_fr": "Un mythe est un récit de dieux. Les Grecs s'en servaient pour expliquer des phénomènes naturels, comme les saisons ou la naissance du monde.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-03",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wie is de oppergod, god van de hemel?",
+  "question_fr": "Qui est le dieu suprême, dieu du ciel ?",
+  "hint_nl": "Hij gooit met bliksems.",
+  "hint_fr": "Il lance la foudre.",
+  "options": [
+   "Zeus",
+   "Poseidon",
+   "Hades",
+   "Ares"
+  ],
+  "options_fr": [
+   "Zeus",
+   "Poseidon",
+   "Hadès",
+   "Arès"
+  ],
+  "answer": 0,
+  "explanation_nl": "Zeus is de oppergod en god van de hemel en het weer.",
+  "explanation_fr": "Zeus est le dieu suprême et le dieu du ciel et du temps.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-04",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke god is de god van de zee, paarden en aardbevingen?",
+  "question_fr": "Quel dieu est le dieu de la mer, des chevaux et des tremblements de terre ?",
+  "hint_nl": "Hij draagt een drietand.",
+  "hint_fr": "Il porte un trident.",
+  "options": [
+   "Poseidon",
+   "Zeus",
+   "Hermes",
+   "Apollo"
+  ],
+  "options_fr": [
+   "Poseidon",
+   "Zeus",
+   "Hermès",
+   "Apollon"
+  ],
+  "answer": 0,
+  "explanation_nl": "Poseidon is de zeegod, ook god van de paarden en aardbevingen.",
+  "explanation_fr": "Poseidon est le dieu de la mer, aussi des chevaux et des tremblements de terre.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-05",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Demeter is de godin van ...?",
+  "question_fr": "Demeter est la déesse de ...?",
+  "hint_nl": "Denk aan oogst en velden.",
+  "hint_fr": "Pense aux récoltes et aux champs.",
+  "options": [
+   "Landbouw en vruchtbaarheid",
+   "Oorlog en geweld",
+   "Jacht",
+   "Wijn"
+  ],
+  "options_fr": [
+   "L'agriculture et la fertilité",
+   "La guerre et la violence",
+   "La chasse",
+   "Le vin"
+  ],
+  "answer": 0,
+  "explanation_nl": "Demeter is de godin van de landbouw en de vruchtbaarheid.",
+  "explanation_fr": "Demeter est la déesse de l'agriculture et de la fertilité.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-06",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke godin staat voor wijsheid en techniek?",
+  "question_fr": "Quelle déesse représente la sagesse et la technique ?",
+  "hint_nl": "Zij is de beschermgodin van Athene.",
+  "hint_fr": "Elle est la protectrice d'Athènes.",
+  "options": [
+   "Athena",
+   "Artemis",
+   "Aphrodite",
+   "Hera"
+  ],
+  "options_fr": [
+   "Athéna",
+   "Artémis",
+   "Aphrodite",
+   "Héra"
+  ],
+  "answer": 0,
+  "explanation_nl": "Athena is de godin van de wijsheid en techniek, en beschermgodin van Athene.",
+  "explanation_fr": "Athéna est la déesse de la sagesse et de la technique, et la protectrice d'Athènes.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-07",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Koppel correct: welke god hoort bij 'oorlog en geweld'?",
+  "question_fr": "Associe correctement : quel dieu correspond à 'la guerre et la violence' ?",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Ares",
+   "Hephaistos",
+   "Hermes",
+   "Dionysos"
+  ],
+  "options_fr": [
+   "Arès",
+   "Héphaïstos",
+   "Hermès",
+   "Dionysos"
+  ],
+  "answer": 0,
+  "explanation_nl": "Ares is de god van de oorlog en het geweld.",
+  "explanation_fr": "Arès est le dieu de la guerre et de la violence.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-08",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie is de god van de smeedkunst en de ambachtslieden?",
+  "question_fr": "Qui est le dieu de la forge et des artisans ?",
+  "hint_nl": "Hij draagt vaak een hamer.",
+  "hint_fr": "Il porte souvent un marteau.",
+  "options": [
+   "Hephaistos",
+   "Hermes",
+   "Apollo",
+   "Ares"
+  ],
+  "options_fr": [
+   "Héphaïstos",
+   "Hermès",
+   "Apollon",
+   "Arès"
+  ],
+  "answer": 0,
+  "explanation_nl": "Hephaistos is de god van de smeedkunst en de ambachtslieden.",
+  "explanation_fr": "Héphaïstos est le dieu de la forge et des artisans.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-09",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hermes is vooral de god van ...?",
+  "question_fr": "Hermès est surtout le dieu de ...?",
+  "hint_nl": "Hij heeft vleugeltjes aan zijn voeten.",
+  "hint_fr": "Il a de petites ailes aux pieds.",
+  "options": [
+   "De boodschappers en reizigers",
+   "De wijn",
+   "De jacht",
+   "De zee"
+  ],
+  "options_fr": [
+   "Les messagers et les voyageurs",
+   "Le vin",
+   "La chasse",
+   "La mer"
+  ],
+  "answer": 0,
+  "explanation_nl": "Hermes is de god van de boodschappers en de reizigers.",
+  "explanation_fr": "Hermès est le dieu des messagers et des voyageurs.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-10",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Hades woont samen met de andere goden op de berg Olympos.",
+  "question_fr": "Hadès habite avec les autres dieux sur le mont Olympe.",
+  "hint_nl": "Denk aan waar de doden heen gaan.",
+  "hint_fr": "Pense à l'endroit où vont les morts.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout. Hades woont NIET op de Olympos, maar in de onderwereld. Hij is de god van de dood en de onderwereld.",
+  "explanation_fr": "Faux. Hadès n'habite PAS sur l'Olympe, mais dans les enfers. Il est le dieu de la mort et des enfers.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-11",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "Hoeveel belangrijkste goden wonen er volgens de Oud-Grieken op de berg Olympos?",
+  "question_fr": "Combien de dieux principaux habitent sur le mont Olympe selon les Anciens Grecs ?",
+  "hint_nl": "Het is een rond getal, twee keer zes.",
+  "hint_fr": "C'est un nombre rond, deux fois six.",
+  "answer": 12,
+  "explanation_nl": "De twaalf belangrijkste goden vormen één familie en wonen op de berg Olympos.",
+  "explanation_fr": "Les douze dieux principaux forment une seule famille et habitent sur le mont Olympe.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-12",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welk natuurverschijnsel wordt verklaard door de mythe van Persephone en Demeter?",
+  "question_fr": "Quel phénomène naturel est expliqué par le mythe de Persephone et Demeter ?",
+  "hint_nl": "Het gaat over de afwisseling lente-winter.",
+  "hint_fr": "Il s'agit de l'alternance printemps-hiver.",
+  "options": [
+   "De seizoenen",
+   "De bliksem",
+   "De aardbevingen",
+   "De zonsverduistering"
+  ],
+  "options_fr": [
+   "Les saisons",
+   "La foudre",
+   "Les tremblements de terre",
+   "L'éclipse de soleil"
+  ],
+  "answer": 0,
+  "explanation_nl": "Wanneer Persephone bij haar moeder Demeter is, groeit en bloeit alles (lente/zomer). Als ze naar de onderwereld terugkeert, komt de winter. De mythe verklaart de seizoenen.",
+  "explanation_fr": "Quand Persephone est auprès de sa mère Demeter, tout pousse et fleurit (printemps/été). Quand elle retourne aux enfers, c'est l'hiver. Le mythe explique les saisons.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-13",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie was de beschermgodin van de stad Athene?",
+  "question_fr": "Qui était la déesse protectrice de la ville d'Athènes ?",
+  "hint_nl": "Pallas ...",
+  "hint_fr": "Pallas ...",
+  "options": [
+   "Pallas Athena",
+   "Hera",
+   "Artemis",
+   "Demeter"
+  ],
+  "options_fr": [
+   "Pallas Athéna",
+   "Héra",
+   "Artémis",
+   "Demeter"
+  ],
+  "answer": 0,
+  "explanation_nl": "Elke polis had een eigen beschermgod(in). Pallas Athena was de beschermgodin van Athene.",
+  "explanation_fr": "Chaque cité avait son dieu protecteur. Pallas Athéna était la protectrice d'Athènes.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-14",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waar bevond zich het bekendste orakel, gewijd aan Apollo?",
+  "question_fr": "Où se trouvait l'oracle le plus célèbre, dédié à Apollon ?",
+  "hint_nl": "De priesteres daar heette de Pythia.",
+  "hint_fr": "La prêtresse s'y appelait la Pythie.",
+  "options": [
+   "In Delphi",
+   "In Athene",
+   "In Olympia",
+   "Op de Olympos"
+  ],
+  "options_fr": [
+   "À Delphes",
+   "À Athènes",
+   "À Olympie",
+   "Sur l'Olympe"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het orakel van Apollo in Delphi was het meest bekende. Zelfs vreemde koningen kwamen er raad vragen.",
+  "explanation_fr": "L'oracle d'Apollon à Delphes était le plus célèbre. Même des rois étrangers venaient y demander conseil.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-15",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Waarom waren de antwoorden van de Pythia vaag en dubbelzinnig?",
+  "question_fr": "Pourquoi les réponses de la Pythie étaient-elles vagues et ambiguës ?",
+  "hint_nl": "Een vaag antwoord kan op twee manieren uitkomen.",
+  "hint_fr": "Une réponse floue peut se réaliser de deux façons.",
+  "options": [
+   "Zodat de voorspelling altijd zou kloppen",
+   "Omdat zij geen Grieks sprak",
+   "Omdat Apollo het verbood",
+   "Omdat zij doof was"
+  ],
+  "options_fr": [
+   "Pour que la prédiction soit toujours juste",
+   "Parce qu'elle ne parlait pas grec",
+   "Parce qu'Apollon l'interdisait",
+   "Parce qu'elle était sourde"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een vaag, dubbelzinnig antwoord kan op verschillende manieren begrepen worden, zodat de voorspelling altijd leek te kloppen.",
+  "explanation_fr": "Une réponse vague et ambiguë peut être comprise de plusieurs façons, si bien que la prédiction semblait toujours juste.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hgr-16",
+  "theme": "h1-goden-religie",
+  "chapter": "Hellas - religie",
+  "type": "truefalse",
+  "difficulty": 1,
+  "question_nl": "De verering van de goden gebeurde in en rond een tempel, verzorgd door priesters.",
+  "question_fr": "La vénération des dieux se déroulait dans et autour d'un temple, assurée par des prêtres.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De verering gebeurde in en rond een tempel. De priesters waren meestal gewone burgers die de offergaven en erediensten verzorgden.",
+  "explanation_fr": "Vrai. La vénération avait lieu dans et autour d'un temple. Les prêtres étaient le plus souvent de simples citoyens chargés des offrandes et des cultes.",
+  "course_ref": "Hellas - geloof"
+ },
+ {
+  "id": "hos-01",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar (v.Chr.) werden de Olympische Spelen voor het eerst opgetekend?",
+  "question_fr": "En quelle année (av. J.-C.) les Jeux olympiques ont-ils été consignés par écrit pour la première fois ?",
+  "hint_nl": "Tussen 800 en 700 v.Chr.",
+  "hint_fr": "Entre 800 et 700 av. J.-C.",
+  "answer": 776,
+  "explanation_nl": "De Spelen werden de eerste maal opgetekend in 776 v.Chr. Ze werden om de 4 jaar gehouden.",
+  "explanation_fr": "Les Jeux ont été consignés par écrit pour la première fois en 776 av. J.-C. Ils avaient lieu tous les 4 ans.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-02",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Waar werden de oorspronkelijke Olympische Spelen gehouden?",
+  "question_fr": "Où se déroulaient les Jeux olympiques antiques ?",
+  "hint_nl": "Geen stad, maar een heiligdom in de Peloponnesos.",
+  "hint_fr": "Pas une ville, mais un sanctuaire dans le Péloponnèse.",
+  "options": [
+   "Athene",
+   "Olympia",
+   "Delphi",
+   "Sparta"
+  ],
+  "options_fr": [
+   "Athènes",
+   "Olympia",
+   "Delphes",
+   "Sparte"
+  ],
+  "answer": 1,
+  "explanation_nl": "De Spelen werden gehouden in Olympia, een heiligdom in de Peloponnesos, geen echte stad.",
+  "explanation_fr": "Les Jeux se tenaient à Olympia, un sanctuaire du Péloponnèse, qui n'était pas une vraie ville.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-03",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Aan welke god was het heiligdom van Olympia gewijd?",
+  "question_fr": "À quel dieu le sanctuaire d'Olympia était-il consacré ?",
+  "hint_nl": "De oppergod, koning van de goden.",
+  "hint_fr": "Le dieu suprême, roi des dieux.",
+  "options": [
+   "Poseidon",
+   "Apollo",
+   "Zeus",
+   "Hades"
+  ],
+  "options_fr": [
+   "Poséidon",
+   "Apollon",
+   "Zeus",
+   "Hadès"
+  ],
+  "answer": 2,
+  "explanation_nl": "Olympia was een heiligdom gewijd aan de oppergod Zeus. Ter ere van hem werden de Spelen georganiseerd.",
+  "explanation_fr": "Olympia était un sanctuaire consacré au dieu suprême Zeus. Les Jeux étaient organisés en son honneur.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-04",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "Om de hoeveel jaar werden de Olympische Spelen gehouden?",
+  "question_fr": "Tous les combien d'années les Jeux olympiques avaient-ils lieu ?",
+  "hint_nl": "Net zoals vandaag nog steeds.",
+  "hint_fr": "Comme c'est encore le cas aujourd'hui.",
+  "answer": 4,
+  "explanation_nl": "De Spelen werden om de 4 jaar gehouden, ter ere van Zeus. Dat is vandaag nog steeds zo.",
+  "explanation_fr": "Les Jeux avaient lieu tous les 4 ans, en l'honneur de Zeus. C'est toujours le cas aujourd'hui.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-05",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie mocht deelnemen aan de oorspronkelijke Olympische Spelen?",
+  "question_fr": "Qui pouvait participer aux Jeux olympiques antiques ?",
+  "hint_nl": "Niet iedereen: een bepaald profiel.",
+  "hint_fr": "Pas tout le monde : un profil précis.",
+  "options": [
+   "Iedereen die wou",
+   "Enkel Griekse vrije mannen",
+   "Enkel priesters",
+   "Mannen en vrouwen"
+  ],
+  "options_fr": [
+   "Toute personne le souhaitant",
+   "Seulement les hommes grecs libres",
+   "Seulement les prêtres",
+   "Les hommes et les femmes"
+  ],
+  "answer": 1,
+  "explanation_nl": "Alleen Griekse vrije mannen werden toegelaten. Later mochten ook Macedoniërs en Romeinen deelnemen.",
+  "explanation_fr": "Seuls les hommes grecs libres étaient admis. Plus tard, les Macédoniens et les Romains purent aussi participer.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-06",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Niet-Grieken mochten komen kijken naar de Olympische Spelen.",
+  "question_fr": "Les non-Grecs pouvaient venir regarder les Jeux olympiques.",
+  "hint_nl": "Het ging om toeschouwers, niet om deelnemers.",
+  "hint_fr": "Il s'agit des spectateurs, pas des participants.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De meeste toeschouwers waren Grieken, maar ook niet-Grieken mochten komen kijken.",
+  "explanation_fr": "Vrai. La plupart des spectateurs étaient grecs, mais les non-Grecs pouvaient aussi venir regarder.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-07",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Gehuwde vrouwen mochten vrij naar de Olympische Spelen komen kijken.",
+  "question_fr": "Les femmes mariées pouvaient librement venir regarder les Jeux olympiques.",
+  "hint_nl": "Voor hen was de toegang ten strengste verboden.",
+  "hint_fr": "Pour elles, l'accès était strictement interdit.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout. Voor gehuwde vrouwen was de toegang ten strengste verboden, op straffe van de doodstraf.",
+  "explanation_fr": "Faux. Pour les femmes mariées, l'accès était strictement interdit, sous peine de mort.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-08",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welke straf stond op het verbod voor gehuwde vrouwen om te komen kijken?",
+  "question_fr": "Quelle peine était prévue pour les femmes mariées qui transgressaient l'interdiction de regarder ?",
+  "hint_nl": "De zwaarste straf die er bestaat.",
+  "hint_fr": "La peine la plus lourde qui existe.",
+  "options": [
+   "Een boete",
+   "Verbanning uit de stad",
+   "De doodstraf",
+   "Een jaar gevangenis"
+  ],
+  "options_fr": [
+   "Une amende",
+   "Le bannissement de la cité",
+   "La peine de mort",
+   "Un an de prison"
+  ],
+  "answer": 2,
+  "explanation_nl": "De doodstraf was vastgesteld voor de overtreding van dit verbod.",
+  "explanation_fr": "La peine de mort était prévue pour la transgression de cette interdiction.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-09",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat is de 'Olympische Vrede'?",
+  "question_fr": "Qu'est-ce que la 'Paix olympique' ?",
+  "hint_nl": "Een heilige wapenstilstand, gegarandeerd door Zeus.",
+  "hint_fr": "Une trêve sacrée, garantie par Zeus.",
+  "options": [
+   "Een vredesverdrag tussen Athene en Sparta",
+   "Een door Zeus gegarandeerde heilige wapenstilstand tijdens de Spelen",
+   "Het einde van alle oorlogen in Griekenland",
+   "Een gebed voor de goden"
+  ],
+  "options_fr": [
+   "Un traité de paix entre Athènes et Sparte",
+   "Une trêve sacrée garantie par Zeus pendant les Jeux",
+   "La fin de toutes les guerres en Grèce",
+   "Une prière pour les dieux"
+  ],
+  "answer": 1,
+  "explanation_nl": "De Olympische Vrede was een door Zeus gegarandeerde heilige wapenstilstand, zodat bezoekers en atleten veilig naar Olympia konden reizen.",
+  "explanation_fr": "La Paix olympique était une trêve sacrée garantie par Zeus, pour que les visiteurs et les athlètes voyagent en sécurité vers Olympia.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-10",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "truefalse",
+  "difficulty": 3,
+  "question_nl": "Tijdens de Olympische Vrede mochten stadstaten geen oorlog beginnen en geen executies voltrekken.",
+  "question_fr": "Pendant la Paix olympique, les cités ne pouvaient ni commencer une guerre ni procéder à des exécutions.",
+  "hint_nl": "Het was een groot feest ter ere van de goden.",
+  "hint_fr": "C'était une grande fête en l'honneur des dieux.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. Tijdens de Olympische Vrede mochten overheden geen oorlog beginnen, geen rechtszaken aanspannen en geen executies voltrekken.",
+  "explanation_fr": "Vrai. Pendant la Paix olympique, les autorités ne pouvaient pas commencer de guerre, intenter de procès ni procéder à des exécutions.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-11",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar (n.Chr.) werden de oorspronkelijke Olympische Spelen verboden?",
+  "question_fr": "En quelle année (apr. J.-C.) les Jeux olympiques antiques ont-ils été interdits ?",
+  "hint_nl": "Einde 4de eeuw n.Chr., door keizer Theodosius.",
+  "hint_fr": "Fin du IVe siècle apr. J.-C., par l'empereur Theodosius.",
+  "answer": 393,
+  "explanation_nl": "In 393 n.Chr. werden de Spelen verboden door de Romeinse keizer Theodosius.",
+  "explanation_fr": "En 393 apr. J.-C., les Jeux ont été interdits par l'empereur romain Theodosius.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-12",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Waarom verbood keizer Theodosius de Olympische Spelen?",
+  "question_fr": "Pourquoi l'empereur Theodosius a-t-il interdit les Jeux olympiques ?",
+  "hint_nl": "Het waren feesten ter ere van de Griekse goden.",
+  "hint_fr": "C'étaient des fêtes en l'honneur des dieux grecs.",
+  "options": [
+   "Omdat ze te duur waren",
+   "Omdat het een polytheïstisch, heidens feest was",
+   "Omdat er te veel doden vielen",
+   "Omdat vrouwen niet mochten deelnemen"
+  ],
+  "options_fr": [
+   "Parce qu'ils coûtaient trop cher",
+   "Parce que c'était une fête polythéiste, païenne",
+   "Parce qu'il y avait trop de morts",
+   "Parce que les femmes ne pouvaient pas participer"
+  ],
+  "answer": 1,
+  "explanation_nl": "De Spelen werden verboden omdat het een polytheïstisch, heidens feest was ter ere van de Griekse goden, onverenigbaar met het christendom.",
+  "explanation_fr": "Les Jeux ont été interdits parce que c'était une fête polythéiste et païenne en l'honneur des dieux grecs, incompatible avec le christianisme.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-13",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar werden de moderne Olympische Spelen voor het eerst opnieuw georganiseerd?",
+  "question_fr": "En quelle année les Jeux olympiques modernes ont-ils été organisés pour la première fois ?",
+  "hint_nl": "Na ongeveer 1500 jaar, einde 19de eeuw.",
+  "hint_fr": "Après environ 1500 ans, fin du XIXe siècle.",
+  "answer": 1896,
+  "explanation_nl": "In 1896 werden de moderne Olympische Spelen opnieuw georganiseerd, in Athene.",
+  "explanation_fr": "En 1896, les Jeux olympiques modernes ont été réorganisés, à Athènes.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-14",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie wordt beschouwd als de stichter van de moderne Olympische Spelen?",
+  "question_fr": "Qui est considéré comme le fondateur des Jeux olympiques modernes ?",
+  "hint_nl": "Een Fransman.",
+  "hint_fr": "Un Français.",
+  "options": [
+   "Theodosius",
+   "Pierre de Coubertin",
+   "Zeus",
+   "Pallas Athena"
+  ],
+  "options_fr": [
+   "Theodosius",
+   "Pierre de Coubertin",
+   "Zeus",
+   "Pallas Athéna"
+  ],
+  "answer": 1,
+  "explanation_nl": "De Fransman Pierre de Coubertin gaf in 1896 de aanzet tot de moderne Olympische Spelen.",
+  "explanation_fr": "Le Français Pierre de Coubertin est à l'origine des Jeux olympiques modernes en 1896.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-15",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke prijs kreeg de winnaar van een Olympische wedstrijd in de Oudheid?",
+  "question_fr": "Quelle récompense recevait le vainqueur d'une épreuve olympique dans l'Antiquité ?",
+  "hint_nl": "Gemaakt van takken van een boom, geen medaille.",
+  "hint_fr": "Faite de branches d'un arbre, pas une médaille.",
+  "options": [
+   "Een gouden medaille",
+   "Een olijfkrans",
+   "Een zak goud",
+   "Een standbeeld"
+  ],
+  "options_fr": [
+   "Une médaille d'or",
+   "Une couronne d'olivier",
+   "Un sac d'or",
+   "Une statue"
+  ],
+  "answer": 1,
+  "explanation_nl": "De winnaar kreeg een olijfkrans en een kruik olijfolie. In zijn polis werd hij als een held onthaald.",
+  "explanation_fr": "Le vainqueur recevait une couronne d'olivier et une jarre d'huile d'olive. Dans sa cité, il était accueilli comme un héros.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hos-16",
+  "theme": "h2-olympische-spelen",
+  "chapter": "Hellas - Olympische Spelen",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "In tegenstelling tot vroeger mogen vandaag ook vrouwen deelnemen aan de Olympische Spelen.",
+  "question_fr": "Contrairement à autrefois, les femmes peuvent aujourd'hui aussi participer aux Jeux olympiques.",
+  "hint_nl": "Denk aan het verschil tussen toen en nu.",
+  "hint_fr": "Pense à la différence entre hier et aujourd'hui.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. Vroeger mochten enkel Griekse vrije mannen deelnemen; vandaag nemen mannen en vrouwen uit de hele wereld deel.",
+  "explanation_fr": "Vrai. Autrefois, seuls les hommes grecs libres participaient ; aujourd'hui, des hommes et des femmes du monde entier participent.",
+  "course_ref": "Hellas - Olympische Spelen"
+ },
+ {
+  "id": "hfi-01",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Uit welke twee Griekse woorden is 'filosofie' samengesteld?",
+  "question_fr": "De quels deux mots grecs le mot 'filosofie' est-il composé ?",
+  "hint_nl": "Liefde en wijsheid.",
+  "hint_fr": "Amour et sagesse.",
+  "options": [
+   "Philia (vriendschap/liefde) en sophia (wijsheid)",
+   "Polis (stad) en demos (volk)",
+   "Mythos (verhaal) en theos (god)",
+   "Bios (leven) en logos (leer)"
+  ],
+  "options_fr": [
+   "Philia (amitié/amour) et sophia (sagesse)",
+   "Polis (cité) et demos (peuple)",
+   "Mythos (récit) et theos (dieu)",
+   "Bios (vie) et logos (étude)"
+  ],
+  "answer": 0,
+  "explanation_nl": "Filosofie = philia (vriendschap/liefde) + sophia (wijsheid), dus 'de liefde voor de wijsheid'.",
+  "explanation_fr": "Filosofie = philia (amitié/amour) + sophia (sagesse), donc 'l'amour de la sagesse'.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-02",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat betekent 'filosofie' letterlijk?",
+  "question_fr": "Que signifie littéralement 'filosofie' ?",
+  "hint_nl": "Denk aan philia + sophia.",
+  "hint_fr": "Pense à philia + sophia.",
+  "options": [
+   "De liefde voor de wijsheid",
+   "De macht van het volk",
+   "De vrees voor de goden",
+   "De studie van de sterren"
+  ],
+  "options_fr": [
+   "L'amour de la sagesse",
+   "Le pouvoir du peuple",
+   "La crainte des dieux",
+   "L'étude des étoiles"
+  ],
+  "answer": 0,
+  "explanation_nl": "Filosofie betekent letterlijk 'de liefde voor de wijsheid'.",
+  "explanation_fr": "Filosofie signifie littéralement 'l'amour de la sagesse'.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-03",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Filosofie is een proces, een onderzoeksactiviteit, en geen afgewerkt product.",
+  "question_fr": "La philosophie est un processus, une activité de recherche, et non un produit fini.",
+  "hint_nl": "Het zoeken naar kennis, niet het bezitten ervan.",
+  "hint_fr": "La recherche de la connaissance, pas sa possession.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Klopt: filosofie is het zoeken naar kennis, een proces, geen product.",
+  "explanation_fr": "C'est exact : la philosophie est la recherche de la connaissance, un processus, pas un produit.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-04",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De filosofie heeft één vast studieobject; je kan slechts over een paar dingen filosoferen.",
+  "question_fr": "La philosophie a un seul objet d'étude fixe ; on ne peut philosopher que sur quelques sujets.",
+  "hint_nl": "Over vrijwel alles kan worden gefilosofeerd.",
+  "hint_fr": "On peut philosopher sur presque tout.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout: de filosofie heeft geen specifiek studieobject, over vrijwel alles kan gefilosofeerd worden.",
+  "explanation_fr": "Faux : la philosophie n'a pas d'objet d'étude précis, on peut philosopher sur presque tout.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-05",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke vraag is een FILOSOFISCHE vraag?",
+  "question_fr": "Quelle question est une question PHILOSOPHIQUE ?",
+  "hint_nl": "Filosofisch = open, over zin, goed/kwaad of waarheid.",
+  "hint_fr": "Philosophique = ouverte, sur le sens, le bien/le mal ou la vérité.",
+  "options": [
+   "Wat is 'goed' en wat is 'kwaad'?",
+   "Hoeveel millimeter gaat er in één meter?",
+   "Hoe werkt de bloedsomloop?",
+   "Hoe maak je tomatensoep?"
+  ],
+  "options_fr": [
+   "Qu'est-ce que le 'bien' et le 'mal' ?",
+   "Combien de millimètres dans un mètre ?",
+   "Comment fonctionne la circulation sanguine ?",
+   "Comment fait-on de la soupe à la tomate ?"
+  ],
+  "answer": 0,
+  "explanation_nl": "'Wat is goed en kwaad?' is open en niet meetbaar: een filosofische vraag.",
+  "explanation_fr": "'Qu'est-ce que le bien et le mal ?' est ouverte et non mesurable : une question philosophique.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-06",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke vraag is NIET-filosofisch (feitelijk/meetbaar)?",
+  "question_fr": "Quelle question est NON philosophique (factuelle/mesurable) ?",
+  "hint_nl": "Een meetbaar, wetenschappelijk antwoord = niet-filosofisch.",
+  "hint_fr": "Une réponse mesurable, scientifique = non philosophique.",
+  "options": [
+   "Hoeveel millimeter gaat er in één meter?",
+   "Wat is het doel van het leven?",
+   "Wat is 'waarheid'?",
+   "Wat is 'goed'?"
+  ],
+  "options_fr": [
+   "Combien de millimètres dans un mètre ?",
+   "Quel est le but de la vie ?",
+   "Qu'est-ce que la 'vérité' ?",
+   "Qu'est-ce que le 'bien' ?"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het aantal millimeter in een meter is meetbaar en exact: niet-filosofisch.",
+  "explanation_fr": "Le nombre de millimètres dans un mètre est mesurable et exact : non philosophique.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-07",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Waarnaar zochten de natuurfilosofen?",
+  "question_fr": "Que cherchaient les philosophes de la nature (natuurfilosofen) ?",
+  "hint_nl": "Een materiaal aan de basis van het hele bestaan.",
+  "hint_fr": "Une matière à la base de toute l'existence.",
+  "options": [
+   "Een oerstof in de natuur",
+   "De wetten van de polis",
+   "De wil van de goden",
+   "Het beste leger"
+  ],
+  "options_fr": [
+   "Une matière originelle (oerstof) dans la nature",
+   "Les lois de la cité",
+   "La volonté des dieux",
+   "La meilleure armée"
+  ],
+  "answer": 0,
+  "explanation_nl": "Natuurfilosofen zochten in de natuur naar een oerstof: het basismateriaal van alles.",
+  "explanation_fr": "Les natuurfilosofen cherchaient dans la nature une oerstof : la matière de base de tout.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-08",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat was volgens Thales van Milete de oerstof?",
+  "question_fr": "Selon Thalès de Milet, quelle était la matière originelle (oerstof) ?",
+  "hint_nl": "Het is vloeibaar.",
+  "hint_fr": "C'est liquide.",
+  "options": [
+   "Water",
+   "Vuur",
+   "Lucht",
+   "Aarde"
+  ],
+  "options_fr": [
+   "L'eau",
+   "Le feu",
+   "L'air",
+   "La terre"
+  ],
+  "answer": 0,
+  "explanation_nl": "Voor Thales van Milete was water de oerstof.",
+  "explanation_fr": "Pour Thalès de Milet, l'eau était la matière originelle.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-09",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welk kleinste deeltje zochten latere filosofen als basis van de wereld?",
+  "question_fr": "Quelle plus petite particule des philosophes plus tardifs cherchaient-ils comme base du monde ?",
+  "hint_nl": "Het kleinste ondeelbare deeltje.",
+  "hint_fr": "La plus petite particule indivisible.",
+  "options": [
+   "Het atoom",
+   "Het molecuul",
+   "De cel",
+   "De planeet"
+  ],
+  "options_fr": [
+   "L'atome",
+   "La molécule",
+   "La cellule",
+   "La planète"
+  ],
+  "answer": 0,
+  "explanation_nl": "Latere filosofen gingen op zoek naar het kleinste deeltje: het atoom.",
+  "explanation_fr": "Les philosophes plus tardifs cherchaient la plus petite particule : l'atome.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-10",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie zijn de drie grote filosofen die zeiden dat de waarheid wél te vinden is?",
+  "question_fr": "Qui sont les trois grands philosophes qui disaient que la vérité peut être trouvée ?",
+  "hint_nl": "5de eeuw v.Chr., leraar en leerlingen.",
+  "hint_fr": "Ve siècle av. J.-C., un maître et ses élèves.",
+  "options": [
+   "Sokrates, Plato en Aristoteles",
+   "Thales, Homerus en Solon",
+   "Perikles, Solon en Drakon",
+   "Zeus, Apollo en Athena"
+  ],
+  "options_fr": [
+   "Socrate, Platon et Aristote",
+   "Thalès, Homère et Solon",
+   "Périclès, Solon et Dracon",
+   "Zeus, Apollon et Athéna"
+  ],
+  "answer": 0,
+  "explanation_nl": "De drie grote filosofen zijn Sokrates, Plato en Aristoteles.",
+  "explanation_fr": "Les trois grands philosophes sont Socrate, Platon et Aristote.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-11",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welke eeuw voor Christus leefden Sokrates, Plato en Aristoteles? (geef het cijfer van de eeuw)",
+  "question_fr": "À quel siècle avant J.-C. vivaient Socrate, Platon et Aristote ? (donne le chiffre du siècle)",
+  "hint_nl": "Tussen de 6de en de 4de eeuw v.Chr.",
+  "hint_fr": "Entre le 6e et le 4e siècle av. J.-C.",
+  "options": [],
+  "options_fr": [],
+  "answer": 5,
+  "explanation_nl": "Ze leefden in de 5de eeuw v.Chr.",
+  "explanation_fr": "Ils vivaient au 5e siècle av. J.-C.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-12",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat was volgens Sokrates, Plato en Aristoteles het doel van het leven?",
+  "question_fr": "Selon Socrate, Platon et Aristote, quel était le but de la vie ?",
+  "hint_nl": "Zo vind je de waarheid en word je gelukkig.",
+  "hint_fr": "Ainsi on trouve la vérité et on devient heureux.",
+  "options": [
+   "Zelf nadenken om de waarheid te vinden",
+   "Zoveel mogelijk geld verzamelen",
+   "De goden gehoorzamen",
+   "Oorlog voeren tegen andere polissen"
+  ],
+  "options_fr": [
+   "Réfléchir par soi-même pour trouver la vérité",
+   "Amasser le plus d'argent possible",
+   "Obéir aux dieux",
+   "Faire la guerre aux autres cités"
+  ],
+  "answer": 0,
+  "explanation_nl": "Volgens hen was zelf nadenken het doel van het leven: zo vind je de waarheid en het goede in jezelf.",
+  "explanation_fr": "Selon eux, réfléchir par soi-même était le but de la vie : on trouve ainsi la vérité et le bien en soi.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-13",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welke Hellenistische stroming zegt dat je elke dag moet GENIETEN van het leven?",
+  "question_fr": "Quel courant hellénistique dit qu'il faut PROFITER de la vie chaque jour ?",
+  "hint_nl": "Denk aan 'Carpe Diem'.",
+  "hint_fr": "Pense à 'Carpe Diem'.",
+  "options": [
+   "Het epicurisme",
+   "Het stoïcisme",
+   "Het cynisme",
+   "Het natuurfilosofisme"
+  ],
+  "options_fr": [
+   "L'épicurisme",
+   "Le stoïcisme",
+   "Le cynisme",
+   "La philosophie de la nature"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het epicurisme zegt dat je elke dag moet genieten van het leven.",
+  "explanation_fr": "L'épicurisme dit qu'il faut profiter de la vie chaque jour.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-14",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welke stroming wil verlangens met het verstand tegenhouden en zoekt geluk in onthouding?",
+  "question_fr": "Quel courant veut retenir les désirs par la raison et cherche le bonheur dans l'abstinence ?",
+  "hint_nl": "Het tegenovergestelde van genieten.",
+  "hint_fr": "Le contraire de profiter.",
+  "options": [
+   "Het stoïcisme",
+   "Het epicurisme",
+   "Het cynisme",
+   "De natuurfilosofie"
+  ],
+  "options_fr": [
+   "Le stoïcisme",
+   "L'épicurisme",
+   "Le cynisme",
+   "La philosophie de la nature"
+  ],
+  "answer": 0,
+  "explanation_nl": "De stoïcijnen hielden hun verlangens tegen met het verstand om in onthouding geluk te vinden.",
+  "explanation_fr": "Les stoïciens retenaient leurs désirs par la raison pour trouver le bonheur dans l'abstinence.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-15",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welke stroming geeft vooral kritiek op de samenleving en de godsdienst?",
+  "question_fr": "Quel courant critique surtout la société et la religion ?",
+  "hint_nl": "De volgelingen waren erg kritisch.",
+  "hint_fr": "Ses adeptes étaient très critiques.",
+  "options": [
+   "Het cynisme",
+   "Het epicurisme",
+   "Het stoïcisme",
+   "De natuurfilosofie"
+  ],
+  "options_fr": [
+   "Le cynisme",
+   "L'épicurisme",
+   "Le stoïcisme",
+   "La philosophie de la nature"
+  ],
+  "answer": 0,
+  "explanation_nl": "De volgelingen van het cynisme geven vooral kritiek op de samenleving en de godsdienst.",
+  "explanation_fr": "Les adeptes du cynisme critiquent surtout la société et la religion.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hfi-16",
+  "theme": "h3-filosofie",
+  "chapter": "Hellas - filosofie",
+  "type": "truefalse",
+  "difficulty": 3,
+  "question_nl": "De Latijnse uitdrukking 'Carpe Diem' (pluk de dag) past bij het epicurisme.",
+  "question_fr": "L'expression latine 'Carpe Diem' (cueille le jour) correspond à l'épicurisme.",
+  "hint_nl": "Genieten van het moment.",
+  "hint_fr": "Profiter du moment présent.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Klopt: 'Carpe Diem' betekent geniet van de dag, en past bij het epicurisme.",
+  "explanation_fr": "C'est exact : 'Carpe Diem' veut dire profite du jour, ce qui correspond à l'épicurisme.",
+  "course_ref": "Hellas - filosofie"
+ },
+ {
+  "id": "hku-01",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat is de functie van een Griekse tempel?",
+  "question_fr": "Quelle est la fonction d'un temple grec ?",
+  "hint_nl": "Voor wie werd het gebouwd?",
+  "hint_fr": "Pour qui a-t-il été construit ?",
+  "options": [
+   "Het huis van de god of godin",
+   "Een sportstadion",
+   "De markt van de stad",
+   "Een woonhuis voor burgers"
+  ],
+  "options_fr": [
+   "La maison du dieu ou de la déesse",
+   "Un stade sportif",
+   "Le marché de la cité",
+   "Une habitation pour les citoyens"
+  ],
+  "answer": 0,
+  "explanation_nl": "De tempel was het huis van de god of godin, bv. het Parthenon voor Pallas Athena.",
+  "explanation_fr": "Le temple était la maison du dieu ou de la déesse, par exemple le Parthenon pour Pallas Athena.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-02",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welk gebouw werd gebruikt voor sportwedstrijden?",
+  "question_fr": "Quel bâtiment servait aux compétitions sportives ?",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Het stadion",
+   "De tempel",
+   "Het theater",
+   "De agora"
+  ],
+  "options_fr": [
+   "Le stade",
+   "Le temple",
+   "Le théâtre",
+   "L'agora"
+  ],
+  "answer": 0,
+  "explanation_nl": "In het stadion vonden de sportwedstrijden plaats, zoals het hardlopen.",
+  "explanation_fr": "C'est au stade qu'avaient lieu les compétitions sportives, comme la course à pied.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-03",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat was de agora in een Griekse stad?",
+  "question_fr": "Qu'était l'agora dans une cité grecque ?",
+  "hint_nl": "Een centrale plaats.",
+  "hint_fr": "Un endroit central.",
+  "options": [
+   "Het centrale plein met markt en politiek leven",
+   "Een tempel voor Dionysos",
+   "Een halfrond theater",
+   "De woning van de strateeg"
+  ],
+  "options_fr": [
+   "La place centrale avec marché et vie politique",
+   "Un temple pour Dionysos",
+   "Un théâtre en demi-cercle",
+   "La maison du stratège"
+  ],
+  "answer": 0,
+  "explanation_nl": "De agora was het centrale plein van de stad: markt, politiek en sociaal leven.",
+  "explanation_fr": "L'agora était la place centrale de la cité : marché, vie politique et sociale.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-04",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hoeveel grote zuilstijlen onderscheiden we in de Griekse bouwkunst?",
+  "question_fr": "Combien de grands styles de colonnes distingue-t-on dans l'architecture grecque ?",
+  "hint_nl": "Dorisch, Ionisch en ...",
+  "hint_fr": "Dorique, ionique et ...",
+  "options": [
+   "Drie",
+   "Twee",
+   "Vier",
+   "Vijf"
+  ],
+  "answer": 0,
+  "options_fr": [
+   "Trois",
+   "Deux",
+   "Quatre",
+   "Cinq"
+  ],
+  "explanation_nl": "Er zijn drie zuilstijlen: de Dorische, de Ionische en de Korinthische.",
+  "explanation_fr": "Il y a trois styles de colonnes : le dorique, l'ionique et le corinthien.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-05",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Een zuil is sober, zwaar en log, heeft een eenvoudig kapiteel en GEEN voetstuk. Welke zuilstijl is dit?",
+  "question_fr": "Une colonne est sobre, lourde et massive, a un chapiteau simple et AUCUNE base. De quel style s'agit-il ?",
+  "hint_nl": "De oudste en eenvoudigste stijl.",
+  "hint_fr": "Le style le plus ancien et le plus simple.",
+  "options": [
+   "Dorische zuil",
+   "Ionische zuil",
+   "Korinthische zuil",
+   "Egyptische zuil"
+  ],
+  "options_fr": [
+   "Colonne dorique",
+   "Colonne ionique",
+   "Colonne corinthienne",
+   "Colonne égyptienne"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Dorische zuil is sober, zwaar en log, met een eenvoudig kapiteel en zonder voetstuk.",
+  "explanation_fr": "La colonne dorique est sobre, lourde et massive, avec un chapiteau simple et sans base.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-06",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Een slanke zuil heeft een kapiteel met krullen (voluten). Welke zuilstijl is dit?",
+  "question_fr": "Une colonne élancée a un chapiteau avec des volutes (enroulements). De quel style s'agit-il ?",
+  "hint_nl": "Denk aan krullen of spiralen.",
+  "hint_fr": "Pense aux enroulements ou spirales.",
+  "options": [
+   "Ionische zuil",
+   "Dorische zuil",
+   "Korinthische zuil",
+   "Romeinse zuil"
+  ],
+  "options_fr": [
+   "Colonne ionique",
+   "Colonne dorique",
+   "Colonne corinthienne",
+   "Colonne romaine"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Ionische zuil is licht en slank en heeft een kapiteel met krullen (voluten).",
+  "explanation_fr": "La colonne ionique est légère et élancée et possède un chapiteau avec des volutes (enroulements).",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-07",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke zuilstijl is het rijkst versierd, met een kapiteel met bladmotief (acanthusbladeren)?",
+  "question_fr": "Quel style de colonne est le plus richement décoré, avec un chapiteau orné de feuilles (feuilles d'acanthe) ?",
+  "hint_nl": "De rijkst versierde van de drie.",
+  "hint_fr": "Le plus richement décoré des trois.",
+  "options": [
+   "Korinthische zuil",
+   "Dorische zuil",
+   "Ionische zuil",
+   "Archaïsche zuil"
+  ],
+  "options_fr": [
+   "Colonne corinthienne",
+   "Colonne dorique",
+   "Colonne ionique",
+   "Colonne archaïque"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Korinthische zuil heeft een rijk versierd kapiteel met bladmotief (acanthusbladeren).",
+  "explanation_fr": "La colonne corinthienne a un chapiteau richement décoré avec un motif de feuilles (feuilles d'acanthe).",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-08",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Hoe heten de drie delen van een zuil, van onder naar boven?",
+  "question_fr": "Comment s'appellent les trois parties d'une colonne, de bas en haut ?",
+  "hint_nl": "Basis, lange deel, top.",
+  "hint_fr": "Base, partie longue, sommet.",
+  "options": [
+   "Voetstuk - zuilschacht - kapiteel",
+   "Kapiteel - zuilschacht - voetstuk",
+   "Zuilschacht - kapiteel - voetstuk",
+   "Voetstuk - kapiteel - zuilschacht"
+  ],
+  "options_fr": [
+   "Base - fût - chapiteau",
+   "Chapiteau - fût - base",
+   "Fût - chapiteau - base",
+   "Base - chapiteau - fût"
+  ],
+  "answer": 0,
+  "explanation_nl": "Van onder naar boven: voetstuk (basis), zuilschacht (lang deel) en kapiteel (top).",
+  "explanation_fr": "De bas en haut : la base (voetstuk), le fût (zuilschacht) et le chapiteau (kapiteel).",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-09",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De Dorische zuil heeft een voetstuk (basis).",
+  "question_fr": "La colonne dorique possède une base.",
+  "hint_nl": "Wat staat er direct op de grond?",
+  "hint_fr": "Qu'est-ce qui pose directement au sol ?",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout. De Dorische zuil heeft GEEN voetstuk en staat direct op de grond.",
+  "explanation_fr": "Faux. La colonne dorique n'a PAS de base et pose directement sur le sol.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-10",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarom werd een Grieks theater in de helling van een heuvel gebouwd?",
+  "question_fr": "Pourquoi un théâtre grec était-il construit dans le flanc d'une colline ?",
+  "hint_nl": "Denk aan zicht en geluid.",
+  "hint_fr": "Pense à la vue et au son.",
+  "options": [
+   "Voor goede akoestiek en goed zicht voor iedereen",
+   "Om dichter bij de tempel te staan",
+   "Om de zon tegen te houden",
+   "Om de acteurs te verbergen"
+  ],
+  "options_fr": [
+   "Pour une bonne acoustique et une bonne vue pour tous",
+   "Pour être plus près du temple",
+   "Pour bloquer le soleil",
+   "Pour cacher les acteurs"
+  ],
+  "answer": 0,
+  "explanation_nl": "De komvormige helling werkt als een klankkast: goede akoestiek, en de schuine gradins geven iedereen goed zicht.",
+  "explanation_fr": "La pente en forme de cuvette agit comme une caisse de résonance : bonne acoustique, et les gradins inclinés donnent à tous une bonne vue.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-11",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Net als een moderne concertzaal had het Griekse theater schuine, oplopende rijen zodat iedereen goed kon zien en horen.",
+  "question_fr": "Comme une salle de concert moderne, le théâtre grec avait des rangées inclinées et montantes pour que chacun voie et entende bien.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. Net als een hedendaagse concertzaal lopen de rijen schuin op, zodat niemand het zicht blokkeert en het geluid niet verloren gaat.",
+  "explanation_fr": "Vrai. Comme une salle de concert actuelle, les rangées montent en pente, ainsi personne ne bloque la vue et le son ne se perd pas.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-12",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke beeldhouwperiode is het oudst?",
+  "question_fr": "Quelle période de la sculpture est la plus ancienne ?",
+  "hint_nl": "De stijve beelden met de archaïsche glimlach.",
+  "hint_fr": "Les statues raides avec le sourire archaïque.",
+  "options": [
+   "De Archaïsche periode",
+   "De Klassieke periode",
+   "De Hellenistische periode",
+   "De Romeinse periode"
+  ],
+  "options_fr": [
+   "La période archaïque",
+   "La période classique",
+   "La période hellénistique",
+   "La période romaine"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Archaïsche periode (7e-6e eeuw v.Chr.) is de oudste, met stijve, frontale beelden.",
+  "explanation_fr": "La période archaïque (7e-6e siècle av. J.-C.) est la plus ancienne, avec des statues raides et frontales.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-13",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat is de juiste volgorde van de drie beeldhouwperiodes, van oud naar recent?",
+  "question_fr": "Quel est l'ordre correct des trois périodes de la sculpture, de la plus ancienne à la plus récente ?",
+  "hint_nl": "Stijf, dan ideaal, dan realistisch.",
+  "hint_fr": "Raide, puis idéal, puis réaliste.",
+  "options": [
+   "Archaïsch - Klassiek - Hellenistisch",
+   "Klassiek - Archaïsch - Hellenistisch",
+   "Hellenistisch - Klassiek - Archaïsch",
+   "Archaïsch - Hellenistisch - Klassiek"
+  ],
+  "options_fr": [
+   "Archaïque - Classique - Hellénistique",
+   "Classique - Archaïque - Hellénistique",
+   "Hellénistique - Classique - Archaïque",
+   "Archaïque - Hellénistique - Classique"
+  ],
+  "answer": 0,
+  "explanation_nl": "De volgorde is: Archaïsch (stijf), Klassiek (ideaal), Hellenistisch (realistisch met emotie).",
+  "explanation_fr": "L'ordre est : archaïque (raide), classique (idéal), hellénistique (réaliste, avec émotion).",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-14",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke kenmerken horen bij een Archaïsch beeld (zoals de kouros)?",
+  "question_fr": "Quelles caractéristiques correspondent à une statue archaïque (comme le kouros) ?",
+  "hint_nl": "Denk aan stijf en frontaal.",
+  "hint_fr": "Pense à raide et frontal.",
+  "options": [
+   "Stijf, frontaal, symmetrisch, met archaïsche glimlach",
+   "Veel beweging en emotie",
+   "Realistisch met rimpels en ouderdom",
+   "Perfecte beweging en kracht"
+  ],
+  "options_fr": [
+   "Raide, frontal, symétrique, avec le sourire archaïque",
+   "Beaucoup de mouvement et d'émotion",
+   "Réaliste avec rides et vieillesse",
+   "Mouvement parfait et force"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het Archaïsche beeld is stijf, frontaal en symmetrisch, met de typische archaïsche glimlach.",
+  "explanation_fr": "La statue archaïque est raide, frontale et symétrique, avec le typique sourire archaïque.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-15",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat is het verschil tussen idealisme en realisme in de beeldhouwkunst?",
+  "question_fr": "Quelle est la différence entre idéalisme et réalisme dans la sculpture ?",
+  "hint_nl": "Perfecte schoonheid versus de werkelijkheid.",
+  "hint_fr": "Beauté parfaite contre la réalité.",
+  "options": [
+   "Idealisme = perfecte, ideale schoonheid; realisme = zoals in het echt, met emotie en ouderdom",
+   "Idealisme = realistisch; realisme = perfect",
+   "Idealisme = met kleur; realisme = zonder kleur",
+   "Er is geen verschil"
+  ],
+  "options_fr": [
+   "Idéalisme = beauté parfaite et idéale ; réalisme = comme dans la réalité, avec émotion et vieillesse",
+   "Idéalisme = réaliste ; réalisme = parfait",
+   "Idéalisme = avec couleur ; réalisme = sans couleur",
+   "Il n'y a pas de différence"
+  ],
+  "answer": 0,
+  "explanation_nl": "Idealisme toont de perfecte, ideale mens; realisme toont de mens zoals hij echt is, met emotie en ouderdom.",
+  "explanation_fr": "L'idéalisme montre l'homme parfait et idéal ; le réalisme montre l'homme tel qu'il est vraiment, avec émotion et vieillesse.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-16",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "In welke periode horen idealisme, perfecte proporties en evenwicht thuis (bv. de Discuswerper)?",
+  "question_fr": "À quelle période appartiennent l'idéalisme, les proportions parfaites et l'équilibre (par ex. le Lanceur de disque) ?",
+  "hint_nl": "De Gouden Eeuw, 5e eeuw v.Chr.",
+  "hint_fr": "Le Siècle d'or, 5e siècle av. J.-C.",
+  "options": [
+   "De Klassieke periode",
+   "De Archaïsche periode",
+   "De Hellenistische periode",
+   "De Egyptische periode"
+  ],
+  "options_fr": [
+   "La période classique",
+   "La période archaïque",
+   "La période hellénistique",
+   "La période égyptienne"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Klassieke periode (5e eeuw v.Chr.) toont idealisme, perfecte proporties en evenwicht, bv. de Discuswerper van Myron.",
+  "explanation_fr": "La période classique (5e siècle av. J.-C.) montre l'idéalisme, des proportions parfaites et l'équilibre, par ex. le Lanceur de disque de Myron.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-17",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "truefalse",
+  "difficulty": 3,
+  "question_nl": "De Archaïsche Griekse beelden lijken sterk op de stijve Egyptische beelden (statisch, weinig emotie, symmetrisch).",
+  "question_fr": "Les statues grecques archaïques ressemblent fortement aux statues égyptiennes raides (statiques, peu d'émotion, symétriques).",
+  "hint_nl": "De Grieken lieten zich eerst inspireren door de Egyptenaren.",
+  "hint_fr": "Les Grecs se sont d'abord inspirés des Égyptiens.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De Archaïsche beelden lijken op de Egyptische: statisch, weinig emotie en symmetrisch.",
+  "explanation_fr": "Vrai. Les statues archaïques ressemblent aux égyptiennes : statiques, peu d'émotion et symétriques.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hku-18",
+  "theme": "h4-kunst",
+  "chapter": "Hellas - kunst",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke periode toont veel beweging en emotie, met realisme (bv. de Laocoön-groep)?",
+  "question_fr": "Quelle période montre beaucoup de mouvement et d'émotion, avec du réalisme (par ex. le groupe du Laocoön) ?",
+  "hint_nl": "De jongste van de drie periodes.",
+  "hint_fr": "La plus récente des trois périodes.",
+  "options": [
+   "De Hellenistische periode",
+   "De Archaïsche periode",
+   "De Klassieke periode",
+   "De Dorische periode"
+  ],
+  "options_fr": [
+   "La période hellénistique",
+   "La période archaïque",
+   "La période classique",
+   "La période dorique"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Hellenistische periode toont realisme, beweging en veel emotie, zoals in de Laocoön-groep.",
+  "explanation_fr": "La période hellénistique montre le réalisme, le mouvement et beaucoup d'émotion, comme dans le groupe du Laocoön.",
+  "course_ref": "Hellas - kunst"
+ },
+ {
+  "id": "hsp-01",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat betekent het begrip 'Agogè'?",
+  "question_fr": "Que signifie la notion d'Agogè ?",
+  "hint_nl": "Het begon op 7-jarige leeftijd.",
+  "hint_fr": "Cela commençait à l'âge de 7 ans.",
+  "options": [
+   "De harde militaire opvoeding van de Spartaanse jongens",
+   "Het bestuur door enkelen",
+   "Een zwaarbewapende voetsoldaat",
+   "De volksvergadering"
+  ],
+  "options_fr": [
+   "L'éducation militaire dure des garçons spartiates",
+   "Le gouvernement par quelques-uns",
+   "Un fantassin lourdement armé",
+   "L'assemblée du peuple"
+  ],
+  "answer": 0,
+  "explanation_nl": "De agogè was de harde opvoeding die op 7 jaar begon: fysiek sterk worden en indoctrinatie.",
+  "explanation_fr": "L'agogè était l'éducation dure qui commençait à 7 ans : devenir fort physiquement et l'indoctrination.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-02",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Op welke leeftijd begon de agogè?",
+  "question_fr": "À quel âge commençait l'agogè ?",
+  "hint_nl": "De staat nam dan alle kinderen onder zijn hoede.",
+  "hint_fr": "L'État prenait alors tous les enfants en charge.",
+  "options": [
+   "7 jaar",
+   "12 jaar",
+   "18 jaar",
+   "20 jaar"
+  ],
+  "options_fr": [
+   "7 ans",
+   "12 ans",
+   "18 ans",
+   "20 ans"
+  ],
+  "answer": 0,
+  "explanation_nl": "Op 7-jarige leeftijd begon de agogè: de staat deelde de kinderen in groepen in.",
+  "explanation_fr": "À 7 ans commençait l'agogè : l'État répartissait les enfants en groupes.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-03",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat was de 'Krypteia'?",
+  "question_fr": "Qu'était la Krypteia ?",
+  "hint_nl": "De jonge mannen maakten er deel van uit vanaf 18 jaar.",
+  "hint_fr": "Les jeunes hommes en faisaient partie dès 18 ans.",
+  "options": [
+   "Een soort geheime staatspolitie",
+   "De raad van ouderen",
+   "Een sportwedstrijd voor meisjes",
+   "Het zwaard van de hopliet"
+  ],
+  "options_fr": [
+   "Une sorte de police secrète d'État",
+   "Le conseil des anciens",
+   "Une compétition sportive pour les filles",
+   "L'épée de l'hoplite"
+  ],
+  "answer": 0,
+  "explanation_nl": "Op 18 jaar maakten de jonge mannen deel uit van de krypteia, een soort geheime staatspolitie.",
+  "explanation_fr": "À 18 ans, les jeunes hommes faisaient partie de la krypteia, une sorte de police secrète d'État.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-04",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat is een 'hopliet'?",
+  "question_fr": "Qu'est-ce qu'un hoplite ?",
+  "hint_nl": "Zij vielen aan in falanx.",
+  "hint_fr": "Ils attaquaient en phalange.",
+  "options": [
+   "Een zwaarbewapende voetsoldaat",
+   "Een Spartaanse koning",
+   "Een onvrije landarbeider",
+   "Een lid van de volksvergadering"
+  ],
+  "options_fr": [
+   "Un fantassin lourdement armé",
+   "Un roi spartiate",
+   "Un travailleur agricole non libre",
+   "Un membre de l'assemblée du peuple"
+  ],
+  "answer": 0,
+  "explanation_nl": "De hopliet was een zwaarbewapende voetsoldaat. De hoplieten stonden opgesteld in de falanx.",
+  "explanation_fr": "L'hoplite était un fantassin lourdement armé. Les hoplites étaient disposés en phalange.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-05",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat is een 'oligarchie'?",
+  "question_fr": "Qu'est-ce qu'une oligarchie ?",
+  "hint_nl": "Twee koningen en een raad van ouden hadden de touwtjes in handen.",
+  "hint_fr": "Deux rois et un conseil d'anciens tenaient les rênes.",
+  "options": [
+   "Een bestuur door enkelen",
+   "Een bestuur door het hele volk",
+   "Een bestuur door één koning",
+   "Een bestuur door de slaven"
+  ],
+  "options_fr": [
+   "Un gouvernement par quelques-uns",
+   "Un gouvernement par tout le peuple",
+   "Un gouvernement par un seul roi",
+   "Un gouvernement par les esclaves"
+  ],
+  "answer": 0,
+  "explanation_nl": "Sparta bleef een aristocratie/oligarchie: een bestuur door enkelen (koningen en de raad van ouden).",
+  "explanation_fr": "Sparta restait une aristocratie/oligarchie : un gouvernement par quelques-uns (les rois et le conseil des anciens).",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-06",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Uit welke drie bevolkingsgroepen bestond de Spartaanse samenleving?",
+  "question_fr": "De quels trois groupes de population était composée la société spartiate ?",
+  "hint_nl": "De echte burgers, de omwonenden en de slaven.",
+  "hint_fr": "Les vrais citoyens, les habitants des environs et les esclaves.",
+  "options": [
+   "Spartanen, perioiken en heloten",
+   "Koningen, eforen en burgers",
+   "Doriërs, Atheners en Perzen",
+   "Boeren, soldaten en priesters"
+  ],
+  "options_fr": [
+   "Spartiates, périèques et hilotes",
+   "Rois, éphores et citoyens",
+   "Doriens, Athéniens et Perses",
+   "Paysans, soldats et prêtres"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Spartaanse bevolking bestond uit drie groepen: de Spartaanse burgers, de perioiken en de heloten.",
+  "explanation_fr": "La population spartiate était composée de trois groupes : les citoyens spartiates, les périèques et les hilotes.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-07",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Welke rechten en plichten hadden de perioiken?",
+  "question_fr": "Quels droits et devoirs avaient les périèques ?",
+  "hint_nl": "Vrij, maar zonder politieke rechten.",
+  "hint_fr": "Libres, mais sans droits politiques.",
+  "options": [
+   "Vrij, mogen grond bezitten, maar geen politieke rechten; dienst als soldaat en belastingen betalen",
+   "Volledige politieke rechten zoals de Spartanen",
+   "Geen enkel recht, gedwongen de gronden te bewerken",
+   "Ze kozen de koningen en de eforen"
+  ],
+  "options_fr": [
+   "Libres, peuvent posséder de la terre, mais sans droits politiques ; service comme soldat et payer des impôts",
+   "Droits politiques complets comme les Spartiates",
+   "Aucun droit, forcés de cultiver les terres",
+   "Ils élisaient les rois et les éphores"
+  ],
+  "answer": 0,
+  "explanation_nl": "De perioiken waren vrij en mochten grond bezitten, maar hadden geen politieke rechten. Ze moesten dienst doen als soldaat en belastingen betalen.",
+  "explanation_fr": "Les périèques étaient libres et pouvaient posséder de la terre, mais sans droits politiques. Ils devaient servir comme soldats et payer des impôts.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-08",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De heloten waren de grootste bevolkingsgroep in Sparta en hadden geen rechten.",
+  "question_fr": "Les hilotes étaient le groupe de population le plus nombreux à Sparte et n'avaient aucun droit.",
+  "hint_nl": "Het waren eigenlijk slaven.",
+  "hint_fr": "C'étaient en fait des esclaves.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De heloten vormden de grootste groep, bezaten geen rechten en moesten de gronden bewerken: het waren eigenlijk slaven.",
+  "explanation_fr": "Vrai. Les hilotes formaient le groupe le plus nombreux, n'avaient aucun droit et devaient cultiver les terres : c'étaient en fait des esclaves.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-09",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Sparta was een maritieme polis met veel overzeese kolonies.",
+  "question_fr": "Sparte était une polis maritime avec beaucoup de colonies d'outre-mer.",
+  "hint_nl": "Sparta lag in het binnenland en sloot zich af van de buitenwereld.",
+  "hint_fr": "Sparte se trouvait dans l'arrière-pays et se coupait du monde extérieur.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout. Sparta was een continentale polis: ze had geen overzeese kolonies nodig en sloot zich af van de buitenwereld.",
+  "explanation_fr": "Faux. Sparte était une polis continentale : elle n'avait pas besoin de colonies d'outre-mer et se coupait du monde extérieur.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-10",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarom vreesden de Spartanen voortdurend een opstand?",
+  "question_fr": "Pourquoi les Spartiates craignaient-ils constamment une révolte ?",
+  "hint_nl": "Eén groep was veel talrijker.",
+  "hint_fr": "Un groupe était bien plus nombreux.",
+  "options": [
+   "De slaven (heloten) waren veel talrijker dan zij",
+   "De perioiken wilden de koningen afzetten",
+   "De Atheners vielen voortdurend aan",
+   "De vrouwen weigerden kinderen te krijgen"
+  ],
+  "options_fr": [
+   "Les esclaves (hilotes) étaient bien plus nombreux qu'eux",
+   "Les périèques voulaient renverser les rois",
+   "Les Athéniens attaquaient sans cesse",
+   "Les femmes refusaient d'avoir des enfants"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Spartanen vreesden een opstand van de slaven, die veel talrijker waren. Daarom waren ze hun hele leven soldaat: Sparta was militaristisch.",
+  "explanation_fr": "Les Spartiates craignaient une révolte des esclaves, bien plus nombreux. C'est pourquoi ils étaient soldats toute leur vie : Sparte était militariste.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-11",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wat gebeurde er met een baby die misvormd, te klein of zwak was?",
+  "question_fr": "Qu'arrivait-il à un bébé difforme, trop petit ou faible ?",
+  "hint_nl": "Hij zou de staat niet kunnen dienen.",
+  "hint_fr": "Il ne pourrait pas servir l'État.",
+  "options": [
+   "Hij werd in een gracht of ravijn gegooid",
+   "Hij werd koning gemaakt",
+   "Hij ging naar Athene",
+   "Hij werd helot"
+  ],
+  "options_fr": [
+   "Il était jeté dans un fossé ou un ravin",
+   "Il était fait roi",
+   "Il partait à Athènes",
+   "Il devenait hilote"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een misvormde, te kleine of zwakke baby werd in een gracht/ravijn gegooid, omdat hij 'de staat niet zou kunnen dienen'.",
+  "explanation_fr": "Un bébé difforme, trop petit ou faible était jeté dans un fossé ou un ravin, parce qu'il ne pourrait pas servir l'État.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-12",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat hield de agogè hoofdzakelijk in?",
+  "question_fr": "Que comprenait principalement l'agogè ?",
+  "hint_nl": "Twee zaken: lichaam en geest.",
+  "hint_fr": "Deux choses : le corps et l'esprit.",
+  "options": [
+   "Fysiek sterk worden (discipline) en indoctrinatie",
+   "Lezen, schrijven en rekenen",
+   "Handel en zeevaart",
+   "Poëzie en filosofie"
+  ],
+  "options_fr": [
+   "Devenir fort physiquement (discipline) et l'indoctrination",
+   "Lire, écrire et calculer",
+   "Le commerce et la navigation",
+   "La poésie et la philosophie"
+  ],
+  "answer": 0,
+  "explanation_nl": "De agogè hield twee zaken in: fysiek sterk worden met discipline, en indoctrinatie (het inprenten van staatsidealen).",
+  "explanation_fr": "L'agogè comprenait deux choses : devenir fort physiquement avec la discipline, et l'indoctrination (inculquer les idéaux de l'État).",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-13",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat waren de twee hoofdtaken van een Spartaanse vrouw?",
+  "question_fr": "Quelles étaient les deux tâches principales de la femme spartiate ?",
+  "hint_nl": "Verdedigen en grootbrengen.",
+  "hint_fr": "Défendre et élever.",
+  "options": [
+   "Sparta verdedigen als de mannen weg waren, en sterke kinderen baren",
+   "Handel drijven en stemmen in de volksvergadering",
+   "De gronden bewerken en belastingen innen",
+   "Filosofie en poëzie onderwijzen aan de jongens"
+  ],
+  "options_fr": [
+   "Défendre Sparte quand les hommes étaient partis, et mettre au monde des enfants forts",
+   "Faire du commerce et voter à l'assemblée",
+   "Cultiver les terres et lever les impôts",
+   "Enseigner la philosophie et la poésie aux garçons"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Spartaanse vrouw moest Sparta verdedigen als de mannen weg waren, en sterke kinderen (liefst jongens) baren. Daarom kreeg ze ook een harde fysieke opleiding.",
+  "explanation_fr": "La femme spartiate devait défendre Sparte quand les hommes étaient partis, et donner des enfants forts (de préférence des garçons). C'est pourquoi elle recevait aussi une dure éducation physique.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-14",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De Spartaanse vrouw was mondig en economisch onafhankelijk, anders dan de Atheense vrouw.",
+  "question_fr": "La femme spartiate était sûre d'elle et économiquement indépendante, contrairement à la femme athénienne.",
+  "hint_nl": "De Atheense vrouw moest zo weinig mogelijk zien, horen en spreken.",
+  "hint_fr": "La femme athénienne devait voir, entendre et parler le moins possible.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De Spartaanse vrouw was mondig en economisch onafhankelijk. Dit was heel anders dan bij de Atheense vrouw, die zo weinig mogelijk mocht zien, horen en spreken.",
+  "explanation_fr": "Vrai. La femme spartiate était sûre d'elle et économiquement indépendante. C'était très différent de la femme athénienne, qui devait voir, entendre et parler le moins possible.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-15",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Hoe werd Sparta bestuurd, terwijl Athene de eerste stappen naar de democratie zette?",
+  "question_fr": "Comment Sparte était-elle gouvernée, alors qu'Athènes faisait ses premiers pas vers la démocratie ?",
+  "hint_nl": "Alles bleef bij het oude; twee koningen en een raad van ouden.",
+  "hint_fr": "Tout restait à l'ancien ; deux rois et un conseil d'anciens.",
+  "options": [
+   "Als een aristocratie/oligarchie",
+   "Als een democratie",
+   "Als een dictatuur van de heloten",
+   "Door één almachtige koning"
+  ],
+  "options_fr": [
+   "Comme une aristocratie/oligarchie",
+   "Comme une démocratie",
+   "Comme une dictature des hilotes",
+   "Par un seul roi tout-puissant"
+  ],
+  "answer": 0,
+  "explanation_nl": "In Sparta bleef alles bij het oude: het conservatieve Sparta bleef een aristocratie/oligarchie met twee koningen en een raad van ouden.",
+  "explanation_fr": "À Sparte tout restait à l'ancien : la conservatrice Sparte restait une aristocratie/oligarchie avec deux rois et un conseil d'anciens.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-16",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "In welke gevechtsformatie vielen de Spartanen aan?",
+  "question_fr": "Dans quelle formation de combat les Spartiates attaquaient-ils ?",
+  "hint_nl": "Aaneengesloten rijen, 4 tot 8 man dik.",
+  "hint_fr": "Rangs serrés, de 4 à 8 hommes de profondeur.",
+  "options": [
+   "De falanx",
+   "De krypteia",
+   "De agogè",
+   "De gerousia"
+  ],
+  "options_fr": [
+   "La phalange",
+   "La krypteia",
+   "L'agogè",
+   "La gerousia"
+  ],
+  "answer": 0,
+  "explanation_nl": "De hoplieten stonden opgesteld in aaneengesloten rijen, 4 tot 8 man dik: de falanx. Een frontale aanval liep dood op een muur van speren.",
+  "explanation_fr": "Les hoplites étaient disposés en rangs serrés, de 4 à 8 hommes de profondeur : la phalange. Une attaque frontale se brisait sur un mur de lances.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-17",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "Op welke leeftijd begon de strenge militaire opleiding tot hopliet en maakte men deel uit van de krypteia?",
+  "question_fr": "À quel âge commençait la dure formation militaire d'hoplite et faisait-on partie de la krypteia ?",
+  "hint_nl": "Twee jaar voor de opleiding voltooid was.",
+  "hint_fr": "Deux ans avant la fin de la formation.",
+  "answer": 18,
+  "explanation_nl": "Op 18-jarige leeftijd begon de strenge militaire opleiding tot hopliet en maakten de jonge mannen deel uit van de krypteia.",
+  "explanation_fr": "À 18 ans commençait la dure formation militaire d'hoplite et les jeunes hommes faisaient partie de la krypteia.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hsp-18",
+  "theme": "h5-sparta",
+  "chapter": "Hellas - Sparta",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De grootste eer voor een Spartaan was sterven voor Sparta.",
+  "question_fr": "Le plus grand honneur pour un Spartiate était de mourir pour Sparte.",
+  "hint_nl": "Van de wieg tot het graf leefde de Spartaan als een soldaat.",
+  "hint_fr": "Du berceau à la tombe, le Spartiate vivait comme un soldat.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. Van de wieg tot het graf leefde de Spartaan als een soldaat. De grootste eer was sterven voor Sparta.",
+  "explanation_fr": "Vrai. Du berceau à la tombe, le Spartiate vivait comme un soldat. Le plus grand honneur était de mourir pour Sparte.",
+  "course_ref": "Hellas - Sparta"
+ },
+ {
+  "id": "hoo-01",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Met wie voerden de Grieken oorlog in de Perzische oorlogen?",
+  "question_fr": "Contre qui les Grecs faisaient-ils la guerre lors des guerres médiques (Perzische oorlogen) ?",
+  "hint_nl": "Een immens rijk in het oosten.",
+  "hint_fr": "Un immense empire à l'est.",
+  "options": [
+   "De Perzen",
+   "De Romeinen",
+   "De Egyptenaren",
+   "De Macedoniërs"
+  ],
+  "options_fr": [
+   "Les Perses",
+   "Les Romains",
+   "Les Égyptiens",
+   "Les Macédoniens"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Perzen hadden een immens rijk en wilden de Egeïsche Zee controleren. Zo kwamen ze in botsing met de Griekse poleis.",
+  "explanation_fr": "Les Perses avaient un immense empire et voulaient contrôler la mer Égée. Ils sont ainsi entrés en conflit avec les poleis grecques.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-02",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar v.C. versloegen de Atheners de Perzen in de veldslag bij Marathon?",
+  "question_fr": "En quelle année av. J.-C. les Athéniens ont-ils battu les Perses à la bataille de Marathon ?",
+  "hint_nl": "Koning Darius I, 6de eeuw bijna voorbij.",
+  "hint_fr": "Le roi Darius I, fin du 6e siècle.",
+  "options": [
+   "490",
+   "480",
+   "336",
+   "323"
+  ],
+  "options_fr": [
+   "490",
+   "480",
+   "336",
+   "323"
+  ],
+  "answer": 0,
+  "explanation_nl": "In 490 v.C. vocht de Perzische koning Darius I in Marathon tegen de Atheners. De Atheners wonnen.",
+  "explanation_fr": "En 490 av. J.-C., le roi perse Darius I a combattu à Marathon contre les Athéniens. Les Athéniens ont gagné.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-03",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waar versloegen de Atheners de Perzen uiteindelijk op zee?",
+  "question_fr": "Où les Athéniens ont-ils finalement battu les Perses sur mer ?",
+  "hint_nl": "Een eiland.",
+  "hint_fr": "Une île.",
+  "options": [
+   "Bij het eiland Salamis",
+   "Bij de Thermopylen",
+   "Bij Marathon",
+   "Bij Persepolis"
+  ],
+  "options_fr": [
+   "Près de l'île de Salamis",
+   "Aux Thermopyles",
+   "À Marathon",
+   "À Persépolis"
+  ],
+  "answer": 0,
+  "explanation_nl": "Bij de Thermopylen werden de Grieken verslagen, maar uiteindelijk versloegen de Atheners de Perzen op zee bij het eiland Salamis.",
+  "explanation_fr": "Aux Thermopyles les Grecs ont été vaincus, mais finalement les Athéniens ont battu les Perses sur mer, près de l'île de Salamis.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-04",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "truefalse",
+  "difficulty": 1,
+  "question_nl": "De zoon van Darius, Xerxes, ondernam tien jaar later een nieuwe poging om de Grieken te verslaan.",
+  "question_fr": "Le fils de Darius, Xerxès, a entrepris dix ans plus tard une nouvelle tentative pour vaincre les Grecs.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Klopt. Tien jaar na Marathon probeerde Xerxes, de zoon van Darius, opnieuw de Grieken te verslaan.",
+  "explanation_fr": "C'est exact. Dix ans après Marathon, Xerxès, le fils de Darius, a de nouveau tenté de vaincre les Grecs.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-05",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke polis leidde de Delisch-Attische Zeebond?",
+  "question_fr": "Quelle cité dirigeait la Ligue de Délos (Delisch-Attische Zeebond) ?",
+  "hint_nl": "De sterke zeemacht.",
+  "hint_fr": "La forte puissance maritime.",
+  "options": [
+   "Athene",
+   "Sparta",
+   "Thebe",
+   "Macedonië"
+  ],
+  "options_fr": [
+   "Athènes",
+   "Sparte",
+   "Thèbes",
+   "La Macédoine"
+  ],
+  "answer": 0,
+  "explanation_nl": "De leiding van de Delisch-Attische Zeebond berustte bij Athene. De bondgenoten moesten een bijdrage betalen voor de vloot.",
+  "explanation_fr": "La direction de la Ligue de Délos revenait à Athènes. Les alliés devaient payer une contribution pour la flotte.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-06",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke polis leidde de Peloponnesische Bond?",
+  "question_fr": "Quelle cité dirigeait la Ligue du Péloponnèse (Peloponnesische Bond) ?",
+  "hint_nl": "De militaire polis.",
+  "hint_fr": "La cité militaire.",
+  "options": [
+   "Sparta",
+   "Athene",
+   "Corinthe",
+   "Marathon"
+  ],
+  "options_fr": [
+   "Sparte",
+   "Athènes",
+   "Corinthe",
+   "Marathon"
+  ],
+  "answer": 0,
+  "explanation_nl": "Sparta verzamelde zijn bondgenoten in de Peloponnesische Bond.",
+  "explanation_fr": "Sparte rassemblait ses alliés dans la Ligue du Péloponnèse.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-07",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarom sloten de Griekse poleis na de Perzische oorlogen bondgenootschappen (zoals de Zeebond)?",
+  "question_fr": "Pourquoi les poleis grecques ont-elles conclu des alliances (comme la Ligue de Délos) après les guerres médiques ?",
+  "hint_nl": "Angst voor de oude vijand.",
+  "hint_fr": "Peur du vieil ennemi.",
+  "options": [
+   "Uit angst voor nieuwe Perzische aanvallen",
+   "Om Rome aan te vallen",
+   "Om Egypte te veroveren",
+   "Om de Olympische Spelen te organiseren"
+  ],
+  "options_fr": [
+   "Par peur de nouvelles attaques perses",
+   "Pour attaquer Rome",
+   "Pour conquérir l'Égypte",
+   "Pour organiser les Jeux olympiques"
+  ],
+  "answer": 0,
+  "explanation_nl": "Uit angst voor nieuwe Perzische aanvallen sloten ongeveer 200 Griekse stadstaten een bondgenootschap.",
+  "explanation_fr": "Par peur de nouvelles attaques perses, environ 200 cités-États grecques ont conclu une alliance.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-08",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat deed de woede bij de andere leden van de Zeebond oplaaien?",
+  "question_fr": "Qu'est-ce qui a provoqué la colère des autres membres de la Ligue de Délos ?",
+  "hint_nl": "Pericles en het geld van de bond.",
+  "hint_fr": "Périclès et l'argent de la ligue.",
+  "options": [
+   "Pericles gebruikte het geld van de Zeebond voor prestigieuze bouwwerken in Athene",
+   "Sparta weigerde te betalen",
+   "De Perzen vielen opnieuw aan",
+   "Athene verliet de bond"
+  ],
+  "options_fr": [
+   "Périclès a utilisé l'argent de la Ligue pour des bâtiments prestigieux à Athènes",
+   "Sparte a refusé de payer",
+   "Les Perses ont attaqué de nouveau",
+   "Athènes a quitté la ligue"
+  ],
+  "answer": 0,
+  "explanation_nl": "Toen Pericles het geld van de Zeebond voor prestigieuze bouwwerken in Athene gebruikte, wekte dat grote wrevel bij de andere leden. Protesten werden hard onderdrukt.",
+  "explanation_fr": "Quand Périclès a utilisé l'argent de la Ligue pour des bâtiments prestigieux à Athènes, cela a provoqué une grande colère chez les autres membres. Les protestations ont été durement réprimées.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-09",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wie trok aan het langste eind in de Peloponnesische oorlogen?",
+  "question_fr": "Qui l'a emporté dans les guerres du Péloponnèse ?",
+  "hint_nl": "Niet Athene.",
+  "hint_fr": "Pas Athènes.",
+  "options": [
+   "Sparta",
+   "Athene",
+   "De Perzen",
+   "Macedonië"
+  ],
+  "options_fr": [
+   "Sparte",
+   "Athènes",
+   "Les Perses",
+   "La Macédoine"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het conflict zette twee blokken tegenover elkaar: Athene en Sparta met hun bondgenoten. Sparta trok aan het langste eind.",
+  "explanation_fr": "Le conflit opposait deux blocs : Athènes et Sparte avec leurs alliés. Sparte l'a emporté.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-10",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat was een belangrijk gevolg van de jarenlange Peloponnesische oorlogen?",
+  "question_fr": "Quelle a été une conséquence importante des longues guerres du Péloponnèse ?",
+  "hint_nl": "De poleis werden zwakker.",
+  "hint_fr": "Les poleis sont devenues plus faibles.",
+  "options": [
+   "De poleis verzwakten enorm en de weg lag vrij voor buitenlandse dreigingen",
+   "Athene werd voor altijd de baas over Hellas",
+   "De Perzen veroverden heel Griekenland",
+   "De democratie verdween in Athene"
+  ],
+  "options_fr": [
+   "Les poleis se sont énormément affaiblies et la voie était libre pour les menaces étrangères",
+   "Athènes est devenue à jamais maîtresse de la Hellas",
+   "Les Perses ont conquis toute la Grèce",
+   "La démocratie a disparu à Athènes"
+  ],
+  "answer": 0,
+  "explanation_nl": "De jarenlange strijd verzwakte de poleis enorm en maakte de weg vrij voor buitenlandse dreigingen, zoals Macedonië.",
+  "explanation_fr": "La longue lutte a énormément affaibli les poleis et a ouvert la voie aux menaces étrangères, comme la Macédoine.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-11",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welke koning van Macedonië verenigde het verdeelde Griekenland en stichtte de Korinthische bond?",
+  "question_fr": "Quel roi de Macédoine a unifié la Grèce divisée et fondé la Ligue de Corinthe ?",
+  "hint_nl": "De vader van Alexander.",
+  "hint_fr": "Le père d'Alexandre.",
+  "options": [
+   "Philippos II",
+   "Alexander de Grote",
+   "Pericles",
+   "Darius I"
+  ],
+  "options_fr": [
+   "Philippe II",
+   "Alexandre le Grand",
+   "Périclès",
+   "Darius I"
+  ],
+  "answer": 0,
+  "explanation_nl": "Philippos II (359-336 v.C.) versloeg de legers van Thebe en Athene, nam heel Hellas in en stichtte de Korinthische bond met Macedonië als leider. Enkel Sparta was vrijgesteld.",
+  "explanation_fr": "Philippe II (359-336 av. J.-C.) a battu les armées de Thèbes et d'Athènes, pris toute la Hellas et fondé la Ligue de Corinthe avec la Macédoine comme leader. Seule Sparte en était dispensée.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-12",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Alexander de Grote kreeg als leermeester de filosoof Aristoteles.",
+  "question_fr": "Alexandre le Grand a eu comme maître le philosophe Aristote.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Klopt. Philippus zorgde voor een uitzonderlijke leermeester voor zijn zoon: Aristoteles.",
+  "explanation_fr": "C'est exact. Philippe a fourni à son fils un maître exceptionnel : Aristote.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-13",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Tegen welk rijk begon Alexander de Grote in 334 v.C. de oorlog?",
+  "question_fr": "Contre quel empire Alexandre le Grand a-t-il commencé la guerre en 334 av. J.-C. ?",
+  "hint_nl": "De aardvijand van Hellas.",
+  "hint_fr": "L'ennemi héréditaire de la Hellas.",
+  "options": [
+   "Het Perzische Rijk",
+   "Het Romeinse Rijk",
+   "Egypte",
+   "India"
+  ],
+  "options_fr": [
+   "L'Empire perse",
+   "L'Empire romain",
+   "L'Égypte",
+   "L'Inde"
+  ],
+  "answer": 0,
+  "explanation_nl": "In 334 v.C. begon Alexander de oorlog tegen het Perzische Rijk om de onderworpen Grieken te bevrijden en de aardvijand te straffen. Met Alexander begon het hellenisme.",
+  "explanation_fr": "En 334 av. J.-C., Alexandre a commencé la guerre contre l'Empire perse pour libérer les Grecs soumis et punir l'ennemi héréditaire. Avec Alexandre a commencé l'hellénisme.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-14",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat beoogde Alexander vooral bij de organisatie van zijn rijk?",
+  "question_fr": "Que visait surtout Alexandre dans l'organisation de son empire ?",
+  "hint_nl": "Oost en west samenbrengen; huwelijk met Roxane.",
+  "hint_fr": "Réunir l'orient et l'occident ; mariage avec Roxane.",
+  "options": [
+   "De versmelting van de oosterse en de westerse beschaving",
+   "De vernietiging van alle Perzen",
+   "De terugkeer naar Sparta",
+   "Het herstel van de democratie in Athene"
+  ],
+  "options_fr": [
+   "La fusion des civilisations orientale et occidentale",
+   "La destruction de tous les Perses",
+   "Le retour à Sparte",
+   "Le rétablissement de la démocratie à Athènes"
+  ],
+  "answer": 0,
+  "explanation_nl": "Alexander beoogde de versmelting van oost en west. Zo regelde hij het huwelijk van duizenden Macedoniërs met Perzische vrouwen en trouwde hij zelf met de Perzische prinses Roxane.",
+  "explanation_fr": "Alexandre visait la fusion de l'orient et de l'occident. Il a organisé le mariage de milliers de Macédoniens avec des femmes perses et a lui-même épousé la princesse perse Roxane.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-15",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Na de dood van Alexander in 323 v.C. bleef het grote Macedonische rijk één geheel.",
+  "question_fr": "Après la mort d'Alexandre en 323 av. J.-C., le grand empire macédonien est resté uni.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout. Met de dood van Alexander in 323 v.C. kwam er een einde aan het grote rijk: het viel uiteen in drie koninkrijken.",
+  "explanation_fr": "Faux. À la mort d'Alexandre en 323 av. J.-C., le grand empire a pris fin : il s'est divisé en trois royaumes.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hoo-16",
+  "theme": "h6-oorlog-hellenisme",
+  "chapter": "Hellas - oorlog",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Met wie begon het hellenisme volgens het cours?",
+  "question_fr": "Avec qui a commencé l'hellénisme selon le cours ?",
+  "hint_nl": "De veroveraar uit Macedonië.",
+  "hint_fr": "Le conquérant venu de Macédoine.",
+  "options": [
+   "Alexander de Grote",
+   "Pericles",
+   "Philippos II",
+   "Xerxes"
+  ],
+  "options_fr": [
+   "Alexandre le Grand",
+   "Périclès",
+   "Philippe II",
+   "Xerxès"
+  ],
+  "answer": 0,
+  "explanation_nl": "Met Alexander de Grote begon het hellenisme: de versmelting van de Griekse beschaving met de oosterse beschavingen.",
+  "explanation_fr": "Avec Alexandre le Grand a commencé l'hellénisme : la fusion de la civilisation grecque avec les civilisations orientales.",
+  "course_ref": "Hellas - oorlog en Hellenisme"
+ },
+ {
+  "id": "hrp-01",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar is Rome volgens de legende (Romulus & Remus) ontstaan? (geef het jaartal in v.Chr.)",
+  "question_fr": "En quelle annee Rome est-elle fondee selon la legende (Romulus et Remus) ? (donne l'annee en v.Chr.)",
+  "hint_nl": "Tweelingbroers opgevoed door een wolvin.",
+  "hint_fr": "Des jumeaux eleves par une louve.",
+  "options": [],
+  "options_fr": [],
+  "answer": 753,
+  "explanation_nl": "Volgens de legende stichtte Romulus de stad in 753 v.Chr.",
+  "explanation_fr": "Selon la legende, Romulus fonde la ville en 753 v.Chr. La fondation reelle se situe vers 1000 v.Chr.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-02",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "truefalse",
+  "difficulty": 1,
+  "question_nl": "Volgens de historici is Rome feitelijk ontstaan rond 1000 v.Chr., dus vroeger dan de legende beweert.",
+  "question_fr": "Selon les historiens, Rome est reellement nee vers 1000 v.Chr., donc plus tot que ne le dit la legende.",
+  "hint_nl": "Vergelijk 753 (legende) met de schatting van historici.",
+  "hint_fr": "Compare 753 (legende) avec l'estimation des historiens.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het feitelijke ontstaan ligt rond 1000 v.Chr.; de legende dateert het op 753 v.Chr.",
+  "explanation_fr": "La fondation reelle se situe vers 1000 v.Chr.; la legende la date de 753 v.Chr.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-03",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke drie bestuurlijke instellingen bestaan er tijdens de koningstijd?",
+  "question_fr": "Quelles sont les trois institutions du gouvernement pendant la royaute ?",
+  "hint_nl": "Eentje had bijna alle macht.",
+  "hint_fr": "L'une d'elles avait presque tout le pouvoir.",
+  "options": [
+   "Koning, senaat en volksvergadering",
+   "Consuls, senaat en dictator",
+   "Koning, volkstribuun en proconsul",
+   "Keizer, senaat en legioenen"
+  ],
+  "options_fr": [
+   "Le roi, le senat et l'assemblee du peuple",
+   "Les consuls, le senat et le dictateur",
+   "Le roi, le tribun de la plebe et le proconsul",
+   "L'empereur, le senat et les legions"
+  ],
+  "answer": 0,
+  "explanation_nl": "Tijdens de koningstijd: koning (bijna alle macht), senaat en volksvergadering.",
+  "explanation_fr": "Pendant la royaute : le roi (presque tout le pouvoir), le senat et l'assemblee du peuple (volksvergadering).",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-04",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarom noemen we de Romeinse koning een 'absolute heerser'?",
+  "question_fr": "Pourquoi qualifie-t-on le roi romain de 'souverain absolu' (absolute heerser) ?",
+  "hint_nl": "Opperbevelhebber, opperrechter en opperpriester.",
+  "hint_fr": "Chef de l'armee, juge supreme et grand pretre.",
+  "options": [
+   "Hij is opperbevelhebber, opperrechter en opperpriester: bijna alle macht",
+   "Hij wordt elk jaar herkozen",
+   "Hij deelt de macht met twee consuls",
+   "Hij heeft enkel religieuze taken"
+  ],
+  "options_fr": [
+   "Il est chef de l'armee, juge supreme et grand pretre : presque tout le pouvoir",
+   "Il est reelu chaque annee",
+   "Il partage le pouvoir avec deux consuls",
+   "Il n'a que des taches religieuses"
+  ],
+  "answer": 0,
+  "explanation_nl": "De koning is tegelijk opperbevelhebber, opperrechter en opperpriester en is voor het leven gekozen: hij beschikt over bijna alle macht.",
+  "explanation_fr": "Le roi cumule les fonctions de chef de l'armee, juge supreme et grand pretre, et il est elu a vie : il detient presque tout le pouvoir.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-05",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar ontstaat de Romeinse republiek? (jaartal in v.Chr.)",
+  "question_fr": "En quelle annee nait la republique romaine ? (annee en v.Chr.)",
+  "hint_nl": "De laatste koning Tarquinius Superbus wordt verjaagd.",
+  "hint_fr": "Le dernier roi Tarquinius Superbus est chasse.",
+  "options": [],
+  "options_fr": [],
+  "answer": 509,
+  "explanation_nl": "In 509 v.Chr. verjagen de Romeinen de laatste koning en wordt Rome een republiek.",
+  "explanation_fr": "En 509 v.Chr., les Romains chassent le dernier roi et Rome devient une republique.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-06",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarvan is de naam 'republiek' afgeleid en wat betekent het?",
+  "question_fr": "De quoi vient le mot 'republique' et que signifie-t-il ?",
+  "hint_nl": "Latijn: res publica.",
+  "hint_fr": "Latin : res publica.",
+  "options": [
+   "Van 'res publica': de zaak van het volk",
+   "Van 'rex publicus': de openbare koning",
+   "Van 'Roma pulchra': het mooie Rome",
+   "Van 'res privata': de prive-zaak"
+  ],
+  "options_fr": [
+   "De 'res publica' : la chose / l'affaire du peuple",
+   "De 'rex publicus' : le roi public",
+   "De 'Roma pulchra' : la belle Rome",
+   "De 'res privata' : l'affaire privee"
+  ],
+  "answer": 0,
+  "explanation_nl": "Republiek komt van 'res publica', de zaak van het volk.",
+  "explanation_fr": "Republique vient de 'res publica', la chose ou l'affaire du peuple.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-07",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hoeveel consuls zijn er in de republiek en hoe lang blijven ze aan de macht?",
+  "question_fr": "Combien y a-t-il de consuls dans la republique et combien de temps restent-ils au pouvoir ?",
+  "hint_nl": "Ze moeten hun rol delen.",
+  "hint_fr": "Ils doivent partager leur role.",
+  "options": [
+   "Twee consuls, gedurende een jaar",
+   "Een consul, levenslang",
+   "Drie consuls, zes maanden",
+   "Tien consuls, een jaar"
+  ],
+  "options_fr": [
+   "Deux consuls, pendant un an",
+   "Un consul, a vie",
+   "Trois consuls, six mois",
+   "Dix consuls, un an"
+  ],
+  "answer": 0,
+  "explanation_nl": "Er zijn twee consuls die de macht delen en een jaar aanblijven; zij voeren het dagelijks bestuur en zijn legeraanvoerders.",
+  "explanation_fr": "Il y a deux consuls qui partagent le pouvoir et restent un an; ils assurent le gouvernement quotidien et commandent l'armee.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-08",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wie heeft volgens het cursusmateriaal de meeste macht in de republiek, en waarom?",
+  "question_fr": "Qui detient le plus de pouvoir dans la republique selon le cours, et pourquoi ?",
+  "hint_nl": "Vaak oud-consuls, levenslang, beheren het geld.",
+  "hint_fr": "Souvent d'anciens consuls, a vie, gerent l'argent.",
+  "options": [
+   "De senaat: vaak oud-consuls, levenslang aangesteld, beheert geld en buitenland",
+   "De volksvergadering: zij stemt over alles",
+   "De dictator: hij heeft altijd alle macht",
+   "De volkstribuun: hij heeft vetorecht"
+  ],
+  "options_fr": [
+   "Le senat : souvent d'anciens consuls, nommes a vie, gere l'argent et l'etranger",
+   "L'assemblee du peuple : elle vote sur tout",
+   "Le dictateur : il a toujours tout le pouvoir",
+   "Le tribun de la plebe : il a le droit de veto"
+  ],
+  "answer": 0,
+  "explanation_nl": "De senaat heeft de meeste macht: de leden zijn vaak oud-consuls, levenslang aangesteld, en beheren de financien en de contacten met het buitenland.",
+  "explanation_fr": "Le senat detient le plus de pouvoir : ses membres sont souvent d'anciens consuls, nommes a vie, et controlent les finances et les contacts avec l'etranger.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-09",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat is het verschil tussen een Romeinse dictator en een dictator vandaag?",
+  "question_fr": "Quelle est la difference entre un dictateur romain et un dictateur d'aujourd'hui ?",
+  "hint_nl": "Denk aan tijdsduur: zes maanden tegenover onbeperkt.",
+  "hint_fr": "Pense a la duree : six mois contre illimite.",
+  "options": [
+   "Toen: tijdelijk aangesteld (6 maanden) om een crisis op te lossen; nu: alleenheerser met alle macht zonder grens",
+   "Er is geen verschil, beide hebben dezelfde betekenis",
+   "Toen: alle macht voor het leven; nu: zes maanden",
+   "Toen: gekozen door het volk; nu: gekozen door de senaat"
+  ],
+  "options_fr": [
+   "A l'epoque : nomme temporairement (6 mois) pour resoudre une crise; aujourd'hui : souverain absolu avec tout le pouvoir sans limite",
+   "Aucune difference, le sens est le meme",
+   "A l'epoque : tout le pouvoir a vie; aujourd'hui : six mois",
+   "A l'epoque : elu par le peuple; aujourd'hui : elu par le senat"
+  ],
+  "answer": 0,
+  "explanation_nl": "Toen was een dictator tijdelijk (zes maanden) aangesteld om een crisis op te lossen; nu betekent het een alleenheerser die onbeperkt alle macht heeft.",
+  "explanation_fr": "A l'epoque, un dictateur etait nomme temporairement (six mois) pour resoudre une crise; aujourd'hui, c'est un souverain absolu qui detient tout le pouvoir sans limite.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-10",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Tegen welke stad voert Rome de Punische oorlogen (264-146 v.Chr.)?",
+  "question_fr": "Contre quelle ville Rome mene-t-elle les guerres puniques (264-146 v.Chr.) ?",
+  "hint_nl": "Een machtige handelsstad in Noord-Afrika; generaal Hannibal.",
+  "hint_fr": "Une puissante cite commercante d'Afrique du Nord; general Hannibal.",
+  "options": [
+   "Carthago",
+   "Athene",
+   "Sparta",
+   "Alexandrie"
+  ],
+  "options_fr": [
+   "Carthage",
+   "Athenes",
+   "Sparte",
+   "Alexandrie"
+  ],
+  "answer": 0,
+  "explanation_nl": "Rome voert drie Punische oorlogen tegen Carthago en wint; Carthago wordt in 146 v.Chr. de provincie 'Africa'.",
+  "explanation_fr": "Rome mene trois guerres puniques contre Carthage et l'emporte; Carthage devient la province 'Africa' en 146 v.Chr.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-11",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Na de Punische oorlogen werd de Middellandse Zee de 'Mare Nostrum' van de Romeinen.",
+  "question_fr": "Apres les guerres puniques, la Mediterranee devient le 'Mare Nostrum' des Romains.",
+  "hint_nl": "Mare Nostrum = 'onze zee'.",
+  "hint_fr": "Mare Nostrum = 'notre mer'.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Met de val van Carthago werd de Middellandse Zee tot 'Mare Nostrum' (onze zee) voor de Romeinen.",
+  "explanation_fr": "Avec la chute de Carthage, la Mediterranee devient le 'Mare Nostrum' (notre mer) des Romains.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-12",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wie maakten deel uit van het eerste triumviraat?",
+  "question_fr": "Qui faisait partie du premier triumvirat ?",
+  "hint_nl": "De jongere Caesar sluit een verbond met twee machtige Romeinen.",
+  "hint_fr": "Le jeune Caesar s'allie a deux Romains puissants.",
+  "options": [
+   "Pompeius, Crassus en Caesar",
+   "Antonius, Octavianus en Lepidus",
+   "Caesar, Brutus en Cassius",
+   "Augustus, Nerva en Trajanus"
+  ],
+  "options_fr": [
+   "Pompee, Crassus et Cesar",
+   "Antoine, Octavien et Lepide",
+   "Cesar, Brutus et Cassius",
+   "Auguste, Nerva et Trajan"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het eerste triumviraat bestond uit Pompeius, Crassus en de jongere Caesar; het tweede uit Antonius, Octavianus en Lepidus.",
+  "explanation_fr": "Le premier triumvirat reunissait Pompee, Crassus et le jeune Cesar; le second reunissait Antoine, Octavien et Lepide.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-13",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar wordt Julius Gaius Caesar in de senaat vermoord? (jaartal in v.Chr.)",
+  "question_fr": "En quelle annee Jules Cesar est-il assassine au senat ? (annee en v.Chr.)",
+  "hint_nl": "Net na zijn alleenheerschappij, voor het tweede triumviraat.",
+  "hint_fr": "Juste apres son pouvoir personnel, avant le second triumvirat.",
+  "options": [],
+  "options_fr": [],
+  "answer": 44,
+  "explanation_nl": "In 44 v.Chr. wordt Caesar in de senaat vermoord.",
+  "explanation_fr": "En 44 v.Chr., Cesar est assassine au senat.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-14",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar wordt Octavianus de eerste keizer en eindigt de republiek? (jaartal in v.Chr.)",
+  "question_fr": "En quelle annee Octavien devient-il le premier empereur et la republique prend-elle fin ? (annee en v.Chr.)",
+  "hint_nl": "Na de overwinning op Antonius en Cleopatra.",
+  "hint_fr": "Apres la victoire sur Antoine et Cleopatre.",
+  "options": [],
+  "options_fr": [],
+  "answer": 27,
+  "explanation_nl": "In 27 v.Chr. maakt Octavianus een einde aan de republiek en wordt hij alleenheerser en de eerste keizer (Augustus).",
+  "explanation_fr": "En 27 v.Chr., Octavien met fin a la republique et devient souverain absolu et premier empereur (Auguste).",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-15",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat betekent 'schijnrepubliek' onder keizer Augustus?",
+  "question_fr": "Que signifie 'fausse republique' (schijnrepubliek) sous l'empereur Auguste ?",
+  "hint_nl": "Officieel herstelt hij de republiek, in werkelijkheid...",
+  "hint_fr": "Officiellement il restaure la republique, en realite...",
+  "options": [
+   "Officieel herstelt hij de republiek, maar in werkelijkheid trekt hij alle macht naar zich toe",
+   "De republiek bestaat echt verder zonder keizer",
+   "Het volk kiest voortaan de keizer",
+   "De senaat heeft alle macht teruggekregen"
+  ],
+  "options_fr": [
+   "Officiellement il restaure la republique, mais en realite il accapare tout le pouvoir",
+   "La republique continue vraiment sans empereur",
+   "Le peuple elit desormais l'empereur",
+   "Le senat a recupere tout le pouvoir"
+  ],
+  "answer": 0,
+  "explanation_nl": "Schijnrepubliek: officieel herstelt Augustus de republiek, maar in werkelijkheid trekt hij alle macht naar zich toe. Hij draagt de titels Princeps, Augustus en Caesar.",
+  "explanation_fr": "Fausse republique : officiellement Auguste restaure la republique, mais en realite il accapare tout le pouvoir. Il porte les titres de Princeps, Augustus et Caesar.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-16",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Waarom kiest Augustus voor 'natuurlijke grenzen' voor het Romeinse Rijk?",
+  "question_fr": "Pourquoi Auguste choisit-il des 'frontieres naturelles' pour l'Empire romain ?",
+  "hint_nl": "Denk aan rivieren zoals de Rijn en de Donau en aan de legioenen.",
+  "hint_fr": "Pense aux fleuves comme le Rhin et le Danube et aux legions.",
+  "options": [
+   "Om de veiligheid te garanderen: legioenen verdedigen de grenzen (gewapende vrede)",
+   "Omdat de senaat dat eiste",
+   "Om belastingen te kunnen innen",
+   "Omdat het volk geen oorlog meer wou"
+  ],
+  "options_fr": [
+   "Pour garantir la securite : les legions defendent les frontieres (paix armee)",
+   "Parce que le senat l'exigeait",
+   "Pour pouvoir lever des impots",
+   "Parce que le peuple ne voulait plus la guerre"
+  ],
+  "answer": 0,
+  "explanation_nl": "Augustus kiest natuurlijke grenzen (Rijn, Donau, oceaan, woestijn, Tigris/Eufraat) zodat de legioenen ze makkelijker verdedigen: dat is de gewapende vrede van de Pax Romana.",
+  "explanation_fr": "Auguste choisit des frontieres naturelles (Rhin, Danube, ocean, desert, Tigre/Euphrate) que les legions defendent plus facilement : c'est la paix armee de la Pax Romana.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrp-17",
+  "theme": "h7-rome-politiek",
+  "chapter": "Rome - politiek",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar valt het West-Romeinse Rijk? (jaartal in n.Chr.)",
+  "question_fr": "En quelle annee tombe l'Empire romain d'Occident ? (annee en n.Chr.)",
+  "hint_nl": "Na de splitsing van het rijk in 395 n.Chr.",
+  "hint_fr": "Apres le partage de l'empire en 395 n.Chr.",
+  "options": [],
+  "options_fr": [],
+  "answer": 476,
+  "explanation_nl": "Het rijk wordt in 395 n.Chr. gesplitst; het West-Romeinse Rijk valt in 476 n.Chr.",
+  "explanation_fr": "L'empire est partage en 395 n.Chr.; l'Empire romain d'Occident tombe en 476 n.Chr.",
+  "course_ref": "Rome - politiek"
+ },
+ {
+  "id": "hrm-01",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Wie is in de Romeinse familie het familiehoofd dat alle macht heeft, alles bezit en alles beslist?",
+  "question_fr": "Qui est, dans la famille romaine, le chef de famille qui a tout le pouvoir, possède tout et décide de tout ?",
+  "hint_nl": "Latijnse term: vader van de familie.",
+  "hint_fr": "Terme latin : père de la famille.",
+  "options": [
+   "De pater familias",
+   "De patriciër",
+   "De plebejer",
+   "De consul"
+  ],
+  "options_fr": [
+   "Le pater familias",
+   "Le patricien",
+   "Le plébéien",
+   "Le consul"
+  ],
+  "answer": 0,
+  "explanation_nl": "De pater familias is het familiehoofd. Hij heeft alle macht, bezit alles en beslist alles. Dat maakt Rome een patriarchale samenleving.",
+  "explanation_fr": "Le pater familias est le chef de famille. Il a tout le pouvoir, possède tout et décide de tout. Cela fait de Rome une société patriarcale.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-02",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat is een 'gens' (meervoud: gentes)?",
+  "question_fr": "Qu'est-ce qu'une 'gens' (pluriel : gentes) ?",
+  "hint_nl": "Het gaat om verwantschap en afstamming.",
+  "hint_fr": "Il s'agit de parenté et de descendance.",
+  "options": [
+   "Verschillende families met dezelfde voorvader (een geslacht)",
+   "Een groep slaven van één meester",
+   "De volksvergadering van plebejers",
+   "Een Romeinse legereenheid"
+  ],
+  "options_fr": [
+   "Plusieurs familles avec le même ancêtre (un lignage)",
+   "Un groupe d'esclaves d'un même maître",
+   "L'assemblée populaire des plébéiens",
+   "Une unité de l'armée romaine"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een gens is een geslacht: verschillende families die dezelfde voorvader hebben. In de 6de eeuw v.C. waren er ongeveer 60 gentes in Rome.",
+  "explanation_fr": "Une gens est un lignage : plusieurs familles qui ont le même ancêtre. Au VIe siècle av. J.-C., il y avait environ 60 gentes à Rome.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-03",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke sociale groep geloofde af te stammen van de stichters van Rome, bezat bijna alle grond en had de politieke macht?",
+  "question_fr": "Quel groupe social croyait descendre des fondateurs de Rome, possédait presque toute la terre et avait le pouvoir politique ?",
+  "hint_nl": "Ook 'aristocraten' genoemd.",
+  "hint_fr": "Aussi appelés 'aristocrates'.",
+  "options": [
+   "De patriciërs",
+   "De plebejers",
+   "De slaven",
+   "Het proletariaat"
+  ],
+  "options_fr": [
+   "Les patriciens",
+   "Les plébéiens",
+   "Les esclaves",
+   "Le prolétariat"
+  ],
+  "answer": 0,
+  "explanation_nl": "De patriciërs (aristocraten) geloofden dat ze afstamden van de stichters van Rome, bezaten bijna alle grond en kozen de koning. Zij hadden de politieke macht.",
+  "explanation_fr": "Les patriciens (aristocrates) croyaient descendre des fondateurs de Rome, possédaient presque toute la terre et choisissaient le roi. Ils détenaient le pouvoir politique.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-04",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De plebejers waren gewone burgers met persoonlijke vrijheden, maar zij hadden geen politieke macht.",
+  "question_fr": "Les plébéiens étaient des citoyens ordinaires avec des libertés personnelles, mais ils n'avaient pas de pouvoir politique.",
+  "hint_nl": "Boeren, ambachtslieden en handelaars.",
+  "hint_fr": "Paysans, artisans et commerçants.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De plebejers (gewone burgers: boeren, ambachtslieden, handelaars) hadden persoonlijke vrijheden maar geen politieke macht.",
+  "explanation_fr": "Vrai. Les plébéiens (citoyens ordinaires : paysans, artisans, commerçants) avaient des libertés personnelles mais pas de pouvoir politique.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-05",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Slaven in Rome waren meestal krijgsgevangenen of hun afstammelingen. Hoe werden zij beschouwd?",
+  "question_fr": "Les esclaves à Rome étaient surtout des prisonniers de guerre ou leurs descendants. Comment étaient-ils considérés ?",
+  "hint_nl": "Ze hadden weinig of geen rechten.",
+  "hint_fr": "Ils avaient peu ou aucun droit.",
+  "options": [
+   "Als een zaak (een object), met weinig of geen rechten",
+   "Als vrije burgers met stemrecht",
+   "Als leden van de nobilitas",
+   "Als patriciërs"
+  ],
+  "options_fr": [
+   "Comme une chose (un objet), avec peu ou aucun droit",
+   "Comme des citoyens libres avec droit de vote",
+   "Comme membres de la nobilitas",
+   "Comme des patriciens"
+  ],
+  "answer": 0,
+  "explanation_nl": "Slaven hadden weinig of geen rechten en werden beschouwd als een zaak. Ze leidden meestal een zeer zwaar bestaan.",
+  "explanation_fr": "Les esclaves avaient peu ou aucun droit et étaient considérés comme une chose. Ils menaient le plus souvent une vie très dure.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-06",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Rangschik van de hoogste naar de laagste sociale positie in de vroege Romeinse samenleving.",
+  "question_fr": "Classe de la position sociale la plus haute à la plus basse dans la société romaine ancienne.",
+  "hint_nl": "Politieke macht bovenaan, rechtelozen onderaan.",
+  "hint_fr": "Pouvoir politique en haut, sans droits en bas.",
+  "options": [
+   "Patriciërs - plebejers - slaven",
+   "Slaven - plebejers - patriciërs",
+   "Plebejers - patriciërs - slaven",
+   "Patriciërs - slaven - plebejers"
+  ],
+  "options_fr": [
+   "Patriciens - plébéiens - esclaves",
+   "Esclaves - plébéiens - patriciens",
+   "Plébéiens - patriciens - esclaves",
+   "Patriciens - esclaves - plébéiens"
+  ],
+  "answer": 0,
+  "explanation_nl": "Bovenaan de patriciërs (politieke macht, grond), daarna de plebejers (vrij maar geen politieke macht), onderaan de slaven (geen rechten).",
+  "explanation_fr": "En haut les patriciens (pouvoir politique, terres), puis les plébéiens (libres mais sans pouvoir politique), en bas les esclaves (sans droits).",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-07",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hoe noemt men de grote groep bezitlozen (arme boeren en slaven) die in Rome een gevaarlijke arme massa vormden?",
+  "question_fr": "Comment appelle-t-on le grand groupe de sans-biens (paysans pauvres et esclaves) qui formait à Rome une masse pauvre dangereuse ?",
+  "hint_nl": "Begint met 'prol...'.",
+  "hint_fr": "Commence par 'prol...'.",
+  "options": [
+   "Het proletariaat",
+   "De nobilitas",
+   "De patriciërs",
+   "De gentes"
+  ],
+  "options_fr": [
+   "Le prolétariat",
+   "La nobilitas",
+   "Les patriciens",
+   "Les gentes"
+  ],
+  "answer": 0,
+  "explanation_nl": "De arme boeren en de slaven vormden samen de bezitlozen: het proletariaat. Door hun aantal waren ze gevaarlijk voor de overheid.",
+  "explanation_fr": "Les paysans pauvres et les esclaves formaient ensemble les sans-biens : le prolétariat. Par leur nombre, ils étaient dangereux pour le pouvoir.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-08",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hoe noemt men de kleine groep rijken (rijke plebejers en patriciërs) met rijkdom en politieke macht?",
+  "question_fr": "Comment appelle-t-on le petit groupe de riches (riches plébéiens et patriciens) qui avaient richesse et pouvoir politique ?",
+  "hint_nl": "Op de afbeelding in de cursus staat dit woord groot geschreven.",
+  "hint_fr": "Ce mot est écrit en grand sur l'image du cours.",
+  "options": [
+   "De nobilitas",
+   "Het proletariaat",
+   "De bezitlozen",
+   "De slaven"
+  ],
+  "options_fr": [
+   "La nobilitas",
+   "Le prolétariat",
+   "Les sans-biens",
+   "Les esclaves"
+  ],
+  "answer": 0,
+  "explanation_nl": "De kleine groep rijken (rijke plebejers en patriciërs) met rijkdom en politieke macht is de nobilitas.",
+  "explanation_fr": "Le petit groupe de riches (riches plébéiens et patriciens) avec richesse et pouvoir politique est la nobilitas.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-09",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat betekent het politieke principe 'Brood en Spelen'?",
+  "question_fr": "Que signifie le principe politique 'Du pain et des jeux' ('Brood en Spelen') ?",
+  "hint_nl": "Doel: opstanden voorkomen.",
+  "hint_fr": "But : éviter les révoltes.",
+  "options": [
+   "De overheid geeft de arme massa gratis voedsel en spelen om opstanden te voorkomen",
+   "De rijken organiseren feesten voor elkaar",
+   "Iedereen moet belasting betalen in graan",
+   "Slaven krijgen brood als loon"
+  ],
+  "options_fr": [
+   "Le pouvoir donne à la masse pauvre nourriture et jeux gratuits pour éviter les révoltes",
+   "Les riches organisent des fêtes entre eux",
+   "Tout le monde paie l'impôt en blé",
+   "Les esclaves reçoivent du pain comme salaire"
+  ],
+  "answer": 0,
+  "explanation_nl": "Om opstanden te voorkomen, gaf de overheid de arme massa (het proletariaat) gratis of goedkoop brood en spelen.",
+  "explanation_fr": "Pour éviter les révoltes, le pouvoir donnait à la masse pauvre (le prolétariat) du pain et des jeux gratuits ou bon marché.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-10",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "truefalse",
+  "difficulty": 3,
+  "question_nl": "De goedkope slavenarbeid (economisch) zorgde ervoor dat arme boeren geen werk vonden, waardoor de overheid hen via 'Brood en Spelen' moest paaien (politiek). Dit toont de wederzijdse invloed tussen economie, samenleving en politiek.",
+  "question_fr": "Le travail bon marché des esclaves (économie) faisait que les paysans pauvres ne trouvaient pas de travail, d'où la nécessité pour le pouvoir de les apaiser par 'Du pain et des jeux' (politique). Cela montre l'influence réciproque entre économie, société et politique.",
+  "hint_nl": "Eén domein beïnvloedt het andere.",
+  "hint_fr": "Un domaine influence l'autre.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De economische situatie (goedkope slavenarbeid) leidde tot een sociaal probleem (arme massa) dat de politiek met 'Brood en Spelen' moest oplossen: economie, samenleving en politiek beïnvloeden elkaar.",
+  "explanation_fr": "Vrai. La situation économique (travail bon marché des esclaves) a créé un problème social (masse pauvre) que la politique a dû gérer par 'Du pain et des jeux' : économie, société et politique s'influencent mutuellement.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-11",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "Meer dan hoeveel procent van de inwoners van het Romeinse Rijk werkte in de landbouw? Geef enkel het getal.",
+  "question_fr": "Plus de combien de pour cent des habitants de l'Empire romain travaillaient dans l'agriculture ? Donne uniquement le nombre.",
+  "hint_nl": "Bijna iedereen: meer dan negentig.",
+  "hint_fr": "Presque tout le monde : plus de quatre-vingt-dix.",
+  "answer": 95,
+  "explanation_nl": "Meer dan 95% van de inwoners werkte in de landbouw. Daarom spreekt men van een landbouwsamenleving.",
+  "explanation_fr": "Plus de 95% des habitants travaillaient dans l'agriculture. C'est pourquoi on parle d'une société agraire.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-12",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Hoe noemt men de uitgestrekte landbouwdomeinen van rijke Romeinen, waar vooral wijn, olijfolie en graan werden geteeld?",
+  "question_fr": "Comment appelle-t-on les vastes domaines agricoles des riches Romains, où l'on cultivait surtout vin, huile d'olive et blé ?",
+  "hint_nl": "Latijnse term, enkelvoud: latifundium.",
+  "hint_fr": "Terme latin, singulier : latifundium.",
+  "options": [
+   "Latifundia",
+   "Insulae",
+   "Thermen",
+   "Forums"
+  ],
+  "options_fr": [
+   "Latifundia",
+   "Insulae",
+   "Thermes",
+   "Forums"
+  ],
+  "answer": 0,
+  "explanation_nl": "De uitgestrekte domeinen heten latifundia. Er werkten slaven en vrije boeren; de villa was het belangrijkste gebouw.",
+  "explanation_fr": "Les vastes domaines s'appellent latifundia. Y travaillaient des esclaves et des paysans libres ; la villa était le bâtiment principal.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-13",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Hoe heet een Romeinse verharde weg, vakkundig aangelegd, met mijlpalen en herbergen?",
+  "question_fr": "Comment appelle-t-on une route romaine pavée, construite avec soin, avec bornes milliaires et auberges ?",
+  "hint_nl": "Ook 'heerweg' genoemd; de bekendste is de Via Appia.",
+  "hint_fr": "Aussi appelée 'heerweg' ; la plus célèbre est la Via Appia.",
+  "options": [
+   "Een heerbaan",
+   "Een aquaduct",
+   "Een viaduct",
+   "Een forum"
+  ],
+  "options_fr": [
+   "Une heerbaan (voie romaine)",
+   "Un aqueduc",
+   "Un viaduc",
+   "Un forum"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een heerbaan (of heerweg) is de Romeinse verharde weg. De Via Appia (Rome - Brindisium) is de bekendste.",
+  "explanation_fr": "Une heerbaan (ou heerweg) est la voie romaine pavée. La Via Appia (Rome - Brindisium) est la plus célèbre.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-14",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "De heerbanen waren vooral noodzakelijk voor de verplaatsing van de troepen aan de grenzen en voor de koerierdienst.",
+  "question_fr": "Les voies romaines (heerbanen) étaient surtout nécessaires pour le déplacement des troupes aux frontières et pour le service de courrier.",
+  "hint_nl": "Denk aan leger en post.",
+  "hint_fr": "Pense à l'armée et à la poste.",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Juist. De heerbanen waren noodzakelijk voor de verplaatsing van de troepen (vooral aan de grenzen) en werden ook door de koerierdienst gebruikt.",
+  "explanation_fr": "Vrai. Les voies romaines étaient nécessaires au déplacement des troupes (surtout aux frontières) et étaient aussi utilisées par le service de courrier.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-15",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Van welk volk namen de Romeinen de koepel, de rondboog en het tongewelf over?",
+  "question_fr": "De quel peuple les Romains ont-ils repris la coupole, l'arc en plein cintre et la voûte en berceau ?",
+  "hint_nl": "Een volk uit Italië, vóór de Grieken.",
+  "hint_fr": "Un peuple d'Italie, avant les Grecs.",
+  "options": [
+   "Van de Etrusken",
+   "Van de Grieken",
+   "Van de Germanen",
+   "Van de Egyptenaren"
+  ],
+  "options_fr": [
+   "Des Étrusques",
+   "Des Grecs",
+   "Des Germains",
+   "Des Égyptiens"
+  ],
+  "answer": 0,
+  "explanation_nl": "De Romeinen namen de koepel, de rondboog en het tongewelf over van de Etrusken. Het kruisgewelf voegden ze er zelf aan toe.",
+  "explanation_fr": "Les Romains ont repris la coupole, l'arc en plein cintre et la voûte en berceau des Étrusques. Ils ont ajouté eux-mêmes la voûte d'arête (kruisgewelf).",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-16",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "Wat is het verschil tussen Griekse en Romeinse zuilen?",
+  "question_fr": "Quelle est la différence entre les colonnes grecques et romaines ?",
+  "hint_nl": "Functioneel versus mooi maken.",
+  "hint_fr": "Fonctionnel contre embellir.",
+  "options": [
+   "Bij de Grieken zijn de zuilen functioneel (ze dragen een balk); bij de Romeinen vooral esthetisch (om mooier te maken)",
+   "Bij de Grieken zijn ze esthetisch; bij de Romeinen functioneel",
+   "Beide volkeren gebruikten geen zuilen",
+   "De Romeinen gebruikten enkel houten zuilen"
+  ],
+  "options_fr": [
+   "Chez les Grecs les colonnes sont fonctionnelles (elles soutiennent une poutre) ; chez les Romains surtout esthétiques (pour embellir)",
+   "Chez les Grecs elles sont esthétiques ; chez les Romains fonctionnelles",
+   "Aucun des deux peuples n'utilisait de colonnes",
+   "Les Romains n'utilisaient que des colonnes en bois"
+  ],
+  "answer": 0,
+  "explanation_nl": "Bij de Grieken zijn de zuilen functioneel: ze ondersteunen een balk. Bij de Romeinen hebben ze vooral een esthetische functie: ze moeten het geheel mooier maken.",
+  "explanation_fr": "Chez les Grecs, les colonnes sont fonctionnelles : elles soutiennent une poutre. Chez les Romains, elles ont surtout une fonction esthétique : embellir l'ensemble.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-17",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Welk Romeins bouwwerk is een open waterleiding op gemetselde bogen?",
+  "question_fr": "Quel bâtiment romain est une canalisation d'eau à ciel ouvert sur des arches maçonnées ?",
+  "hint_nl": "Niet verwarren met viaduct (brug over weg of dal).",
+  "hint_fr": "Ne pas confondre avec le viaduc (pont au-dessus d'une route ou d'une vallée).",
+  "options": [
+   "Het aquaduct",
+   "Het viaduct",
+   "De thermen",
+   "De basilica"
+  ],
+  "options_fr": [
+   "L'aqueduc",
+   "Le viaduc",
+   "Les thermes",
+   "La basilique"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het aquaduct is een open waterleiding op gemetselde bogen. Een viaduct is een brug over een weg of dal; thermen zijn openbare badhuizen; een basilica diende als handelsbeurs en gerechtsgebouw.",
+  "explanation_fr": "L'aqueduc est une canalisation d'eau à ciel ouvert sur des arches maçonnées. Le viaduc est un pont au-dessus d'une route ou d'une vallée ; les thermes sont des bains publics ; la basilique servait de bourse de commerce et de tribunal.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-18",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "De Romeinse godsdienst was polytheïstisch. Welke Romeinse god komt overeen met de Griekse oppergod Zeus?",
+  "question_fr": "La religion romaine était polythéiste. Quel dieu romain correspond au dieu suprême grec Zeus ?",
+  "hint_nl": "De oppergod van de Romeinen.",
+  "hint_fr": "Le dieu suprême des Romains.",
+  "options": [
+   "Jupiter",
+   "Neptunus",
+   "Mars",
+   "Mercurius"
+  ],
+  "options_fr": [
+   "Jupiter",
+   "Neptune",
+   "Mars",
+   "Mercure"
+  ],
+  "answer": 0,
+  "explanation_nl": "Jupiter is de Romeinse oppergod, gelijk aan de Griekse Zeus. De Romeinen namen de Griekse goden over en gaven hen andere namen.",
+  "explanation_fr": "Jupiter est le dieu suprême romain, équivalent du grec Zeus. Les Romains ont repris les dieux grecs en leur donnant d'autres noms.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-19",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "In welke volgorde evolueerde de positie van het christendom in het Romeinse Rijk?",
+  "question_fr": "Dans quel ordre a évolué la position du christianisme dans l'Empire romain ?",
+  "hint_nl": "Verboden -> vrijheid (313) -> staatsgodsdienst (381).",
+  "hint_fr": "Interdit -> liberté (313) -> religion d'État (381).",
+  "options": [
+   "Verboden godsdienst (vervolging) -> godsdienstvrijheid (Edict van Milaan, 313) -> staatsgodsdienst (381)",
+   "Staatsgodsdienst -> verboden -> godsdienstvrijheid",
+   "Godsdienstvrijheid -> staatsgodsdienst -> verboden",
+   "Verboden -> staatsgodsdienst -> godsdienstvrijheid"
+  ],
+  "options_fr": [
+   "Religion interdite (persécution) -> liberté de religion (Édit de Milan, 313) -> religion d'État (381)",
+   "Religion d'État -> interdite -> liberté de religion",
+   "Liberté de religion -> religion d'État -> interdite",
+   "Interdite -> religion d'État -> liberté de religion"
+  ],
+  "answer": 0,
+  "explanation_nl": "Eerst was het christendom een verboden godsdienst (3e eeuw, vervolging), in 313 kwam er godsdienstvrijheid (Edict van Milaan) en in 381 werd het staatsgodsdienst.",
+  "explanation_fr": "D'abord le christianisme était une religion interdite (3e siècle, persécution), en 313 vint la liberté de religion (Édit de Milan) et en 381 il devint religion d'État.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hrm-20",
+  "theme": "h8-rome-maatschappij",
+  "chapter": "Rome - samenleving",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Wat betekent 'romanisering' (romanisatie)?",
+  "question_fr": "Que signifie la 'romanisation' (romanisering) ?",
+  "hint_nl": "Wat gebeurde er met de veroverde volkeren en hun cultuur?",
+  "hint_fr": "Que se passait-il avec les peuples conquis et leur culture ?",
+  "options": [
+   "De veroverde volkeren nemen de Romeinse cultuur, taal en levenswijze over",
+   "De Romeinen verlaten hun eigen cultuur",
+   "Rome verbiedt alle vreemde talen",
+   "De splitsing van het Romeinse Rijk in twee delen"
+  ],
+  "options_fr": [
+   "Les peuples conquis adoptent la culture, la langue et le mode de vie romains",
+   "Les Romains abandonnent leur propre culture",
+   "Rome interdit toutes les langues étrangères",
+   "La division de l'Empire romain en deux parties"
+  ],
+  "answer": 0,
+  "explanation_nl": "Romanisering is het proces waarbij de veroverde volkeren de Romeinse cultuur, taal en levenswijze overnemen. Het wegennet hielp die cultuur te verspreiden. Nog steeds zien we de invloed in onze taal (afgeleide talen uit het Latijn) en kalender.",
+  "explanation_fr": "La romanisation est le processus par lequel les peuples conquis adoptent la culture, la langue et le mode de vie romains. Le réseau routier a aidé à diffuser cette culture. Aujourd'hui encore, on voit cette influence dans notre langue (langues dérivées du latin) et notre calendrier.",
+  "course_ref": "Rome - samenleving"
+ },
+ {
+  "id": "hal-01",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar ontstond Rome volgens de legende? (v.Chr.)",
+  "question_fr": "En quelle année Rome fut-elle fondée selon la légende ? (av. J.-C.)",
+  "hint_nl": "Tussen 1000 en 509 v.Chr.",
+  "hint_fr": "Entre 1000 et 509 av. J.-C.",
+  "options": [],
+  "options_fr": [],
+  "answer": 753,
+  "explanation_nl": "Volgens de legende werd Rome gesticht in 753 v.Chr.",
+  "explanation_fr": "Selon la légende, Rome a été fondée en 753 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-02",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar ontstond de republiek Rome? (v.Chr.)",
+  "question_fr": "En quelle année naît la République romaine ? (av. J.-C.)",
+  "hint_nl": "Na het koningschap.",
+  "hint_fr": "Après la royauté.",
+  "options": [],
+  "options_fr": [],
+  "answer": 509,
+  "explanation_nl": "De Romeinse republiek ontstond in 509 v.Chr.",
+  "explanation_fr": "La République romaine est née en 509 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-03",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar werd Caesar vermoord? (v.Chr.)",
+  "question_fr": "En quelle année César fut-il assassiné ? (av. J.-C.)",
+  "hint_nl": "Vlak voor het keizerrijk.",
+  "hint_fr": "Juste avant l'Empire.",
+  "options": [],
+  "options_fr": [],
+  "answer": 44,
+  "explanation_nl": "Caesar werd vermoord in 44 v.Chr.",
+  "explanation_fr": "César a été assassiné en 44 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-04",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar ontstond het keizerrijk Rome? (v.Chr.)",
+  "question_fr": "En quelle année naît l'Empire romain ? (av. J.-C.)",
+  "hint_nl": "Kort na de moord op Caesar.",
+  "hint_fr": "Peu après l'assassinat de César.",
+  "options": [],
+  "options_fr": [],
+  "answer": 27,
+  "explanation_nl": "Het keizerrijk ontstond in 27 v.Chr.",
+  "explanation_fr": "L'Empire romain est né en 27 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-05",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 2,
+  "question_nl": "In welk jaar werd het Romeinse Rijk gesplitst? (n.Chr.)",
+  "question_fr": "En quelle année l'Empire romain fut-il divisé ? (apr. J.-C.)",
+  "hint_nl": "Vlak voor de val van het WRR.",
+  "hint_fr": "Juste avant la chute de l'Empire d'Occident.",
+  "options": [],
+  "options_fr": [],
+  "answer": 395,
+  "explanation_nl": "Het Romeinse Rijk werd gesplitst in 395 n.Chr.",
+  "explanation_fr": "L'Empire romain a été divisé en 395 apr. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-06",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 1,
+  "question_nl": "In welk jaar viel het West-Romeinse Rijk? (n.Chr.)",
+  "question_fr": "En quelle année tomba l'Empire romain d'Occident ? (apr. J.-C.)",
+  "hint_nl": "Einde van de oudheid.",
+  "hint_fr": "Fin de l'Antiquité.",
+  "options": [],
+  "options_fr": [],
+  "answer": 476,
+  "explanation_nl": "Het West-Romeinse Rijk viel in 476 n.Chr.",
+  "explanation_fr": "L'Empire romain d'Occident est tombé en 476 apr. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-07",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "numeric",
+  "difficulty": 3,
+  "question_nl": "Rond welk jaar lag het feitelijke (echte) ontstaan van Rome? (v.Chr.)",
+  "question_fr": "Vers quelle année se situe la fondation réelle (historique) de Rome ? (av. J.-C.)",
+  "hint_nl": "Veel ouder dan de legende van 753.",
+  "hint_fr": "Bien plus ancien que la légende de 753.",
+  "options": [],
+  "options_fr": [],
+  "answer": 1000,
+  "explanation_nl": "Het feitelijke ontstaan van Rome wordt rond 1000 v.Chr. geplaatst.",
+  "explanation_fr": "La fondation réelle de Rome est située vers 1000 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-08",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "In welke eeuw ligt de Gouden Eeuw van Athene?",
+  "question_fr": "À quel siècle se situe le Siècle d'or d'Athènes ?",
+  "hint_nl": "v.Chr.",
+  "hint_fr": "av. J.-C.",
+  "options": [
+   "5de eeuw v.Chr.",
+   "5de eeuw n.Chr.",
+   "1ste eeuw n.Chr.",
+   "3de eeuw v.Chr."
+  ],
+  "options_fr": [
+   "5e siècle av. J.-C.",
+   "5e siècle apr. J.-C.",
+   "1er siècle apr. J.-C.",
+   "3e siècle av. J.-C."
+  ],
+  "answer": 0,
+  "explanation_nl": "De Gouden Eeuw van Athene situeert zich in de 5de eeuw v.Chr.",
+  "explanation_fr": "Le Siècle d'or d'Athènes se situe au 5e siècle av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-09",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "truefalse",
+  "difficulty": 1,
+  "question_nl": "Bij v.Chr. (voor Christus) worden de jaartallen kleiner naarmate we dichter bij vandaag komen.",
+  "question_fr": "Pour les dates av. J.-C., les nombres diminuent à mesure qu'on se rapproche d'aujourd'hui.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 0,
+  "explanation_nl": "Klopt: 753 v.Chr. is ouder dan 44 v.Chr.",
+  "explanation_fr": "Exact : 753 av. J.-C. est plus ancien que 44 av. J.-C.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-10",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "truefalse",
+  "difficulty": 2,
+  "question_nl": "Er bestaat een jaar 0 tussen v.Chr. en n.Chr.",
+  "question_fr": "Il existe une année 0 entre av. J.-C. et apr. J.-C.",
+  "hint_nl": "",
+  "hint_fr": "",
+  "options": [
+   "Juist",
+   "Fout"
+  ],
+  "options_fr": [
+   "Vrai",
+   "Faux"
+  ],
+  "answer": 1,
+  "explanation_nl": "Fout: men gaat van 1 v.Chr. rechtstreeks naar 1 n.Chr., zonder jaar 0.",
+  "explanation_fr": "Faux : on passe de 1 av. J.-C. directement à 1 apr. J.-C., sans année 0.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-11",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Een brief geschreven door Caesar zelf is welk soort bron?",
+  "question_fr": "Une lettre écrite par César lui-même est quel type de source ?",
+  "hint_nl": "Geschreven op het moment zelf.",
+  "hint_fr": "Écrite au moment même.",
+  "options": [
+   "Een primaire bron",
+   "Een secundaire bron",
+   "Een mondelinge bron",
+   "Geen bron"
+  ],
+  "options_fr": [
+   "Une source primaire",
+   "Une source secondaire",
+   "Une source orale",
+   "Pas une source"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een brief van Caesar zelf dateert uit de tijd zelf: een primaire bron.",
+  "explanation_fr": "Une lettre de César date de l'époque même : c'est une source primaire.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-12",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Een geschiedenisboek uit 2026 dat vertelt over Caesar is welk soort bron?",
+  "question_fr": "Un manuel d'histoire de 2026 qui raconte César est quel type de source ?",
+  "hint_nl": "Veel later geschreven.",
+  "hint_fr": "Écrit bien plus tard.",
+  "options": [
+   "Een secundaire bron",
+   "Een primaire bron",
+   "Een materiële primaire bron",
+   "Geen bron"
+  ],
+  "options_fr": [
+   "Une source secondaire",
+   "Une source primaire",
+   "Une source matérielle primaire",
+   "Pas une source"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het boek werd veel later gemaakt en praat over de gebeurtenis: secundaire bron.",
+  "explanation_fr": "Le livre a été fait bien plus tard et parle de l'événement : source secondaire.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-13",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Een Romeinse munt die men opgraaft, is een ... bron.",
+  "question_fr": "Une pièce de monnaie romaine que l'on déterre est une source ...",
+  "hint_nl": "Een voorwerp.",
+  "hint_fr": "Un objet.",
+  "options": [
+   "materiële",
+   "geschreven",
+   "mondelinge",
+   "secundaire mondelinge"
+  ],
+  "options_fr": [
+   "matérielle",
+   "écrite",
+   "orale",
+   "orale secondaire"
+  ],
+  "answer": 0,
+  "explanation_nl": "Een voorwerp zoals een munt is een materiële bron.",
+  "explanation_fr": "Un objet comme une pièce de monnaie est une source matérielle.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-14",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "Een verhaal dat van grootouder op kleinkind mondeling wordt doorverteld, is een ... bron.",
+  "question_fr": "Un récit transmis oralement de grand-parent à petit-enfant est une source ...",
+  "hint_nl": "Niet opgeschreven.",
+  "hint_fr": "Non écrite.",
+  "options": [
+   "mondelinge",
+   "geschreven",
+   "materiële",
+   "onbestaande"
+  ],
+  "options_fr": [
+   "orale",
+   "écrite",
+   "matérielle",
+   "inexistante"
+  ],
+  "answer": 0,
+  "explanation_nl": "Mondeling doorverteld = een mondelinge bron.",
+  "explanation_fr": "Transmis oralement = une source orale.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-15",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "\"In Athene mochten alleen mannelijke burgers stemmen.\" Tot welk domein behoort deze info?",
+  "question_fr": "« À Athènes, seuls les citoyens masculins pouvaient voter. » À quel domaine appartient cette info ?",
+  "hint_nl": "Het gaat over macht en stemmen.",
+  "hint_fr": "Il s'agit de pouvoir et de vote.",
+  "options": [
+   "politiek",
+   "economisch",
+   "cultureel",
+   "sociaal"
+  ],
+  "options_fr": [
+   "politique",
+   "économique",
+   "culturel",
+   "social"
+  ],
+  "answer": 0,
+  "explanation_nl": "Stemmen en macht horen bij het politieke domein.",
+  "explanation_fr": "Le vote et le pouvoir relèvent du domaine politique.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-16",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 2,
+  "question_nl": "\"De Romeinen vereerden vele goden en bouwden tempels.\" Welk domein?",
+  "question_fr": "« Les Romains vénéraient de nombreux dieux et bâtissaient des temples. » Quel domaine ?",
+  "hint_nl": "Religie en kunst.",
+  "hint_fr": "Religion et art.",
+  "options": [
+   "cultureel",
+   "economisch",
+   "politiek",
+   "sociaal"
+  ],
+  "options_fr": [
+   "culturel",
+   "économique",
+   "politique",
+   "social"
+  ],
+  "answer": 0,
+  "explanation_nl": "Religie hoort bij het culturele domein.",
+  "explanation_fr": "La religion relève du domaine culturel.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-17",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "\"Op de markt verkochten handelaars graan en wijn.\" Welk domein?",
+  "question_fr": "« Au marché, les marchands vendaient du blé et du vin. » Quel domaine ?",
+  "hint_nl": "Handel en geld.",
+  "hint_fr": "Commerce et argent.",
+  "options": [
+   "economisch",
+   "cultureel",
+   "politiek",
+   "sociaal"
+  ],
+  "options_fr": [
+   "économique",
+   "culturel",
+   "politique",
+   "social"
+  ],
+  "answer": 0,
+  "explanation_nl": "Handel en verkoop horen bij het economische domein.",
+  "explanation_fr": "Le commerce et la vente relèvent du domaine économique.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-18",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 3,
+  "question_nl": "\"De slaven stonden onderaan de samenleving, de rijke burgers bovenaan.\" Welk domein?",
+  "question_fr": "« Les esclaves étaient en bas de la société, les riches citoyens en haut. » Quel domaine ?",
+  "hint_nl": "Groepen in de samenleving.",
+  "hint_fr": "Les groupes de la société.",
+  "options": [
+   "sociaal",
+   "economisch",
+   "politiek",
+   "cultureel"
+  ],
+  "options_fr": [
+   "social",
+   "économique",
+   "politique",
+   "culturel"
+  ],
+  "answer": 0,
+  "explanation_nl": "De indeling van de samenleving in groepen hoort bij het sociale domein.",
+  "explanation_fr": "La répartition de la société en groupes relève du domaine social.",
+  "course_ref": "Algemeen"
+ },
+ {
+  "id": "hal-19",
+  "theme": "h9-algemeen",
+  "chapter": "Algemeen",
+  "type": "mc",
+  "difficulty": 1,
+  "question_nl": "Welke grote zee ligt in het midden van het Romeinse Rijk op zijn hoogtepunt?",
+  "question_fr": "Quelle grande mer se trouve au centre de l'Empire romain à son apogée ?",
+  "hint_nl": "De Romeinen noemden ze Mare Nostrum.",
+  "hint_fr": "Les Romains l'appelaient Mare Nostrum.",
+  "options": [
+   "De Middellandse Zee",
+   "De Noordzee",
+   "De Zwarte Zee",
+   "De Atlantische Oceaan"
+  ],
+  "options_fr": [
+   "La mer Méditerranée",
+   "La mer du Nord",
+   "La mer Noire",
+   "L'océan Atlantique"
+  ],
+  "answer": 0,
+  "explanation_nl": "Het Romeinse Rijk lag rond de Middellandse Zee.",
+  "explanation_fr": "L'Empire romain s'étendait autour de la mer Méditerranée.",
+  "course_ref": "Algemeen"
  }
 ]

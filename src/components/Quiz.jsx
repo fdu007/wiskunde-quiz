@@ -16,7 +16,7 @@ function numEqual(a, b) {
 
 const DEFAULT_ST = { picked: null, input: '', checked: false, correct: false, showHint: false }
 
-export default function Quiz({ session, lang, progress, onFinish, onHome }) {
+export default function Quiz({ session, lang, progress, course, onFinish, onHome }) {
   const t = STR[lang]
   const baseTotal = useMemo(() => session.list.length, [session])
   const [queue, setQueue] = useState(session.list)
@@ -112,7 +112,7 @@ export default function Quiz({ session, lang, progress, onFinish, onHome }) {
         <p className="result-msg">{msg}</p>
         <p className="result-xp">+{xpGain} XP · {t.best_streak} : {maxStreak} 🔥</p>
         <div className="result-actions">
-          <a className="big email" href={mailtoResults(progress, lang)}>{t.email_btn}</a>
+          <a className="big email" href={mailtoResults(progress, lang, course)}>{t.email_btn}</a>
           <button className="big primary" onClick={onHome}>{t.back_home}</button>
         </div>
       </div>

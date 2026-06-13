@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import confetti from 'canvas-confetti'
-import questions from './data/questions.json'
-import { THEMES } from './data/themes.js'
+import allQuestions from './data/questions.json'
+import { THEMES, themesForCourse } from './data/themes.js'
+import { COURSES, courseByKey } from './data/courses.js'
 import { load, save, reset, levelFromXp } from './lib/progress.js'
-import { masteredCount, playstationMinutes } from './lib/stats.js'
+import { masteredCount, playstationMinutes, questionsForCourse } from './lib/stats.js'
 import { STR } from './lib/i18n.js'
+import CoursePicker from './components/CoursePicker.jsx'
 import Home from './components/Home.jsx'
 import Quiz from './components/Quiz.jsx'
 import Fiches from './components/Fiches.jsx'
@@ -30,6 +32,7 @@ function bigConfetti() {
 }
 
 export default function App() {
+  const [course, setCourse] = useState(null)
   const [view, setView] = useState('home')
   const [progress, setProgress] = useState(load)
   const [session, setSession] = useState(null)
@@ -44,42 +47,46 @@ export default function App() {
     document.documentElement.lang = lang
   }, [lang])
 
-  const totalCount = questions.length
   const lvl = levelFromXp(progress.xp)
+  const courseQuestions = course ? questionsForCourse(course) : []
+  const courseInfo = courseByKey[course]
 
   function startTheme(themeKey) {
-    const list = shuffle(questions.filter((q) => q.theme === themeKey))
+    const list = shuffle(courseQuestions.filter((q) => q.theme === themeKey))
     const th = THEMES.find((x) => x.key === themeKey)
-    setSession({ title: `${th.icon} ${lang === 'nl' ? th.title : th.title}`, list })
+    setSession({ title: `${th.icon} ${th.title}`, list })
     setView('quiz')
   }
   function startMix() {
-    const list = shuffle(questions).slice(0, 10)
-    setSession({ title: t.mix_title, list })
+    setSession({ title: t.mix_title, list: shuffle(courseQuestions).slice(0, 10) })
     setView('quiz')
   }
   function startExam() {
-    const weak = questions.filter((q) => THEMES.find((x) => x.key === q.theme)?.weak)
-    const rest = questions.filter((q) => !THEMES.find((x) => x.key === q.theme)?.weak)
-    const list = shuffle([...shuffle(weak).slice(0, 9), ...shuffle(rest).slice(0, 6)])
+    const themes = themesForCourse(course)
+    const weak = courseQuestions.filter((q) => themes.find((x) => x.key === q.theme)?.weak)
+    const rest = courseQuestions.filter((q) => !themes.find((x) => x.key === q.theme)?.weak)
+    const list = weak.length
+      ? shuffle([...shuffle(weak).slice(0, 9), ...shuffle(rest).slice(0, 6)])
+      : shuffle(courseQuestions).slice(0, 15)
     setSession({ title: t.exam_title, list })
     setView('quiz')
   }
   function startMock() {
-    // Examen blanc : 20 questions, un peu plus sur les thèmes faibles
-    const weak = questions.filter((q) => THEMES.find((x) => x.key === q.theme)?.weak)
-    const rest = questions.filter((q) => !THEMES.find((x) => x.key === q.theme)?.weak)
-    const list = shuffle([...shuffle(weak).slice(0, 12), ...shuffle(rest).slice(0, 8)])
+    const themes = themesForCourse(course)
+    const weak = courseQuestions.filter((q) => themes.find((x) => x.key === q.theme)?.weak)
+    const rest = courseQuestions.filter((q) => !themes.find((x) => x.key === q.theme)?.weak)
+    const list = weak.length
+      ? shuffle([...shuffle(weak).slice(0, 12), ...shuffle(rest).slice(0, 8)])
+      : shuffle(courseQuestions).slice(0, 20)
     setSession({ title: t.mode_mock, list })
     setView('quiz')
   }
   function startHard() {
-    const list = shuffle(questions.filter((q) => q.difficulty >= 3))
-    setSession({ title: t.mode_hard, list })
+    setSession({ title: t.mode_hard, list: shuffle(courseQuestions.filter((q) => q.difficulty >= 3)) })
     setView('quiz')
   }
   function startMarathon() {
-    setSession({ title: t.mode_marathon, list: shuffle(questions) })
+    setSession({ title: t.mode_marathon, list: shuffle(courseQuestions) })
     setView('quiz')
   }
 
@@ -89,7 +96,7 @@ export default function App() {
       const p = structuredClone(prev)
       let hard = Object.values(p.byTheme).reduce((s, th) => s + (th.hard || 0), 0)
       for (const r of result.perQuestion) {
-        const tk = questions.find((q) => q.id === r.id)?.theme
+        const tk = allQuestions.find((q) => q.id === r.id)?.theme
         if (!p.byTheme[tk]) p.byTheme[tk] = { seen: 0, correct: 0, attempts: 0, correctAttempts: 0, hard: 0 }
         p.byTheme[tk].attempts += 1
         if (r.correct) {
@@ -114,7 +121,7 @@ export default function App() {
       if (hard >= 10) p.badges.hard10 = true
       if (p.xp >= 500) p.badges.xp500 = true
       if (p.xp >= 1000) p.badges.xp1000 = true
-
+      if (THEMES.every((th) => p.fichesRead[th.fiche])) p.badges.explorer = true
       const after = masteredCount(p)
       if (after > before) {
         setTimeout(() => {
@@ -140,17 +147,48 @@ export default function App() {
     if (confirm(t.reset_confirm)) setProgress(reset())
   }
 
+  function pickCourse(c) {
+    setCourse(c)
+    setView('home')
+  }
+
+  // Écran de sélection de cours
+  if (!course) {
+    return (
+      <div className="app">
+        <header className="topbar">
+          <div className="brand"><span className="brand-icon">🎓</span><span>Examen Trainer</span></div>
+          <div className="topstats">
+            <div className="langtoggle">
+              <button className={lang === 'fr' ? 'on' : ''} onClick={() => setLang('fr')}>🇫🇷 FR</button>
+              <button className={lang === 'nl' ? 'on' : ''} onClick={() => setLang('nl')}>🇳🇱 NL</button>
+            </div>
+            <div className="lvl"><span className="lvl-badge">{t.level} {lvl.level}</span></div>
+          </div>
+        </header>
+        <main className="main">
+          <CoursePicker progress={progress} lang={lang} onPick={pickCourse} />
+        </main>
+        <footer className="foot">
+          <div className="madeby">Gemaakt door papa met <span className="heart">❤️</span></div>
+          <div className="veelsucces">Veel succes! 🍀</div>
+        </footer>
+      </div>
+    )
+  }
+
   return (
     <div className="app">
       <header className="topbar">
         <button className="brand" onClick={() => setView('home')}>
-          <span className="brand-icon">📐</span>
-          <span>Wiskunde Trainer</span>
+          <span className="brand-icon">{courseInfo.icon}</span>
+          <span>{courseInfo.label}</span>
         </button>
         <div className="topstats">
-          <div className="langtoggle" role="group" aria-label="taal / langue">
-            <button className={lang === 'fr' ? 'on' : ''} onClick={() => setLang('fr')}>🇫🇷 FR</button>
-            <button className={lang === 'nl' ? 'on' : ''} onClick={() => setLang('nl')}>🇳🇱 NL</button>
+          <button className="course-switch" onClick={() => setCourse(null)}>{t.change_course}</button>
+          <div className="langtoggle">
+            <button className={lang === 'fr' ? 'on' : ''} onClick={() => setLang('fr')}>🇫🇷</button>
+            <button className={lang === 'nl' ? 'on' : ''} onClick={() => setLang('nl')}>🇳🇱</button>
           </div>
           <div className="lvl" title={`${progress.xp} XP`}>
             <span className="lvl-badge">{t.level} {lvl.level}</span>
@@ -168,13 +206,13 @@ export default function App() {
 
       <main className="main">
         {view === 'home' && (
-          <Home progress={progress} lang={lang} totalCount={totalCount} onTheme={startTheme} onMix={startMix} onExam={startExam} onMock={startMock} onHard={startHard} onMarathon={startMarathon} />
+          <Home progress={progress} lang={lang} course={course} totalCount={courseQuestions.length} onTheme={startTheme} onMix={startMix} onExam={startExam} onMock={startMock} onHard={startHard} onMarathon={startMarathon} />
         )}
         {view === 'quiz' && session && (
-          <Quiz session={session} lang={lang} progress={progress} onFinish={finishQuiz} onHome={() => setView('home')} />
+          <Quiz session={session} lang={lang} progress={progress} course={course} onFinish={finishQuiz} onHome={() => setView('home')} />
         )}
-        {view === 'fiches' && <Fiches progress={progress} lang={lang} onRead={markFicheRead} />}
-        {view === 'stats' && <Stats progress={progress} lang={lang} onTheme={startTheme} onFiches={() => setView('fiches')} />}
+        {view === 'fiches' && <Fiches progress={progress} lang={lang} course={course} onRead={markFicheRead} />}
+        {view === 'stats' && <Stats progress={progress} lang={lang} course={course} onTheme={startTheme} onFiches={() => setView('fiches')} />}
         {view === 'badges' && <Badges progress={progress} lang={lang} onReset={doReset} />}
       </main>
 

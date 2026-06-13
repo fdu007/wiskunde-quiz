@@ -3,23 +3,24 @@ import { levelFromXp } from '../lib/progress.js'
 import { STR } from '../lib/i18n.js'
 import { themeResults, masteredCount, playstationMinutes, mailtoResults } from '../lib/stats.js'
 
-export default function Stats({ progress, lang, onTheme, onFiches }) {
+export default function Stats({ progress, lang, course, onTheme, onFiches }) {
   const t = STR[lang]
-  const res = themeResults(progress)
+  const res = themeResults(progress, course)
   const lvl = levelFromXp(progress.xp)
 
   const totalCorrect = res.reduce((s, r) => s + r.correct, 0)
   const totalQ = res.reduce((s, r) => s + r.total, 0)
   const overallPct = totalQ ? Math.round((totalCorrect / totalQ) * 100) : 0
-  const attempts = Object.values(progress.byTheme || {}).reduce((s, b) => s + (b.attempts || 0), 0)
-  const correctAttempts = Object.values(progress.byTheme || {}).reduce((s, b) => s + (b.correctAttempts || 0), 0)
+  const courseThemeKeys = new Set(res.map((r) => r.key))
+  const attempts = Object.entries(progress.byTheme || {}).filter(([k]) => courseThemeKeys.has(k)).reduce((s, [, b]) => s + (b.attempts || 0), 0)
+  const correctAttempts = Object.entries(progress.byTheme || {}).filter(([k]) => courseThemeKeys.has(k)).reduce((s, [, b]) => s + (b.correctAttempts || 0), 0)
   const accuracy = attempts ? Math.round((correctAttempts / attempts) * 100) : 0
 
   // Recommandations
   const recos = []
   if (attempts === 0) {
     recos.push({ text: t.reco_start, action: onFiches, label: t.reco_read })
-  } else if (masteredCount(progress) === THEMES.length) {
+  } else if (masteredCount(progress, course) === res.length) {
     recos.push({ text: t.reco_alldone })
   } else {
     const tpl = (s, r) => s.replace('{theme}', themeByKey[r.key].title).replace('{pct}', r.pct)
@@ -82,7 +83,7 @@ export default function Stats({ progress, lang, onTheme, onFiches }) {
         ))}
       </div>
 
-      <a className="big email full" href={mailtoResults(progress, lang)}>{t.email_btn}</a>
+      <a className="big email full" href={mailtoResults(progress, lang, course)}>{t.email_btn}</a>
     </div>
   )
 }
