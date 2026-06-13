@@ -75,7 +75,11 @@ Note : le **vierkant** cumule TOUT (c'est à la fois un rechthoek et une ruit), 
 
 ---
 
-## 5. Symmetrieassen (axes de symétrie) - p.318
+## 5. Constructie & symmetrieassen (M26) - p.308-325
+
+**Constructie (construction)** : pour construire un vierhoek précis, on combine ses eigenschappen avec le **passer** (compas) et la **geodriehoek** (équerre/rapporteur) - par exemple reporter des longueurs égales pour une ruit, tracer des angles droits pour un rechthoek. La **classificatie** (ci-dessous, section 6) sert à reconnaître de quel vierhoek il s'agit d'après ses côtés, angles et diagonales.
+
+### Symmetrieassen (axes de symétrie) - p.318
 
 | Vierhoek | Aantal symmetrieassen (nombre d'axes) |
 |---|---|
