@@ -35,6 +35,17 @@ export default function Quiz({ session, lang, progress, course, onFinish, onHome
   const isLast = pos + 1 >= queue.length
 
   const options = lang === 'nl' ? q?.options : (q?.options_fr || q?.options)
+  // Ordre d'affichage mélangé (pour les QCM) - stable par question, pas pour Juist/Fout.
+  const order = useMemo(() => {
+    if (!q || !q.options) return []
+    const idx = q.options.map((_, i) => i)
+    if (q.type !== 'mc') return idx
+    for (let i = idx.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[idx[i], idx[j]] = [idx[j], idx[i]]
+    }
+    return idx
+  }, [q?.id, pos])
   const qtext = lang === 'nl' ? q?.question_nl : (q?.question_fr || q?.question_nl)
   const hint = lang === 'nl' ? (q?.hint_nl || q?.hint_fr) : (q?.hint_fr || q?.hint_nl)
   const explanation = lang === 'nl' ? (q?.explanation_nl || q?.explanation_fr) : (q?.explanation_fr || q?.explanation_nl)
@@ -153,15 +164,15 @@ export default function Quiz({ session, lang, progress, course, onFinish, onHome
 
         {!isNumeric && (
           <div className="options">
-            {options.map((opt, idx) => {
+            {order.map((oi) => {
               let cls = 'opt'
               if (st.checked) {
-                if (idx === q.answer) cls += ' correct'
-                else if (idx === st.picked) cls += ' wrong'
-              } else if (idx === st.picked) cls += ' picked'
+                if (oi === q.answer) cls += ' correct'
+                else if (oi === st.picked) cls += ' wrong'
+              } else if (oi === st.picked) cls += ' picked'
               return (
-                <button key={idx} className={cls} disabled={st.checked} onClick={() => patch({ picked: idx })}>
-                  <MathText>{opt}</MathText>
+                <button key={oi} className={cls} disabled={st.checked} onClick={() => patch({ picked: oi })}>
+                  <MathText>{options[oi]}</MathText>
                 </button>
               )
             })}
